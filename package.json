@@ -1,0 +1,19 @@
+{
+  "name": "tourney-results",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["start.gg", "tournament", "api"],
+  "author": "",
+  "license": "ISC",
+  "description": "A simple application to fetch tournament results from start.gg API",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "graphql": "^16.10.0",
+    "graphql-request": "^7.1.2"
+  }
+}
