@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= event.name %> - <%= tournament.name %> - Tripoint Results</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <h1>Tripoint Tournament Results</h1>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="/">Tournaments</a></li>
+          <li><a href="/all-events">All Events</a></li>
+          <li><a href="/rankings">Player Rankings</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="breadcrumbs">
+        <a href="/">Tournaments</a> &gt; 
+        <a href="/tournament/<%= tournament.id %>"><%= tournament.name %></a> &gt; 
+        <%= event.name %>
+      </div>
+
+      <div class="event-detail">
+        <h2><%= event.name %></h2>
+        <p>Tournament: <a href="/tournament/<%= tournament.id %>"><%= tournament.name %></a></p>
+        <p>Date: <%= formatDate(event.startAt) %></p>
+        <p>Entrants: <%= event.numEntrants %></p>
+        <p>Status: <%= event.state %></p>
+        
+        <h3>Final Standings</h3>
+        <% if (standings && standings.length > 0) { %>
+          <table class="standings-table">
+            <thead>
+              <tr>
+                <th>Place</th>
+                <th>Player</th>
+              </tr>
+            </thead>
+            <tbody>
+              <% standings.forEach(standing => { %>
+                <tr class="place-<%= standing.placement %>">
+                  <td><%= standing.placement %></td>
+                  <td><%= standing.entrant.name %></td>
+                </tr>
+              <% }); %>
+            </tbody>
+          </table>
+        <% } else { %>
+          <p class="no-data">No standings data available for this event.</p>
+        <% } %>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; <%= new Date().getFullYear() %> Tripoint Tournament Results</p>
+    </footer>
+  </div>
+</body>
+</html>

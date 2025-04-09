@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tripoint Tournament Results</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <h1>Tripoint Tournament Results</h1>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="/" class="active">Tournaments</a></li>
+          <li><a href="/all-events">All Events</a></li>
+          <li><a href="/rankings">Player Rankings</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>All Tournaments</h2>
+      
+      <div class="tournament-list">
+        <% if (tournaments && tournaments.length > 0) { %>
+          <% tournaments.forEach(tournament => { %>
+            <div class="tournament-card">
+              <h3><a href="/tournament/<%= tournament.id %>"><%= tournament.name %></a></h3>
+              <p class="tournament-date"><%= formatDate(tournament.startAt) %></p>
+            </div>
+          <% }); %>
+        <% } else { %>
+          <p class="no-data">No tournaments found.</p>
+        <% } %>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; <%= new Date().getFullYear() %> Tripoint Tournament Results</p>
+    </footer>
+  </div>
+</body>
+</html>

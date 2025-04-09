@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Player Rankings - Tournament Results</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <h1>Player Rankings</h1>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/all-events">All Events</a></li>
+          <li><a href="/rankings" class="active">Rankings</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="rankings-container">
+        <h2>Top 3 Placements Leaderboard</h2>
+        
+        <% if (rankings && rankings.length > 0) { %>
+          <table class="standings-table rankings-table">
+            <thead>
+              <tr>
+                <th>Rank</th>
+                <th>Player</th>
+                <th>Total Top 3</th>
+                <th>
+                  <span class="place-icon gold">1st</span>
+                </th>
+                <th>
+                  <span class="place-icon silver">2nd</span>
+                </th>
+                <th>
+                  <span class="place-icon bronze">3rd</span>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <% rankings.forEach((player, index) => { %>
+                <tr>
+                  <td><%= index + 1 %></td>
+                  <td><%= player.name %></td>
+                  <td><strong><%= player.totalTop3 %></strong></td>
+                  <td class="placement-count place-1"><%= player.first %></td>
+                  <td class="placement-count place-2"><%= player.second %></td>
+                  <td class="placement-count place-3"><%= player.third %></td>
+                </tr>
+              <% }); %>
+            </tbody>
+          </table>
+        <% } else { %>
+          <div class="no-data">
+            <p>No ranking data available.</p>
+          </div>
+        <% } %>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; <%= new Date().getFullYear() %> Tournament Results Viewer</p>
+    </footer>
+  </div>
+</body>
+</html>

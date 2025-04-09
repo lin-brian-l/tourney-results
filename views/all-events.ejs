@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Events - Tripoint Tournament Results</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <h1>Tripoint Tournament Results</h1>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="/">Tournaments</a></li>
+          <li><a href="/all-events" class="active">All Events</a></li>
+          <li><a href="/rankings">Player Rankings</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>All Events</h2>
+      
+      <div class="events-list">
+        <% if (events && events.length > 0) { %>
+          <table class="events-table">
+            <thead>
+              <tr>
+                <th>Event</th>
+                <th>Tournament</th>
+                <th>Date</th>
+                <th>Entrants</th>
+                <th>Status</th>
+                <th>Standings</th>
+              </tr>
+            </thead>
+            <tbody>
+              <% events.forEach(item => { %>
+                <tr>
+                  <td><a href="/event/<%= item.event.id %>"><%= item.event.name %></a></td>
+                  <td><a href="/tournament/<%= item.tournament.id %>"><%= item.tournament.name %></a></td>
+                  <td><%= formatDate(item.event.startAt) %></td>
+                  <td><%= item.event.numEntrants %></td>
+                  <td><%= item.event.state %></td>
+                  <td>
+                    <% if (item.hasStandings) { %>
+                      <a href="/event/<%= item.event.id %>" class="badge badge-success">Available</a>
+                    <% } else { %>
+                      <span class="badge badge-warning">Not Available</span>
+                    <% } %>
+                  </td>
+                </tr>
+              <% }); %>
+            </tbody>
+          </table>
+        <% } else { %>
+          <p class="no-data">No events found.</p>
+        <% } %>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; <%= new Date().getFullYear() %> Tripoint Tournament Results</p>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= tournament.name %> - Tripoint Tournament Results</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <h1>Tripoint Tournament Results</h1>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="/">Tournaments</a></li>
+          <li><a href="/all-events">All Events</a></li>
+          <li><a href="/rankings">Player Rankings</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="breadcrumbs">
+        <a href="/">Tournaments</a> &gt; <%= tournament.name %>
+      </div>
+
+      <div class="tournament-detail">
+        <h2><%= tournament.name %></h2>
+        <p class="tournament-date">Date: <%= formatDate(tournament.startAt) %></p>
+        
+        <h3>Events</h3>
+        <div class="event-list">
+          <% if (events && events.length > 0) { %>
+            <% events.forEach(event => { %>
+              <div class="event-card">
+                <h4><a href="/event/<%= event.id %>"><%= event.name %></a></h4>
+                <p><%= event.numEntrants %> entrants</p>
+                <p>Status: <%= event.state %></p>
+              </div>
+            <% }); %>
+          <% } else { %>
+            <p class="no-data">No events found for this tournament.</p>
+          <% } %>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; <%= new Date().getFullYear() %> Tripoint Tournament Results</p>
+    </footer>
+  </div>
+</body>
+</html>

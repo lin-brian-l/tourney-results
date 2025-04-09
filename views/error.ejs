@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Error - Tripoint Tournament Results</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <h1>Tripoint Tournament Results</h1>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="/">Tournaments</a></li>
+          <li><a href="/all-events">All Events</a></li>
+          <li><a href="/rankings">Player Rankings</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="error-container">
+        <h2>Error</h2>
+        <p class="error-message"><%= error %></p>
+        <a href="/" class="btn">Return to Home</a>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; <%= new Date().getFullYear() %> Tripoint Tournament Results</p>
+    </footer>
+  </div>
+</body>
+</html>
