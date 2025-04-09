@@ -7,12 +7,18 @@
     "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["start.gg", "tournament", "api"],
+  "keywords": [
+    "start.gg",
+    "tournament",
+    "api"
+  ],
   "author": "",
   "license": "ISC",
   "description": "A simple application to fetch tournament results from start.gg API",
   "dependencies": {
     "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
     "graphql": "^16.10.0",
     "graphql-request": "^7.1.2"
   }
