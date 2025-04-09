@@ -1,0 +1,1803 @@
+{
+  "tournaments": {
+    "nodes": [
+      {
+        "id": 586004,
+        "name": "Tripoint Smash 203",
+        "slug": "tournament/tripoint-smash-203",
+        "startAt": 1694214000,
+        "endAt": 1694235540,
+        "events": []
+      },
+      {
+        "id": 583682,
+        "name": "Tripoint Smash 202",
+        "slug": "tournament/tripoint-smash-202",
+        "startAt": 1693609200,
+        "endAt": 1693630740,
+        "events": [
+          {
+            "id": 972664,
+            "name": "P+ Singles",
+            "slug": "tournament/tripoint-smash-202/event/p-singles",
+            "startAt": 1693609200,
+            "numEntrants": 14,
+            "state": "COMPLETED",
+            "standings": {
+              "nodes": [
+                {
+                  "placement": 1,
+                  "entrant": {
+                    "name": "ORLY"
+                  }
+                },
+                {
+                  "placement": 2,
+                  "entrant": {
+                    "name": "ThotLot | evil lesbian"
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "name": "Olivia :3"
+                  }
+                },
+                {
+                  "placement": 4,
+                  "entrant": {
+                    "name": "UGS | Michael"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "MVZY"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "ELLA | SoulOfficer"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "+Side | Tuck"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "Noon"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 581204,
+        "name": "Tripoint Smash 201",
+        "slug": "tournament/tripoint-smash-201-2",
+        "startAt": 1693004400,
+        "endAt": 1693025940,
+        "events": [
+          {
+            "id": 967891,
+            "name": "P+ Singles",
+            "slug": "tournament/tripoint-smash-201-2/event/p-singles",
+            "startAt": 1693004400,
+            "numEntrants": 23,
+            "state": "COMPLETED",
+            "standings": {
+              "nodes": [
+                {
+                  "placement": 1,
+                  "entrant": {
+                    "name": "metroid"
+                  }
+                },
+                {
+                  "placement": 2,
+                  "entrant": {
+                    "name": "Mr_YadoR"
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "name": "UGS | Michael"
+                  }
+                },
+                {
+                  "placement": 4,
+                  "entrant": {
+                    "name": "SoulOfficer"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "HFR | Jisp"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "Atomsk"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "ThotLot | evil lesbian"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "PK | Star"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 559088,
+        "name": "Tripoint Smash 200",
+        "slug": "tournament/tripoint-smash-200",
+        "startAt": 1692399600,
+        "endAt": 1692421140,
+        "events": [
+          {
+            "id": 927869,
+            "name": "P+ Singles",
+            "slug": "tournament/tripoint-smash-200/event/p-singles",
+            "startAt": 1692410400,
+            "numEntrants": 36,
+            "state": "COMPLETED",
+            "standings": {
+              "nodes": [
+                {
+                  "placement": 1,
+                  "entrant": {
+                    "name": "GLS | Dirtboy"
+                  }
+                },
+                {
+                  "placement": 2,
+                  "entrant": {
+                    "name": "Chaloopy"
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "name": "XXX | Comb"
+                  }
+                },
+                {
+                  "placement": 4,
+                  "entrant": {
+                    "name": "metroid"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "PMNexus | Che"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "ThotLot | evil lesbian"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "mawwwk"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "PK | Star"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 575673,
+        "name": "Tripoint Smash 199: The PM Concert Symphony Prelocal!",
+        "slug": "tournament/tripoint-smash-199-the-pm-concert-symphony-prelocal",
+        "startAt": 1691794800,
+        "endAt": 1691816340,
+        "events": [
+          {
+            "id": 958069,
+            "name": "P+ Singles",
+            "slug": "tournament/tripoint-smash-199-the-pm-concert-symphony-prelocal/event/p-singles",
+            "startAt": 1691794800,
+            "numEntrants": 18,
+            "state": "COMPLETED",
+            "standings": {
+              "nodes": [
+                {
+                  "placement": 1,
+                  "entrant": {
+                    "name": "techboy"
+                  }
+                },
+                {
+                  "placement": 2,
+                  "entrant": {
+                    "name": "GLS | Dirtboy"
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "name": "metroid"
+                  }
+                },
+                {
+                  "placement": 4,
+                  "entrant": {
+                    "name": "PK | Star"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "mawwwk"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "MVZY"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "ORLY"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "HFR | Jisp"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 574118,
+        "name": "Tripoint Smash 198",
+        "slug": "tournament/tripoint-smash-198",
+        "startAt": 1691190000,
+        "endAt": 1691211540,
+        "events": [
+          {
+            "id": 955275,
+            "name": "P+ Singles",
+            "slug": "tournament/tripoint-smash-198/event/p-singles",
+            "startAt": 1691190000,
+            "numEntrants": 23,
+            "state": "COMPLETED",
+            "standings": {
+              "nodes": [
+                {
+                  "placement": 1,
+                  "entrant": {
+                    "name": "metroid"
+                  }
+                },
+                {
+                  "placement": 2,
+                  "entrant": {
+                    "name": "UGS | Michael"
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "name": "HFR | Jisp"
+                  }
+                },
+                {
+                  "placement": 4,
+                  "entrant": {
+                    "name": "PK | Star"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "ELLA | SoulOfficer"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "ORLY"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "ThotLot | evil lesbian"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "SC | Nave"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 567267,
+        "name": "Tripoint: Romeoville Rumble: The Warp Zone 2 Prelocal!",
+        "slug": "tournament/tripoint-romeoville-rumble-the-warp-zone-2-prelocal",
+        "startAt": 1690585200,
+        "endAt": 1690606740,
+        "events": [
+          {
+            "id": 942817,
+            "name": "P+ Singles",
+            "slug": "tournament/tripoint-romeoville-rumble-the-warp-zone-2-prelocal/event/p-singles",
+            "startAt": 1690585200,
+            "numEntrants": 50,
+            "state": "COMPLETED",
+            "standings": {
+              "nodes": [
+                {
+                  "placement": 1,
+                  "entrant": {
+                    "name": "Lunchables"
+                  }
+                },
+                {
+                  "placement": 2,
+                  "entrant": {
+                    "name": "techboy"
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "name": "SipMastah"
+                  }
+                },
+                {
+                  "placement": 4,
+                  "entrant": {
+                    "name": "Chaloopy"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "Cloudburst"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "GLS | Dirtboy"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "ELLA | SoulOfficer"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "NNG | [ePG] | Pikmon"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 569942,
+        "name": "Tripoint Smash 197",
+        "slug": "tournament/tripoint-smash-197",
+        "startAt": 1689980400,
+        "endAt": 1690001940,
+        "events": [
+          {
+            "id": 947716,
+            "name": "P+ Singles",
+            "slug": "tournament/tripoint-smash-197/event/p-singles",
+            "startAt": 1689980400,
+            "numEntrants": 11,
+            "state": "COMPLETED",
+            "standings": {
+              "nodes": [
+                {
+                  "placement": 1,
+                  "entrant": {
+                    "name": "UGS | Michael"
+                  }
+                },
+                {
+                  "placement": 2,
+                  "entrant": {
+                    "name": "ORLY"
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "name": "Atomsk"
+                  }
+                },
+                {
+                  "placement": 4,
+                  "entrant": {
+                    "name": "MVZY"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "Snocc"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "Joey"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "Jed12"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "Noon"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 564993,
+        "name": "Tripoint Smash 196",
+        "slug": "tournament/tripoint-smash-196",
+        "startAt": 1688770800,
+        "endAt": 1688792340,
+        "events": [
+          {
+            "id": 938582,
+            "name": "P+ Singles",
+            "slug": "tournament/tripoint-smash-196/event/p-singles",
+            "startAt": 1688770800,
+            "numEntrants": 21,
+            "state": "COMPLETED",
+            "standings": {
+              "nodes": [
+                {
+                  "placement": 1,
+                  "entrant": {
+                    "name": "metroid"
+                  }
+                },
+                {
+                  "placement": 2,
+                  "entrant": {
+                    "name": "ORLY"
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "name": "UGS | Michael"
+                  }
+                },
+                {
+                  "placement": 4,
+                  "entrant": {
+                    "name": "ThotLot | sinister sapphic"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "mawwwk"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "MVZY"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "ELLA | SoulOfficer"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "mikey20100"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 562814,
+        "name": "Tripoint Smash 195 - Pridepoint",
+        "slug": "tournament/tripoint-smash-195-pridepoint",
+        "startAt": 1688166000,
+        "endAt": 1688187540,
+        "events": [
+          {
+            "id": 934649,
+            "name": "P+ Singles",
+            "slug": "tournament/tripoint-smash-195-pridepoint/event/p-singles",
+            "startAt": 1688166000,
+            "numEntrants": 29,
+            "state": "COMPLETED",
+            "standings": {
+              "nodes": [
+                {
+                  "placement": 1,
+                  "entrant": {
+                    "name": "Lunchables"
+                  }
+                },
+                {
+                  "placement": 2,
+                  "entrant": {
+                    "name": "XXX | Comb"
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "name": "PMNexus | Che"
+                  }
+                },
+                {
+                  "placement": 4,
+                  "entrant": {
+                    "name": "PK | Star"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "UGS | Michael"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "Samantha"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "ThotLot | sinister sapphic"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "mawwwk"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 561747,
+        "name": "Tripoint Smash 194",
+        "slug": "tournament/tripoint-smash-194",
+        "startAt": 1687561200,
+        "endAt": 1687582740,
+        "events": [
+          {
+            "id": 932773,
+            "name": "P+ Singles",
+            "slug": "tournament/tripoint-smash-194/event/p-singles",
+            "startAt": 1687572000,
+            "numEntrants": 19,
+            "state": "COMPLETED",
+            "standings": {
+              "nodes": [
+                {
+                  "placement": 1,
+                  "entrant": {
+                    "name": "metroid"
+                  }
+                },
+                {
+                  "placement": 2,
+                  "entrant": {
+                    "name": "ORLY"
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "name": "UGS | Michael"
+                  }
+                },
+                {
+                  "placement": 4,
+                  "entrant": {
+                    "name": "PK | Star"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "Tuck"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "ThotLot | sinister sapphic"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "thot lot | Trevor"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "ELLA | SoulOfficer"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 559135,
+        "name": "Tripoint Smash: FGC Returns!",
+        "slug": "tournament/tripoint-smash-fgc-returns",
+        "startAt": 1686956400,
+        "endAt": 1686977940,
+        "events": [
+          {
+            "id": 927959,
+            "name": "P+ Singles",
+            "slug": "tournament/tripoint-smash-fgc-returns/event/p-singles",
+            "startAt": 1686956400,
+            "numEntrants": 21,
+            "state": "COMPLETED",
+            "standings": {
+              "nodes": [
+                {
+                  "placement": 1,
+                  "entrant": {
+                    "name": "UGS | Michael"
+                  }
+                },
+                {
+                  "placement": 2,
+                  "entrant": {
+                    "name": "ThotLot | sinister sapphic"
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "name": "ORLY"
+                  }
+                },
+                {
+                  "placement": 4,
+                  "entrant": {
+                    "name": "PK | Star"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "C#"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "drugfreechu"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "MVZY"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "Shrug"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 556819,
+        "name": "Tripoint Smash 193",
+        "slug": "tournament/tripoint-smash-193",
+        "startAt": 1686351600,
+        "endAt": 1686373140,
+        "events": [
+          {
+            "id": 924211,
+            "name": "P+ Singles",
+            "slug": "tournament/tripoint-smash-193/event/p-singles",
+            "startAt": 1686351600,
+            "numEntrants": 13,
+            "state": "COMPLETED",
+            "standings": {
+              "nodes": [
+                {
+                  "placement": 1,
+                  "entrant": {
+                    "name": "UGS | Michael"
+                  }
+                },
+                {
+                  "placement": 2,
+                  "entrant": {
+                    "name": "PK | Star"
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "name": "Tuck"
+                  }
+                },
+                {
+                  "placement": 4,
+                  "entrant": {
+                    "name": "ELLA | SoulOfficer"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "thot lot | Trevor"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "ORLY"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "SC | Nave"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "MVZY"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 551280,
+        "name": "Tripoint Smash 192 - A PM Concert Qualifier",
+        "slug": "tournament/tripoint-smash-192-a-pm-concert-qualifier",
+        "startAt": 1685746800,
+        "endAt": 1685768340,
+        "events": [
+          {
+            "id": 914662,
+            "name": "P+ Singles - a PM Concert: Symphony Qualifier",
+            "slug": "tournament/tripoint-smash-192-a-pm-concert-qualifier/event/p-singles-a-pm-concert-symphony-qualifier",
+            "startAt": 1685754000,
+            "numEntrants": 29,
+            "state": "COMPLETED",
+            "standings": {
+              "nodes": [
+                {
+                  "placement": 1,
+                  "entrant": {
+                    "name": "KoF | Rise"
+                  }
+                },
+                {
+                  "placement": 2,
+                  "entrant": {
+                    "name": "HiR | Ripple"
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "name": "ORLY"
+                  }
+                },
+                {
+                  "placement": 4,
+                  "entrant": {
+                    "name": "ThotLot | sinister sapphic"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "UGS | Michael"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "Boat"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "Tuck"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "MVZY"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": 914664,
+            "name": "P+ Lethal League - starts at 6:30",
+            "slug": "tournament/tripoint-smash-192-a-pm-concert-qualifier/event/p-lethal-league-starts-at-6-30",
+            "startAt": 1685746800,
+            "numEntrants": 0,
+            "state": "CREATED",
+            "standings": {
+              "nodes": []
+            }
+          }
+        ]
+      },
+      {
+        "id": 553023,
+        "name": "Tripoint Smash 191",
+        "slug": "tournament/tripoint-smash-191",
+        "startAt": 1685142000,
+        "endAt": 1685163540,
+        "events": [
+          {
+            "id": 917466,
+            "name": "P+ Singles",
+            "slug": "tournament/tripoint-smash-191/event/p-singles",
+            "startAt": 1685142000,
+            "numEntrants": 17,
+            "state": "COMPLETED",
+            "standings": {
+              "nodes": [
+                {
+                  "placement": 1,
+                  "entrant": {
+                    "name": "metroid"
+                  }
+                },
+                {
+                  "placement": 2,
+                  "entrant": {
+                    "name": "ORLY"
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "name": "C#"
+                  }
+                },
+                {
+                  "placement": 4,
+                  "entrant": {
+                    "name": "MVZY"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "Iceking"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "UGS | Michael"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "Peppy"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "TBLU | shad"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 550762,
+        "name": "Tripoint Smash 190",
+        "slug": "tournament/tripoint-smash-190",
+        "startAt": 1684537200,
+        "endAt": 1684558740,
+        "events": [
+          {
+            "id": 913740,
+            "name": "P+ Singles",
+            "slug": "tournament/tripoint-smash-190/event/p-singles",
+            "startAt": 1684537200,
+            "numEntrants": 18,
+            "state": "COMPLETED",
+            "standings": {
+              "nodes": [
+                {
+                  "placement": 1,
+                  "entrant": {
+                    "name": "metroid"
+                  }
+                },
+                {
+                  "placement": 2,
+                  "entrant": {
+                    "name": "UGS | Michael"
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "name": "XXX | Comb"
+                  }
+                },
+                {
+                  "placement": 4,
+                  "entrant": {
+                    "name": "PK | Star"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "ORLY"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "ELLA | Olivia :3"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "ELLA | SoulOfficer"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "Tuck"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": 913742,
+            "name": "P+ Lethal League - starts at 6:30",
+            "slug": "tournament/tripoint-smash-190/event/p-lethal-league-starts-at-6-30",
+            "startAt": 1684539000,
+            "numEntrants": 5,
+            "state": "COMPLETED",
+            "standings": {
+              "nodes": [
+                {
+                  "placement": 1,
+                  "entrant": {
+                    "name": "PK | Star"
+                  }
+                },
+                {
+                  "placement": 2,
+                  "entrant": {
+                    "name": "Tuck"
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "name": "TBLU | shad"
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "name": "Malaise"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "SkyArrow"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 548488,
+        "name": "Tripoint Smash 189",
+        "slug": "tournament/tripoint-smash-189",
+        "startAt": 1683932400,
+        "endAt": 1683953940,
+        "events": [
+          {
+            "id": 909585,
+            "name": "P+ Singles",
+            "slug": "tournament/tripoint-smash-189/event/p-singles",
+            "startAt": 1683932400,
+            "numEntrants": 12,
+            "state": "COMPLETED",
+            "standings": {
+              "nodes": [
+                {
+                  "placement": 1,
+                  "entrant": {
+                    "name": "ORLY"
+                  }
+                },
+                {
+                  "placement": 2,
+                  "entrant": {
+                    "name": "PK | Star"
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "name": "ELLA | Olivia :3"
+                  }
+                },
+                {
+                  "placement": 4,
+                  "entrant": {
+                    "name": "ELLA | SoulOfficer"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "Joey"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "UGS | Michael"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "Sakkai"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "TBLU | shad"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 546651,
+        "name": "Tripoint Smash 188",
+        "slug": "tournament/tripoint-smash-188",
+        "startAt": 1683327600,
+        "endAt": 1683349140,
+        "events": [
+          {
+            "id": 906156,
+            "name": "P+ Side Event - starts at 6:30",
+            "slug": "tournament/tripoint-smash-188/event/p-side-event-starts-at-6-30",
+            "startAt": 1683327600,
+            "numEntrants": 0,
+            "state": "CREATED",
+            "standings": {
+              "nodes": []
+            }
+          },
+          {
+            "id": 906154,
+            "name": "P+ Singles",
+            "slug": "tournament/tripoint-smash-188/event/p-singles",
+            "startAt": 1683327600,
+            "numEntrants": 12,
+            "state": "COMPLETED",
+            "standings": {
+              "nodes": [
+                {
+                  "placement": 1,
+                  "entrant": {
+                    "name": "ORLY"
+                  }
+                },
+                {
+                  "placement": 2,
+                  "entrant": {
+                    "name": "UGS | Michael"
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "name": "PK | Star"
+                  }
+                },
+                {
+                  "placement": 4,
+                  "entrant": {
+                    "name": "ELLA | Olivia :3"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "MVZY"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "ELLA | SoulOfficer"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "SHDJ | Mekk"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "BIRB"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 544333,
+        "name": "Tripoint Smash 187",
+        "slug": "tournament/tripoint-smash-187",
+        "startAt": 1682722800,
+        "endAt": 1682744340,
+        "events": [
+          {
+            "id": 901908,
+            "name": "Honeypot 5 P+ Pre-Local!!",
+            "slug": "tournament/tripoint-smash-187/event/honeypot-5-p-pre-local",
+            "startAt": 1682722800,
+            "numEntrants": 16,
+            "state": "COMPLETED",
+            "standings": {
+              "nodes": [
+                {
+                  "placement": 1,
+                  "entrant": {
+                    "name": "Lunchables"
+                  }
+                },
+                {
+                  "placement": 2,
+                  "entrant": {
+                    "name": "metroid"
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "name": "Kurt | polear"
+                  }
+                },
+                {
+                  "placement": 4,
+                  "entrant": {
+                    "name": "ELLA | Olivia :3"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "PK | Star"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "ORLY"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "Tuck"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "UGS | Michael"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 541664,
+        "name": "Tripoint Smash 186: The Saturday Stadium 2 Prelocal",
+        "slug": "tournament/tripoint-smash-186-the-saturday-stadium-2-prelocal",
+        "startAt": 1682118000,
+        "endAt": 1682139540,
+        "events": [
+          {
+            "id": 896969,
+            "name": "P+ Singles",
+            "slug": "tournament/tripoint-smash-186-the-saturday-stadium-2-prelocal/event/p-singles",
+            "startAt": 1682118000,
+            "numEntrants": 10,
+            "state": "COMPLETED",
+            "standings": {
+              "nodes": [
+                {
+                  "placement": 1,
+                  "entrant": {
+                    "name": "Lunchables"
+                  }
+                },
+                {
+                  "placement": 2,
+                  "entrant": {
+                    "name": "metroid"
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "name": "PK | Star"
+                  }
+                },
+                {
+                  "placement": 4,
+                  "entrant": {
+                    "name": "ELLA | SoulOfficer"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "ORLY"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "MVZY"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "TBLU | shad"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "BIRB"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 539111,
+        "name": "Tripoint Smash 185",
+        "slug": "tournament/tripoint-smash-185",
+        "startAt": 1681513200,
+        "endAt": 1681534740,
+        "events": [
+          {
+            "id": 892207,
+            "name": "P+ Side Event - starts at 6:30",
+            "slug": "tournament/tripoint-smash-185/event/p-side-event-starts-at-6-30",
+            "startAt": 1681513200,
+            "numEntrants": 0,
+            "state": "CREATED",
+            "standings": {
+              "nodes": []
+            }
+          },
+          {
+            "id": 892205,
+            "name": "P+ Singles",
+            "slug": "tournament/tripoint-smash-185/event/p-singles",
+            "startAt": 1681513200,
+            "numEntrants": 21,
+            "state": "COMPLETED",
+            "standings": {
+              "nodes": [
+                {
+                  "placement": 1,
+                  "entrant": {
+                    "name": "PK | Star"
+                  }
+                },
+                {
+                  "placement": 2,
+                  "entrant": {
+                    "name": "UGS | Michael"
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "name": "ORLY"
+                  }
+                },
+                {
+                  "placement": 4,
+                  "entrant": {
+                    "name": "ELLA | Olivia :3"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "PMNexus | Che"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "ELLA | SoulOfficer"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "SC | Nave"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "Tuck"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 532250,
+        "name": "Tripoint Smash 184",
+        "slug": "tournament/tripoint-smash-184",
+        "startAt": 1680908400,
+        "endAt": 1680929940,
+        "events": [
+          {
+            "id": 879787,
+            "name": "P+ Singles",
+            "slug": "tournament/tripoint-smash-184/event/p-singles",
+            "startAt": 1680908400,
+            "numEntrants": 27,
+            "state": "COMPLETED",
+            "standings": {
+              "nodes": [
+                {
+                  "placement": 1,
+                  "entrant": {
+                    "name": "metroid"
+                  }
+                },
+                {
+                  "placement": 2,
+                  "entrant": {
+                    "name": "HFR | Jisp"
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "name": "PK | Star"
+                  }
+                },
+                {
+                  "placement": 4,
+                  "entrant": {
+                    "name": "Pablito"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "ORLY"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "SC | Nave"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "LTWB | SoulOfficer"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "Tuck"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 530465,
+        "name": "Tripoint Smash 183",
+        "slug": "tournament/tripoint-smash-183",
+        "startAt": 1679094000,
+        "endAt": 1679115540,
+        "events": [
+          {
+            "id": 876453,
+            "name": "P+ Side Event - starts at 6:30",
+            "slug": "tournament/tripoint-smash-183/event/p-side-event-starts-at-6-30",
+            "startAt": 1679094000,
+            "numEntrants": 0,
+            "state": "CREATED",
+            "standings": {
+              "nodes": []
+            }
+          },
+          {
+            "id": 876451,
+            "name": "P+ Singles",
+            "slug": "tournament/tripoint-smash-183/event/p-singles",
+            "startAt": 1679094000,
+            "numEntrants": 11,
+            "state": "COMPLETED",
+            "standings": {
+              "nodes": [
+                {
+                  "placement": 1,
+                  "entrant": {
+                    "name": "Pablito"
+                  }
+                },
+                {
+                  "placement": 2,
+                  "entrant": {
+                    "name": "UGS | Michael"
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "name": "Atomsk"
+                  }
+                },
+                {
+                  "placement": 4,
+                  "entrant": {
+                    "name": "Douhboi"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "ORLY"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "C-UM | AlCoda"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "Jamba Juice | Jorf"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "Noon"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 529205,
+        "name": "Tripoint Smash 182",
+        "slug": "tournament/tripoint-smash-182",
+        "startAt": 1678492800,
+        "endAt": 1678514340,
+        "events": [
+          {
+            "id": 874185,
+            "name": "P+ Singles",
+            "slug": "tournament/tripoint-smash-182/event/p-singles",
+            "startAt": 1678492800,
+            "numEntrants": 18,
+            "state": "COMPLETED",
+            "standings": {
+              "nodes": [
+                {
+                  "placement": 1,
+                  "entrant": {
+                    "name": "metroid"
+                  }
+                },
+                {
+                  "placement": 2,
+                  "entrant": {
+                    "name": "XXX | Comb"
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "name": "Atomsk"
+                  }
+                },
+                {
+                  "placement": 4,
+                  "entrant": {
+                    "name": "KoF | Rise"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "ORLY"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "SC | Nave"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "UGS | Michael"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "LTWB | SoulOfficer"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": 874187,
+            "name": "P+ Side Event - P+ Character Bans",
+            "slug": "tournament/tripoint-smash-182/event/p-side-event-p-character-bans",
+            "startAt": 1678492800,
+            "numEntrants": 5,
+            "state": "COMPLETED",
+            "standings": {
+              "nodes": [
+                {
+                  "placement": 1,
+                  "entrant": {
+                    "name": "Certified"
+                  }
+                },
+                {
+                  "placement": 2,
+                  "entrant": {
+                    "name": "Joey"
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "name": "XXX | Comb"
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "name": "Douhboi"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "ECCU | K.W.A.M"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 525889,
+        "name": "Tripoint Smash - 5th Anniversary!",
+        "slug": "tournament/tripoint-smash-5th-anniversary",
+        "startAt": 1677888000,
+        "endAt": 1677909540,
+        "events": [
+          {
+            "id": 868202,
+            "name": "P+ Singles",
+            "slug": "tournament/tripoint-smash-5th-anniversary/event/p-singles",
+            "startAt": 1677888000,
+            "numEntrants": 14,
+            "state": "COMPLETED",
+            "standings": {
+              "nodes": [
+                {
+                  "placement": 1,
+                  "entrant": {
+                    "name": "ORLY"
+                  }
+                },
+                {
+                  "placement": 2,
+                  "entrant": {
+                    "name": "XXX | Comb"
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "name": "Atomsk"
+                  }
+                },
+                {
+                  "placement": 4,
+                  "entrant": {
+                    "name": "Pablito"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "Joey"
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "name": "Star"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "LTWB | SoulOfficer"
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "name": "BIRB"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "pageInfo": {
+      "totalPages": 12,
+      "page": 4,
+      "perPage": 25
+    }
+  }
+}

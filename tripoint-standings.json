@@ -1,4 +1,2774 @@
 {
+  "462103": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "Yono"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "HiR | Ripple"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "VEKA#966 | Veka"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "XXX | Comb"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "SC | Nave"
+      }
+    }
+  ],
+  "588078": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "ALS | Drugfreechu"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "SS | Yuko"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Jank"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Chaloopy"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Churchieboy"
+      }
+    }
+  ],
+  "590374": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "drugfreechu"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "Jank"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "JSP"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Churchieboy"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "VEKA#966 | Veka"
+      }
+    }
+  ],
+  "593093": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "Shrug"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "XXX | Comb"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "SC | Nave"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Jank"
+      }
+    }
+  ],
+  "595712": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "XXX | Comb"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "PMNexus | Che"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "SC | Nave"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "sfy | Fizz"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    }
+  ],
+  "599076": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "XXX | Comb"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "drugfreechu"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "SC | Nave"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "PMNexus | Che"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "sfy | Fizz"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Shrug"
+      }
+    }
+  ],
+  "601825": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "Yono"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "XXX | Comb"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "Zoopal | Frost"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Jank"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "C#"
+      }
+    }
+  ],
+  "604189": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "Not Chris"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Jank"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "PMNexus | Che"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "SC | Nave"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "SAT | Maofever"
+      }
+    }
+  ],
+  "606698": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "Morsecode762"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "Sothe"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Shrug"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Zoopal | Frost"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Jank"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "PMNexus | Che"
+      }
+    }
+  ],
+  "608812": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "XXX | Comb"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "SC | Nave"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Shrug"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "mawwwk"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "SC | Formuoli"
+      }
+    }
+  ],
+  "611061": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "Zoopal | Frost"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "SC | Nave"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "XXX | Comb"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "PMNexus | Che"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "C#"
+      }
+    }
+  ],
+  "614036": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "drugfreechu"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "hstv | Frost"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "XXX | Comb"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Jank"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    }
+  ],
+  "620470": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "Frost"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "mikey20100"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Jank"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Noon"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "pm is sick | adamcoolcat"
+      }
+    }
+  ],
+  "626081": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "hstv | Frost"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "DLA"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "SC | Nave"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Noon"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    }
+  ],
+  "629964": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "Chaloopy"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "Not Chris"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "hstv | Frost"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "SoulPech"
+      }
+    }
+  ],
+  "630743": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "Chaloopy"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "hstv | Frost"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "XXX | Comb"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Jank"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "ORLY"
+      }
+    }
+  ],
+  "632853": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "hstv | Frost"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "XXX | Comb"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "Chaloopy"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "SC | Nave"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Jank"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    }
+  ],
+  "638042": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "Chaloopy"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "hstv | Frost"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Jank"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Ryse"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "ORLY"
+      }
+    }
+  ],
+  "642126": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "Chaloopy"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "mawwwk"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Jank"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "pm is sick | adamcoolcat"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "SoS | Cor"
+      }
+    }
+  ],
+  "645092": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "Chaloopy"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "XXX | Comb"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "Jank"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Shrug"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "SC | Nave"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    }
+  ],
+  "648711": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "Chaloopy"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "HiR | Ripple"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "hstv | Frost"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Jank"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Arpy"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "XXX | Comb"
+      }
+    }
+  ],
+  "650726": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "Chaloopy"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "Not Chris"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "Shrug"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Kendrick"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "C#"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "JSP"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "SC | Nave"
+      }
+    }
+  ],
+  "653484": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "Chaloopy"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "hstv | Frost"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "XXX | Comb"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Jank"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Not Chris"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    }
+  ],
+  "656944": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "sfy | Motobug"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "C#"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "Chaloopy"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "mawwwk"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "XXX | Comb"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "hstv | Frost"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "ORLY"
+      }
+    }
+  ],
+  "659245": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "HiR | Ripple"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "Not Chris"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "hstv | Frost"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Shrug"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "JSP"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Jank"
+      }
+    }
+  ],
+  "659413": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "Ellipsis"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "Chaloopy"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "Yono"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "Thalia"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Kendrick"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "sfy | Motobug"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Not Chris"
+      }
+    }
+  ],
+  "661363": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "hstv | Frost"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "Boat"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "PMNexus | Che"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Jank"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "JSP"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "SC | Nave"
+      }
+    }
+  ],
+  "670941": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "mawwwk"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "hstv | Frost"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "Jank"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "JSP"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "PMNexus | Che"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "SC | Nave"
+      }
+    }
+  ],
+  "676123": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "hstv | Frost"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "Tuck"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "SC | Nave"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Trucker Hat"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Pleeba"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "JJ | Jon Jones"
+      }
+    }
+  ],
+  "679608": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "Not Chris"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "hstv | Frost"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "Jank"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "PMNexus | Che"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "JSP"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "mawwwk"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Hattrick"
+      }
+    }
+  ],
+  "682146": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "hstv | Frost"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "Jank"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "SC | Nave"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Tuck"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Helix"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "SC | Formuoli"
+      }
+    }
+  ],
+  "684375": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "FNAF | Not Chris"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "SC | Nave"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "hstv | Frost"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "sfy | Joey"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "UGS | Ravenking"
+      }
+    }
+  ],
+  "688287": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "Not Chris"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "hstv | Frost"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Tuck"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Books"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "mawwwk"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "JSP"
+      }
+    }
+  ],
+  "691885": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "HiR | Ripple"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "Frost"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "Jank"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Books"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "SC | Nave"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "rye | evil lesbian"
+      }
+    }
+  ],
+  "695120": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "XXX | Comb"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "PMNexus | Che"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Amps"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Tuck"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "sfy | Joey"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "C#"
+      }
+    }
+  ],
+  "697328": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "Not Chris"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "hstv | Frost"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "Tuck"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "mawwwk"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "rye | evil lesbian"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "JSP"
+      }
+    }
+  ],
+  "704908": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "XXX | Comb"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "Not Chris"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "hstv | Frost"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "SC | Nave"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Noon"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Lewy"
+      }
+    }
+  ],
+  "708132": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "Envy"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "Not Chris"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "HiR | Ripple"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "XXX | Comb"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "hstv | Frost"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "mawwwk"
+      }
+    }
+  ],
+  "711574": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "XXX | Comb"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "hstv | Frost"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "SC | Nave"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "PMNexus | Che"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Jank"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "rye | evil lesbian"
+      }
+    }
+  ],
+  "714018": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "Jank"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "mawwwk"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "Eggy"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "DannyPhantom"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Samantha"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "pm is sick | adamcoolcat"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Jisp"
+      }
+    }
+  ],
+  "717267": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "hstv | Frost"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "UGS | Ravenking"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Noon"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "ilikepizza107"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Josh"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Fpengu"
+      }
+    }
+  ],
+  "719907": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "Eggy"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "PMNexus | Che"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "SC | Nave"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Noon"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "UGS | Ravenking"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "TBLU | shad"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Ord"
+      }
+    }
+  ],
+  "722972": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "Not Chris"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "Tuck"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Jank"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Boat"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "XXX | Comb"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "hstv | Star"
+      }
+    }
+  ],
+  "730276": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "Chaloopy"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "Not Chris"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "hstv | Star"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "Samantha"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Eggy"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "SC | Nave"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Jisp"
+      }
+    }
+  ],
+  "733452": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "XXX | Comb"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "rye | evil lesbian"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "C#"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "Samantha"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "hstv | Star"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "MUG | Meden"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Tuck"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "LTWB | SoulOfficer"
+      }
+    }
+  ],
+  "733462": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "hstv | Star"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "Jank"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "SC | Nave"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "KoF | Rise"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "sfy | Fizz"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Eggy"
+      }
+    }
+  ],
+  "736325": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "Samantha"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "SC | Nave"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "hstv | Star"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "rye | evil lesbian"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "New Guy"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Tuck"
+      }
+    }
+  ],
+  "744632": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "Chaloopy"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "New Guy"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "hstv | Star"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Jank"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Jisp"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Samantha"
+      }
+    }
+  ],
+  "747517": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "Not Chris"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "hstv | Star"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Joey"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "rye | evil lesbian"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Foolish"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Jank"
+      }
+    }
+  ],
+  "749876": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "CY PKK TC | Rongunshu"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "NNG | [ePG] | Pikmon"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "Chaloopy"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "Sneez"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "hstv.csc | KumatoraPM"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Samantha"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Morsecode762"
+      }
+    }
+  ],
+  "754107": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "Liquid | Chia"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "Foolish"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "Noon"
+      }
+    }
+  ],
+  "756091": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "PMNexus | Che"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "Hpop | Star"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "drugfreechu"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Shrug"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "SC | Nave"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "RBD | Apollo Ali"
+      }
+    }
+  ],
+  "759287": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "Chaloopy"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "SC | Nave"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Eggy"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Hpop | Star"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "TBLU | shad"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Douhboi"
+      }
+    }
+  ],
+  "763174": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "TSI | AlCoda"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "Jamba Juice | Jorf"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Noon"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Foolish"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "C#"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Amps"
+      }
+    }
+  ],
+  "766414": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "Jisp"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "C#"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Samantha"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "waddle | lily wisconsin"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "mawwwk"
+      }
+    }
+  ],
+  "769852": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "Hpop | Star"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "Jisp"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "thot lot | Trevor"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Ken Combo Griffey Jr"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "UGS | Ravenking"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "waddle | lily wisconsin"
+      }
+    }
+  ],
   "773371": [
     {
       "placement": 1,

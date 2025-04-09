@@ -1,4 +1,410 @@
 {
+  "204305": {
+    "id": 204305,
+    "name": "Tripoint Smash 101",
+    "slug": "tournament/tripoint-smash-101",
+    "startAt": 1624057200,
+    "endAt": 1624078740
+  },
+  "296766": {
+    "id": 296766,
+    "name": "Tripoint Smash 102",
+    "slug": "tournament/tripoint-smash-102",
+    "startAt": 1624662000,
+    "endAt": 1624683540
+  },
+  "298256": {
+    "id": 298256,
+    "name": "Tripoint Smash 103",
+    "slug": "tournament/tripoint-smash-103",
+    "startAt": 1625266800,
+    "endAt": 1625292000
+  },
+  "299898": {
+    "id": 299898,
+    "name": "Tripoint Smash 104",
+    "slug": "tournament/tripoint-smash-104",
+    "startAt": 1625871600,
+    "endAt": 1625896800
+  },
+  "301460": {
+    "id": 301460,
+    "name": "Tripoint Smash 105",
+    "slug": "tournament/tripoint-smash-105",
+    "startAt": 1626476400,
+    "endAt": 1626497940
+  },
+  "302683": {
+    "id": 302683,
+    "name": "Tripoint Smash 106",
+    "slug": "tournament/tripoint-smash-106",
+    "startAt": 1627081200,
+    "endAt": 1627102740
+  },
+  "304434": {
+    "id": 304434,
+    "name": "Tripoint Smash 107",
+    "slug": "tournament/tripoint-smash-107",
+    "startAt": 1627686000,
+    "endAt": 1627707540
+  },
+  "305935": {
+    "id": 305935,
+    "name": "Tripoint Smash 108 Ft. PPA vs Yacht Club Crew Battle!",
+    "slug": "tournament/tripoint-smash-108-ft-ppa-vs-yacht-club-crew-battle",
+    "startAt": 1628290800,
+    "endAt": 1628312340
+  },
+  "307528": {
+    "id": 307528,
+    "name": "Tripoint Smash 109",
+    "slug": "tournament/tripoint-smash-109",
+    "startAt": 1628895600,
+    "endAt": 1628920800
+  },
+  "308952": {
+    "id": 308952,
+    "name": "Tripoint Smash 110",
+    "slug": "tournament/tripoint-smash-110",
+    "startAt": 1629500400,
+    "endAt": 1629521940
+  },
+  "310418": {
+    "id": 310418,
+    "name": "Tripoint Smash 111",
+    "slug": "tournament/tripoint-smash-111",
+    "startAt": 1630105200,
+    "endAt": 1630126740
+  },
+  "312170": {
+    "id": 312170,
+    "name": "Tripoint Smash 112",
+    "slug": "tournament/tripoint-smash-112",
+    "startAt": 1630710000,
+    "endAt": 1630731540
+  },
+  "316439": {
+    "id": 316439,
+    "name": "Tripoint Smash 113",
+    "slug": "tournament/tripoint-smash-113",
+    "startAt": 1632524400,
+    "endAt": 1632545940
+  },
+  "319904": {
+    "id": 319904,
+    "name": "Tripoint Smash 114",
+    "slug": "tournament/tripoint-smash-114",
+    "startAt": 1633129200,
+    "endAt": 1633150740
+  },
+  "322223": {
+    "id": 322223,
+    "name": "Tripoint Smash 115",
+    "slug": "tournament/tripoint-smash-115",
+    "startAt": 1633734000,
+    "endAt": 1633755540
+  },
+  "322687": {
+    "id": 322687,
+    "name": "Tripoint Smash 117",
+    "slug": "tournament/tripoint-smash-117",
+    "startAt": 1634943600,
+    "endAt": 1634965140
+  },
+  "324005": {
+    "id": 324005,
+    "name": "Tripoint Smash 116",
+    "slug": "tournament/tripoint-smash-116",
+    "startAt": 1634338800,
+    "endAt": 1634360340
+  },
+  "327055": {
+    "id": 327055,
+    "name": "Tripoint Smash 118",
+    "slug": "tournament/tripoint-smash-118",
+    "startAt": 1635548400,
+    "endAt": 1635569940
+  },
+  "329400": {
+    "id": 329400,
+    "name": "Tripoint Smash 119",
+    "slug": "tournament/tripoint-smash-119",
+    "startAt": 1636153200,
+    "endAt": 1636174740
+  },
+  "331168": {
+    "id": 331168,
+    "name": "Tripoint Smash 120",
+    "slug": "tournament/tripoint-smash-120",
+    "startAt": 1636761600,
+    "endAt": 1636783140
+  },
+  "333269": {
+    "id": 333269,
+    "name": "Tripoint Smash 121",
+    "slug": "tournament/tripoint-smash-121",
+    "startAt": 1637366400,
+    "endAt": 1637387940
+  },
+  "334556": {
+    "id": 334556,
+    "name": "Tripoint Smash 122",
+    "slug": "tournament/tripoint-smash-122",
+    "startAt": 1637971200,
+    "endAt": 1637992740
+  },
+  "336128": {
+    "id": 336128,
+    "name": "Tripoint Smash 123",
+    "slug": "tournament/tripoint-smash-123",
+    "startAt": 1638576000,
+    "endAt": 1638597540
+  },
+  "338282": {
+    "id": 338282,
+    "name": "Tripoint Smash 124 feat. Motobug for P+!",
+    "slug": "tournament/tripoint-smash-124-feat-motobug-for-p",
+    "startAt": 1639180800,
+    "endAt": 1639202340
+  },
+  "342282": {
+    "id": 342282,
+    "name": "Tripoint Smash 125: The Last One for the Year!",
+    "slug": "tournament/tripoint-smash-125-the-last-one-for-the-year",
+    "startAt": 1639785600,
+    "endAt": 1639807140
+  },
+  "342541": {
+    "id": 342541,
+    "name": "Tripoint Smash 128 ft. Joey's Birthday Bash",
+    "slug": "tournament/tripoint-smash-128-ft-joey-s-birthday-bash",
+    "startAt": 1643414400,
+    "endAt": 1643435940
+  },
+  "354254": {
+    "id": 354254,
+    "name": "Tripoint Smash 126",
+    "slug": "tournament/tripoint-smash-126",
+    "startAt": 1642204800,
+    "endAt": 1642226340
+  },
+  "413855": {
+    "id": 413855,
+    "name": "Tripoint Smash 127",
+    "slug": "tournament/tripoint-smash-127",
+    "startAt": 1642809600,
+    "endAt": 1642831140
+  },
+  "417820": {
+    "id": 417820,
+    "name": "Tripoint Smash 129",
+    "slug": "tournament/tripoint-smash-129",
+    "startAt": 1644019200,
+    "endAt": 1644040740
+  },
+  "420033": {
+    "id": 420033,
+    "name": "Tripoint Smash 130",
+    "slug": "tournament/tripoint-smash-130",
+    "startAt": 1644624000,
+    "endAt": 1644645540
+  },
+  "421605": {
+    "id": 421605,
+    "name": "Tripoint Smash 131",
+    "slug": "tournament/tripoint-smash-131",
+    "startAt": 1645185600,
+    "endAt": 1645250340
+  },
+  "423038": {
+    "id": 423038,
+    "name": "Tripoint Smash 132",
+    "slug": "tournament/tripoint-smash-132",
+    "startAt": 1645833600,
+    "endAt": 1645855140
+  },
+  "425300": {
+    "id": 425300,
+    "name": "Tripoint Smash 133",
+    "slug": "tournament/tripoint-smash-133",
+    "startAt": 1646438400,
+    "endAt": 1646459940
+  },
+  "427369": {
+    "id": 427369,
+    "name": "Tripoint Smash 134",
+    "slug": "tournament/tripoint-smash-134",
+    "startAt": 1647000000,
+    "endAt": 1647021540
+  },
+  "429159": {
+    "id": 429159,
+    "name": "Tripoint Smash 135",
+    "slug": "tournament/tripoint-smash-135",
+    "startAt": 1647644400,
+    "endAt": 1647665940
+  },
+  "430541": {
+    "id": 430541,
+    "name": "Tripoint Smash 136",
+    "slug": "tournament/tripoint-smash-136",
+    "startAt": 1648249200,
+    "endAt": 1648251000
+  },
+  "432115": {
+    "id": 432115,
+    "name": "Tripoint Smash 137",
+    "slug": "tournament/tripoint-smash-137",
+    "startAt": 1648854000,
+    "endAt": 1648875540
+  },
+  "434873": {
+    "id": 434873,
+    "name": "Tripoint Smash 138",
+    "slug": "tournament/tripoint-smash-138",
+    "startAt": 1649458800,
+    "endAt": 1649480340
+  },
+  "435969": {
+    "id": 435969,
+    "name": "Tripoint Smash Presents: Super TPS II Combo Breaker Edition",
+    "slug": "tournament/tripoint-smash-presents-super-tps-ii-combo-breaker-edition",
+    "startAt": 1653692400,
+    "endAt": 1653800340
+  },
+  "436764": {
+    "id": 436764,
+    "name": "Tripoint Smash 139",
+    "slug": "tournament/tripoint-smash-139",
+    "startAt": 1650063600,
+    "endAt": 1650085140
+  },
+  "438750": {
+    "id": 438750,
+    "name": "Tripoint Smash 140",
+    "slug": "tournament/tripoint-smash-140",
+    "startAt": 1650668400,
+    "endAt": 1650689940
+  },
+  "440299": {
+    "id": 440299,
+    "name": "Tripoint Smash 141",
+    "slug": "tournament/tripoint-smash-141",
+    "startAt": 1651273200,
+    "endAt": 1651294740
+  },
+  "442219": {
+    "id": 442219,
+    "name": "Tripoint Smash 142",
+    "slug": "tournament/tripoint-smash-142",
+    "startAt": 1651878000,
+    "endAt": 1651899540
+  },
+  "443772": {
+    "id": 443772,
+    "name": "Tripoint Smash 143",
+    "slug": "tournament/tripoint-smash-143",
+    "startAt": 1652482800,
+    "endAt": 1652504340
+  },
+  "445536": {
+    "id": 445536,
+    "name": "Tripoint Smash 144",
+    "slug": "tournament/tripoint-smash-144",
+    "startAt": 1653087600,
+    "endAt": 1653109140
+  },
+  "449798": {
+    "id": 449798,
+    "name": "Tripoint Smash 145",
+    "slug": "tournament/tripoint-smash-145",
+    "startAt": 1654297200,
+    "endAt": 1654318740
+  },
+  "451634": {
+    "id": 451634,
+    "name": "Tripoint Smash 146",
+    "slug": "tournament/tripoint-smash-146",
+    "startAt": 1654902000,
+    "endAt": 1654923540
+  },
+  "451636": {
+    "id": 451636,
+    "name": "Tripoint 148: The Warp Zone Pre-local!",
+    "slug": "tournament/tripoint-148-the-warp-zone-pre-local",
+    "startAt": 1656111600,
+    "endAt": 1656133140
+  },
+  "453248": {
+    "id": 453248,
+    "name": "Tripoint Smash 147",
+    "slug": "tournament/tripoint-smash-147",
+    "startAt": 1655506800,
+    "endAt": 1655528340
+  },
+  "457971": {
+    "id": 457971,
+    "name": "Tripoint Smash 149",
+    "slug": "tournament/tripoint-smash-149",
+    "startAt": 1656716400,
+    "endAt": 1656737940
+  },
+  "459623": {
+    "id": 459623,
+    "name": "Tripoint Smash 150",
+    "slug": "tournament/tripoint-smash-150",
+    "startAt": 1657321200,
+    "endAt": 1657342740
+  },
+  "461052": {
+    "id": 461052,
+    "name": "Tripoint Smash 151 - Pre-Invincible TPS: Feat. Kumatora, Pikmon, and more!",
+    "slug": "tournament/tripoint-smash-151-pre-invincible-tps-feat-kumatora-pikmon-and",
+    "startAt": 1657926000,
+    "endAt": 1657947540
+  },
+  "463317": {
+    "id": 463317,
+    "name": "Tripoint Smash 152",
+    "slug": "tournament/tripoint-smash-152",
+    "startAt": 1658530800,
+    "endAt": 1658552340
+  },
+  "464375": {
+    "id": 464375,
+    "name": "Tripoint Smash 153",
+    "slug": "tournament/tripoint-smash-153",
+    "startAt": 1659135600,
+    "endAt": 1659157140
+  },
+  "466209": {
+    "id": 466209,
+    "name": "Tripoint Smash 154",
+    "slug": "tournament/tripoint-smash-154",
+    "startAt": 1659740400,
+    "endAt": 1659761940
+  },
+  "468440": {
+    "id": 468440,
+    "name": "Tripoint Smash 155",
+    "slug": "tournament/tripoint-smash-155",
+    "startAt": 1660345200,
+    "endAt": 1660366740
+  },
+  "470328": {
+    "id": 470328,
+    "name": "Tripoint Smash 156",
+    "slug": "tournament/tripoint-smash-156",
+    "startAt": 1660950000,
+    "endAt": 1660971540
+  },
+  "472249": {
+    "id": 472249,
+    "name": "Tripoint Smash 157",
+    "slug": "tournament/tripoint-smash-157",
+    "startAt": 1661554800,
+    "endAt": 1661576340
+  },
   "474198": {
     "id": 474198,
     "name": "Tripoint Smash 158",
