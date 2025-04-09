@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tournament Results</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Tournament Results Viewer</h1>
+    
+    <form action="/tournament" method="POST" class="search-form">
+      <div class="form-group">
+        <label for="slug">Tournament Slug:</label>
+        <input type="text" id="slug" name="slug" placeholder="e.g., evo2023" required>
+      </div>
+      <button type="submit" class="btn">Get Results</button>
+    </form>
+
+    <% if (error) { %>
+      <div class="error">
+        <%= error %>
+      </div>
+    <% } %>
+
+    <% if (tournament) { %>
+      <div class="tournament-info">
+        <h2><%= tournament.name %></h2>
+        <p>
+          <strong>Dates:</strong> 
+          <%= new Date(tournament.startAt * 1000).toLocaleDateString() %> - 
+          <%= new Date(tournament.endAt * 1000).toLocaleDateString() %>
+        </p>
+
+        <% tournament.events.forEach(event => { %>
+          <div class="event">
+            <h3><%= event.name %> (<%= event.numEntrants %> entrants)</h3>
+            
+            <% if (event.standings && event.standings.nodes && event.standings.nodes.length > 0) { %>
+              <table class="standings">
+                <thead>
+                  <tr>
+                    <th>Place</th>
+                    <th>Player</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <% event.standings.nodes.forEach(standing => { %>
+                    <tr>
+                      <td><%= standing.placement %></td>
+                      <td>
+                        <% if (standing.entrant && standing.entrant.participants && 
+                              standing.entrant.participants[0] && 
+                              standing.entrant.participants[0].player) { %>
+                          <%= standing.entrant.participants[0].player.gamerTag %>
+                        <% } else { %>
+                          <%= standing.entrant ? standing.entrant.name : 'Unknown' %>
+                        <% } %>
+                      </td>
+                    </tr>
+                  <% }) %>
+                </tbody>
+              </table>
+            <% } else { %>
+              <p>No standings available for this event.</p>
+            <% } %>
+          </div>
+        <% }) %>
+      </div>
+    <% } %>
+  </div>
+</body>
+</html>

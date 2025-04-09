@@ -1,0 +1,586 @@
+{
+  "589125": {
+    "id": 983165,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-204/event/p-singles",
+    "startAt": 1694818800,
+    "numEntrants": 12,
+    "state": "COMPLETED"
+  },
+  "590860": {
+    "id": 986221,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-205/event/p-singles",
+    "startAt": 1695423600,
+    "numEntrants": 10,
+    "state": "COMPLETED"
+  },
+  "593572": {
+    "id": 991582,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-206/event/p-singles",
+    "startAt": 1696028400,
+    "numEntrants": 15,
+    "state": "COMPLETED"
+  },
+  "597019": {
+    "id": 998207,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-207/event/p-singles",
+    "startAt": 1696633200,
+    "numEntrants": 10,
+    "state": "COMPLETED"
+  },
+  "599389": {
+    "id": 1002619,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-208/event/p-singles",
+    "startAt": 1697238000,
+    "numEntrants": 10,
+    "state": "COMPLETED"
+  },
+  "601073": {
+    "id": 1005644,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-209/event/p-singles",
+    "startAt": 1697842800,
+    "numEntrants": 14,
+    "state": "COMPLETED"
+  },
+  "606301": {
+    "id": 1015504,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-210/event/p-singles",
+    "startAt": 1699052400,
+    "numEntrants": 20,
+    "state": "COMPLETED"
+  },
+  "608583": {
+    "id": 1020053,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-211/event/p-singles",
+    "startAt": 1699660800,
+    "numEntrants": 10,
+    "state": "COMPLETED"
+  },
+  "610851": {
+    "id": 1024319,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-212/event/p-singles",
+    "startAt": 1700265600,
+    "numEntrants": 13,
+    "state": "COMPLETED"
+  },
+  "612617": {
+    "id": 1027647,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-213/event/p-singles",
+    "startAt": 1700870400,
+    "numEntrants": 14,
+    "state": "COMPLETED"
+  },
+  "614435": {
+    "id": 1030892,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-214/event/p-singles",
+    "startAt": 1701475200,
+    "numEntrants": 13,
+    "state": "COMPLETED"
+  },
+  "617457": {
+    "id": 1036762,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-215/event/p-singles",
+    "startAt": 1702080000,
+    "numEntrants": 15,
+    "state": "COMPLETED"
+  },
+  "618676": {
+    "id": 1039100,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-216/event/p-singles",
+    "startAt": 1702684800,
+    "numEntrants": 25,
+    "state": "COMPLETED"
+  },
+  "620712": {
+    "id": 1043016,
+    "name": "P+ Singles",
+    "slug": "tournament/a-holly-jolly-tripoint-smash-217/event/p-singles",
+    "startAt": 1703289600,
+    "numEntrants": 15,
+    "state": "COMPLETED"
+  },
+  "621931": {
+    "id": 1045345,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-218/event/p-singles",
+    "startAt": 1703894400,
+    "numEntrants": 21,
+    "state": "COMPLETED"
+  },
+  "623239": {
+    "id": 1048010,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-219/event/p-singles",
+    "startAt": 1704499200,
+    "numEntrants": 12,
+    "state": "COMPLETED"
+  },
+  "625035": {
+    "id": 1051546,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-220/event/p-singles",
+    "startAt": 1705708800,
+    "numEntrants": 15,
+    "state": "COMPLETED"
+  },
+  "630423": {
+    "id": 1062299,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-221/event/p-singles",
+    "startAt": 1706313600,
+    "numEntrants": 24,
+    "state": "COMPLETED"
+  },
+  "631835": {
+    "id": 1065119,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-222/event/p-singles",
+    "startAt": 1706918400,
+    "numEntrants": 6,
+    "state": "COMPLETED"
+  },
+  "634510": {
+    "id": 1070518,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-223/event/p-singles",
+    "startAt": 1707523200,
+    "numEntrants": 17,
+    "state": "COMPLETED"
+  },
+  "637272": {
+    "id": 1075863,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-224-lemesis-edition/event/p-singles",
+    "startAt": 1708128000,
+    "numEntrants": 12,
+    "state": "COMPLETED"
+  },
+  "642556": {
+    "id": 1086446,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-225/event/p-singles",
+    "startAt": 1709337600,
+    "numEntrants": 22,
+    "state": "COMPLETED"
+  },
+  "644621": {
+    "id": 1090480,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-226/event/p-singles",
+    "startAt": 1709942400,
+    "numEntrants": 10,
+    "state": "COMPLETED"
+  },
+  "645334": {
+    "id": 1092056,
+    "name": "Project + Singles",
+    "slug": "tournament/tripoint-smash-presents-super-tps-iii/event/project-singles",
+    "startAt": 1716602400,
+    "numEntrants": 41,
+    "state": "COMPLETED"
+  },
+  "646955": {
+    "id": 1095150,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-227/event/p-singles",
+    "startAt": 1710543600,
+    "numEntrants": 18,
+    "state": "COMPLETED"
+  },
+  "649310": {
+    "id": 1099706,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-228/event/p-singles",
+    "startAt": 1711148400,
+    "numEntrants": 10,
+    "state": "COMPLETED"
+  },
+  "651904": {
+    "id": 1104847,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-229/event/p-singles",
+    "startAt": 1711753200,
+    "numEntrants": 9,
+    "state": "COMPLETED"
+  },
+  "654253": {
+    "id": 1109377,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-230-the-saturday-stadium-3-prelocal/event/p-singles",
+    "startAt": 1712358000,
+    "numEntrants": 11,
+    "state": "COMPLETED"
+  },
+  "656948": {
+    "id": 1114839,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-231/event/p-singles",
+    "startAt": 1712962800,
+    "numEntrants": 10,
+    "state": "COMPLETED"
+  },
+  "659255": {
+    "id": 1119362,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-232/event/p-singles",
+    "startAt": 1713567600,
+    "numEntrants": 6,
+    "state": "COMPLETED"
+  },
+  "661876": {
+    "id": 1124395,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-233/event/p-singles",
+    "startAt": 1714172400,
+    "numEntrants": 24,
+    "state": "COMPLETED"
+  },
+  "664985": {
+    "id": 1130349,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-234/event/p-singles",
+    "startAt": 1714777200,
+    "numEntrants": 7,
+    "state": "COMPLETED"
+  },
+  "667342": {
+    "id": 1135038,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-235/event/p-singles",
+    "startAt": 1715382000,
+    "numEntrants": 16,
+    "state": "COMPLETED"
+  },
+  "669161": {
+    "id": 1138313,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-236/event/p-singles",
+    "startAt": 1715986800,
+    "numEntrants": 19,
+    "state": "COMPLETED"
+  },
+  "676594": {
+    "id": 1152327,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-237/event/p-singles",
+    "startAt": 1717801200,
+    "numEntrants": 29,
+    "state": "COMPLETED"
+  },
+  "678395": {
+    "id": 1155470,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-238/event/p-singles",
+    "startAt": 1718406000,
+    "numEntrants": 17,
+    "state": "COMPLETED"
+  },
+  "680719": {
+    "id": 1159933,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-239/event/p-singles",
+    "startAt": 1719010800,
+    "numEntrants": 18,
+    "state": "COMPLETED"
+  },
+  "683512": {
+    "id": 1165429,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-240-pridepoint/event/p-singles",
+    "startAt": 1719615600,
+    "numEntrants": 20,
+    "state": "COMPLETED"
+  },
+  "685253": {
+    "id": 1168675,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-241/event/p-singles",
+    "startAt": 1720220400,
+    "numEntrants": 28,
+    "state": "COMPLETED"
+  },
+  "686816": {
+    "id": 1171770,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-242/event/p-singles",
+    "startAt": 1720825200,
+    "numEntrants": 22,
+    "state": "COMPLETED"
+  },
+  "689176": {
+    "id": 1176187,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-243-the-saturday-stadium-4-prelocal/event/p-singles",
+    "startAt": 1721430000,
+    "numEntrants": 15,
+    "state": "COMPLETED"
+  },
+  "691635": {
+    "id": 1180835,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-244/event/p-singles",
+    "startAt": 1722034800,
+    "numEntrants": 9,
+    "state": "COMPLETED"
+  },
+  "693488": {
+    "id": 1184602,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-245/event/p-singles",
+    "startAt": 1722639600,
+    "numEntrants": 18,
+    "state": "COMPLETED"
+  },
+  "695672": {
+    "id": 1189057,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-246/event/p-singles",
+    "startAt": 1723244400,
+    "numEntrants": 9,
+    "state": "COMPLETED"
+  },
+  "698052": {
+    "id": 1193650,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-247/event/p-singles",
+    "startAt": 1723849200,
+    "numEntrants": 16,
+    "state": "COMPLETED"
+  },
+  "700316": {
+    "id": 1198048,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-248/event/p-singles",
+    "startAt": 1724454000,
+    "numEntrants": 10,
+    "state": "COMPLETED"
+  },
+  "702671": {
+    "id": 1202667,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-249/event/p-singles",
+    "startAt": 1725058800,
+    "numEntrants": 17,
+    "state": "COMPLETED"
+  },
+  "707518": {
+    "id": 1212233,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-250/event/p-singles",
+    "startAt": 1726268400,
+    "numEntrants": 12,
+    "state": "COMPLETED"
+  },
+  "709639": {
+    "id": 1216394,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-251/event/p-singles",
+    "startAt": 1726873200,
+    "numEntrants": 19,
+    "state": "COMPLETED"
+  },
+  "712846": {
+    "id": 1222700,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-252/event/p-singles",
+    "startAt": 1727478000,
+    "numEntrants": 16,
+    "state": "COMPLETED"
+  },
+  "715345": {
+    "id": 1227624,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-253/event/p-singles",
+    "startAt": 1728082800,
+    "numEntrants": 12,
+    "state": "COMPLETED"
+  },
+  "717411": {
+    "id": 1231882,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-254/event/p-singles",
+    "startAt": 1728687600,
+    "numEntrants": 13,
+    "state": "COMPLETED"
+  },
+  "722404": {
+    "id": 1241775,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-255-rivals-of-aether-ii-launch/event/p-singles",
+    "startAt": 1729897200,
+    "numEntrants": 24,
+    "state": "COMPLETED"
+  },
+  "725999": {
+    "id": 1249219,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-256/event/p-singles",
+    "startAt": 1730502000,
+    "numEntrants": 7,
+    "state": "COMPLETED"
+  },
+  "728393": {
+    "id": 1254133,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-257/event/p-singles",
+    "startAt": 1731715200,
+    "numEntrants": 12,
+    "state": "COMPLETED"
+  },
+  "733346": {
+    "id": 1264068,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-258/event/p-singles",
+    "startAt": 1732320000,
+    "numEntrants": 7,
+    "state": "COMPLETED"
+  },
+  "734720": {
+    "id": 1266820,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-259/event/p-singles",
+    "startAt": 1732924800,
+    "numEntrants": 9,
+    "state": "COMPLETED"
+  },
+  "737603": {
+    "id": 1272525,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-260/event/p-singles",
+    "startAt": 1733529600,
+    "numEntrants": 7,
+    "state": "COMPLETED"
+  },
+  "739044": {
+    "id": 1275407,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-261/event/p-singles",
+    "startAt": 1734134400,
+    "numEntrants": 19,
+    "state": "COMPLETED"
+  },
+  "741477": {
+    "id": 1281359,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-community-day-winter-2024/event/p-singles",
+    "startAt": 1734739200,
+    "numEntrants": 9,
+    "state": "COMPLETED"
+  },
+  "742575": {
+    "id": 1282438,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-262-chicago-summit-ultimate-qualifier/event/p-singles",
+    "startAt": 1735344000,
+    "numEntrants": 17,
+    "state": "COMPLETED"
+  },
+  "743994": {
+    "id": 1285269,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-263/event/p-singles",
+    "startAt": 1735948800,
+    "numEntrants": 9,
+    "state": "COMPLETED"
+  },
+  "746088": {
+    "id": 1289652,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-264/event/p-singles",
+    "startAt": 1736553600,
+    "numEntrants": 11,
+    "state": "COMPLETED"
+  },
+  "748464": {
+    "id": 1294655,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-265/event/p-singles",
+    "startAt": 1737158400,
+    "numEntrants": 10,
+    "state": "COMPLETED"
+  },
+  "752187": {
+    "id": 1302029,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-266/event/p-singles",
+    "startAt": 1738368000,
+    "numEntrants": 8,
+    "state": "COMPLETED"
+  },
+  "755812": {
+    "id": 1309534,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-267/event/p-singles",
+    "startAt": 1738972800,
+    "numEntrants": 10,
+    "state": "COMPLETED"
+  },
+  "757291": {
+    "id": 1312527,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-268/event/p-singles",
+    "startAt": 1739577600,
+    "numEntrants": 16,
+    "state": "COMPLETED"
+  },
+  "759962": {
+    "id": 1317823,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-269/event/p-singles",
+    "startAt": 1740182400,
+    "numEntrants": 16,
+    "state": "COMPLETED"
+  },
+  "762670": {
+    "id": 1323554,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-270/event/p-singles",
+    "startAt": 1740787200,
+    "numEntrants": 11,
+    "state": "COMPLETED"
+  },
+  "764630": {
+    "id": 1327719,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-271/event/p-singles",
+    "startAt": 1741392000,
+    "numEntrants": 11,
+    "state": "COMPLETED"
+  },
+  "769835": {
+    "id": 1338536,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-272/event/p-singles",
+    "startAt": 1742598000,
+    "numEntrants": 13,
+    "state": "COMPLETED"
+  },
+  "772214": {
+    "id": 1343381,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-273/event/p-singles",
+    "startAt": 1743202800,
+    "numEntrants": 6,
+    "state": "COMPLETED"
+  },
+  "776788": {
+    "id": 1352786,
+    "name": "Project+ Singles",
+    "slug": "tournament/tripoint-275/event/project-singles",
+    "startAt": 1744412400,
+    "numEntrants": 0,
+    "state": "CREATED"
+  }
+}

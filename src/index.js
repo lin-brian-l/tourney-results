@@ -1,14 +1,31 @@
 import 'dotenv/config';
+import express from 'express';
+import path from 'path';
+import { fileURLToPath } from 'url';
 import { request, gql } from 'graphql-request';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const app = express();
+const port = process.env.PORT || 3000;
+
+// Set up EJS as the view engine
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, '../views'));
+
+// Middleware for parsing request bodies
+app.use(express.urlencoded({ extended: true }));
+app.use(express.static(path.join(__dirname, '../public')));
 
 const API_URL = 'https://api.start.gg/gql/alpha';
 
-// You'll need to create a .env file with your API key
+// Set API headers with the token from environment variables
 const headers = {
   Authorization: `Bearer ${process.env.START_GG_API_KEY}`
 };
 
-// Example query to get tournament info
+// GraphQL query to get tournament info
 const tournamentQuery = gql`
   query TournamentQuery($slug: String!) {
     tournament(slug: $slug) {
@@ -20,6 +37,19 @@ const tournamentQuery = gql`
         id
         name
         numEntrants
+        standings(query: { page: 1, perPage: 8 }) {
+          nodes {
+            placement
+            entrant {
+              name
+              participants {
+                player {
+                  gamerTag
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
@@ -33,13 +63,33 @@ async function getTournamentInfo(slug) {
       { slug },
       headers
     );
-    console.log(JSON.stringify(data, null, 2));
     return data;
   } catch (error) {
     console.error('Error fetching tournament data:', error);
+    throw error;
   }
 }
 
-// Example usage: 
-// Replace 'evo2023' with an actual tournament slug
-getTournamentInfo('evo2023');
+// Routes
+app.get('/', (req, res) => {
+  res.render('index', { tournament: null, error: null });
+});
+
+app.post('/tournament', async (req, res) => {
+  const { slug } = req.body;
+  
+  try {
+    const data = await getTournamentInfo(slug);
+    res.render('index', { tournament: data.tournament, error: null });
+  } catch (error) {
+    res.render('index', { 
+      tournament: null, 
+      error: 'Error fetching tournament data. Please check the slug and try again.'
+    });
+  }
+});
+
+// Start the server
+app.listen(port, () => {
+  console.log(`Server running at http://localhost:${port}`);
+});
