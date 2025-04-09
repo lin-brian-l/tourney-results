@@ -1,4 +1,179 @@
 {
+  "525889": {
+    "id": 525889,
+    "name": "Tripoint Smash - 5th Anniversary!",
+    "slug": "tournament/tripoint-smash-5th-anniversary",
+    "startAt": 1677888000,
+    "endAt": 1677909540
+  },
+  "529205": {
+    "id": 529205,
+    "name": "Tripoint Smash 182",
+    "slug": "tournament/tripoint-smash-182",
+    "startAt": 1678492800,
+    "endAt": 1678514340
+  },
+  "530465": {
+    "id": 530465,
+    "name": "Tripoint Smash 183",
+    "slug": "tournament/tripoint-smash-183",
+    "startAt": 1679094000,
+    "endAt": 1679115540
+  },
+  "532250": {
+    "id": 532250,
+    "name": "Tripoint Smash 184",
+    "slug": "tournament/tripoint-smash-184",
+    "startAt": 1680908400,
+    "endAt": 1680929940
+  },
+  "539111": {
+    "id": 539111,
+    "name": "Tripoint Smash 185",
+    "slug": "tournament/tripoint-smash-185",
+    "startAt": 1681513200,
+    "endAt": 1681534740
+  },
+  "541664": {
+    "id": 541664,
+    "name": "Tripoint Smash 186: The Saturday Stadium 2 Prelocal",
+    "slug": "tournament/tripoint-smash-186-the-saturday-stadium-2-prelocal",
+    "startAt": 1682118000,
+    "endAt": 1682139540
+  },
+  "544333": {
+    "id": 544333,
+    "name": "Tripoint Smash 187",
+    "slug": "tournament/tripoint-smash-187",
+    "startAt": 1682722800,
+    "endAt": 1682744340
+  },
+  "546651": {
+    "id": 546651,
+    "name": "Tripoint Smash 188",
+    "slug": "tournament/tripoint-smash-188",
+    "startAt": 1683327600,
+    "endAt": 1683349140
+  },
+  "548488": {
+    "id": 548488,
+    "name": "Tripoint Smash 189",
+    "slug": "tournament/tripoint-smash-189",
+    "startAt": 1683932400,
+    "endAt": 1683953940
+  },
+  "550762": {
+    "id": 550762,
+    "name": "Tripoint Smash 190",
+    "slug": "tournament/tripoint-smash-190",
+    "startAt": 1684537200,
+    "endAt": 1684558740
+  },
+  "551280": {
+    "id": 551280,
+    "name": "Tripoint Smash 192 - A PM Concert Qualifier",
+    "slug": "tournament/tripoint-smash-192-a-pm-concert-qualifier",
+    "startAt": 1685746800,
+    "endAt": 1685768340
+  },
+  "553023": {
+    "id": 553023,
+    "name": "Tripoint Smash 191",
+    "slug": "tournament/tripoint-smash-191",
+    "startAt": 1685142000,
+    "endAt": 1685163540
+  },
+  "556819": {
+    "id": 556819,
+    "name": "Tripoint Smash 193",
+    "slug": "tournament/tripoint-smash-193",
+    "startAt": 1686351600,
+    "endAt": 1686373140
+  },
+  "559088": {
+    "id": 559088,
+    "name": "Tripoint Smash 200",
+    "slug": "tournament/tripoint-smash-200",
+    "startAt": 1692399600,
+    "endAt": 1692421140
+  },
+  "559135": {
+    "id": 559135,
+    "name": "Tripoint Smash: FGC Returns!",
+    "slug": "tournament/tripoint-smash-fgc-returns",
+    "startAt": 1686956400,
+    "endAt": 1686977940
+  },
+  "561747": {
+    "id": 561747,
+    "name": "Tripoint Smash 194",
+    "slug": "tournament/tripoint-smash-194",
+    "startAt": 1687561200,
+    "endAt": 1687582740
+  },
+  "562814": {
+    "id": 562814,
+    "name": "Tripoint Smash 195 - Pridepoint",
+    "slug": "tournament/tripoint-smash-195-pridepoint",
+    "startAt": 1688166000,
+    "endAt": 1688187540
+  },
+  "564993": {
+    "id": 564993,
+    "name": "Tripoint Smash 196",
+    "slug": "tournament/tripoint-smash-196",
+    "startAt": 1688770800,
+    "endAt": 1688792340
+  },
+  "567267": {
+    "id": 567267,
+    "name": "Tripoint: Romeoville Rumble: The Warp Zone 2 Prelocal!",
+    "slug": "tournament/tripoint-romeoville-rumble-the-warp-zone-2-prelocal",
+    "startAt": 1690585200,
+    "endAt": 1690606740
+  },
+  "569942": {
+    "id": 569942,
+    "name": "Tripoint Smash 197",
+    "slug": "tournament/tripoint-smash-197",
+    "startAt": 1689980400,
+    "endAt": 1690001940
+  },
+  "574118": {
+    "id": 574118,
+    "name": "Tripoint Smash 198",
+    "slug": "tournament/tripoint-smash-198",
+    "startAt": 1691190000,
+    "endAt": 1691211540
+  },
+  "575673": {
+    "id": 575673,
+    "name": "Tripoint Smash 199: The PM Concert Symphony Prelocal!",
+    "slug": "tournament/tripoint-smash-199-the-pm-concert-symphony-prelocal",
+    "startAt": 1691794800,
+    "endAt": 1691816340
+  },
+  "581204": {
+    "id": 581204,
+    "name": "Tripoint Smash 201",
+    "slug": "tournament/tripoint-smash-201-2",
+    "startAt": 1693004400,
+    "endAt": 1693025940
+  },
+  "583682": {
+    "id": 583682,
+    "name": "Tripoint Smash 202",
+    "slug": "tournament/tripoint-smash-202",
+    "startAt": 1693609200,
+    "endAt": 1693630740
+  },
+  "586004": {
+    "id": 586004,
+    "name": "Tripoint Smash 203",
+    "slug": "tournament/tripoint-smash-203",
+    "startAt": 1694214000,
+    "endAt": 1694235540
+  },
   "589125": {
     "id": 589125,
     "name": "Tripoint Smash 204",

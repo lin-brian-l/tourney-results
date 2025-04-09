@@ -1,4 +1,188 @@
 {
+  "525889": {
+    "id": 868202,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-5th-anniversary/event/p-singles",
+    "startAt": 1677888000,
+    "numEntrants": 14,
+    "state": "COMPLETED"
+  },
+  "529205": {
+    "id": 874185,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-182/event/p-singles",
+    "startAt": 1678492800,
+    "numEntrants": 18,
+    "state": "COMPLETED"
+  },
+  "530465": {
+    "id": 876451,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-183/event/p-singles",
+    "startAt": 1679094000,
+    "numEntrants": 11,
+    "state": "COMPLETED"
+  },
+  "532250": {
+    "id": 879787,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-184/event/p-singles",
+    "startAt": 1680908400,
+    "numEntrants": 27,
+    "state": "COMPLETED"
+  },
+  "539111": {
+    "id": 892205,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-185/event/p-singles",
+    "startAt": 1681513200,
+    "numEntrants": 21,
+    "state": "COMPLETED"
+  },
+  "541664": {
+    "id": 896969,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-186-the-saturday-stadium-2-prelocal/event/p-singles",
+    "startAt": 1682118000,
+    "numEntrants": 10,
+    "state": "COMPLETED"
+  },
+  "546651": {
+    "id": 906154,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-188/event/p-singles",
+    "startAt": 1683327600,
+    "numEntrants": 12,
+    "state": "COMPLETED"
+  },
+  "548488": {
+    "id": 909585,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-189/event/p-singles",
+    "startAt": 1683932400,
+    "numEntrants": 12,
+    "state": "COMPLETED"
+  },
+  "550762": {
+    "id": 913740,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-190/event/p-singles",
+    "startAt": 1684537200,
+    "numEntrants": 18,
+    "state": "COMPLETED"
+  },
+  "551280": {
+    "id": 914662,
+    "name": "P+ Singles - a PM Concert: Symphony Qualifier",
+    "slug": "tournament/tripoint-smash-192-a-pm-concert-qualifier/event/p-singles-a-pm-concert-symphony-qualifier",
+    "startAt": 1685754000,
+    "numEntrants": 29,
+    "state": "COMPLETED"
+  },
+  "553023": {
+    "id": 917466,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-191/event/p-singles",
+    "startAt": 1685142000,
+    "numEntrants": 17,
+    "state": "COMPLETED"
+  },
+  "556819": {
+    "id": 924211,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-193/event/p-singles",
+    "startAt": 1686351600,
+    "numEntrants": 13,
+    "state": "COMPLETED"
+  },
+  "559088": {
+    "id": 927869,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-200/event/p-singles",
+    "startAt": 1692410400,
+    "numEntrants": 36,
+    "state": "COMPLETED"
+  },
+  "559135": {
+    "id": 927959,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-fgc-returns/event/p-singles",
+    "startAt": 1686956400,
+    "numEntrants": 21,
+    "state": "COMPLETED"
+  },
+  "561747": {
+    "id": 932773,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-194/event/p-singles",
+    "startAt": 1687572000,
+    "numEntrants": 19,
+    "state": "COMPLETED"
+  },
+  "562814": {
+    "id": 934649,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-195-pridepoint/event/p-singles",
+    "startAt": 1688166000,
+    "numEntrants": 29,
+    "state": "COMPLETED"
+  },
+  "564993": {
+    "id": 938582,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-196/event/p-singles",
+    "startAt": 1688770800,
+    "numEntrants": 21,
+    "state": "COMPLETED"
+  },
+  "567267": {
+    "id": 942817,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-romeoville-rumble-the-warp-zone-2-prelocal/event/p-singles",
+    "startAt": 1690585200,
+    "numEntrants": 50,
+    "state": "COMPLETED"
+  },
+  "569942": {
+    "id": 947716,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-197/event/p-singles",
+    "startAt": 1689980400,
+    "numEntrants": 11,
+    "state": "COMPLETED"
+  },
+  "574118": {
+    "id": 955275,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-198/event/p-singles",
+    "startAt": 1691190000,
+    "numEntrants": 23,
+    "state": "COMPLETED"
+  },
+  "575673": {
+    "id": 958069,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-199-the-pm-concert-symphony-prelocal/event/p-singles",
+    "startAt": 1691794800,
+    "numEntrants": 18,
+    "state": "COMPLETED"
+  },
+  "581204": {
+    "id": 967891,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-201-2/event/p-singles",
+    "startAt": 1693004400,
+    "numEntrants": 23,
+    "state": "COMPLETED"
+  },
+  "583682": {
+    "id": 972664,
+    "name": "P+ Singles",
+    "slug": "tournament/tripoint-smash-202/event/p-singles",
+    "startAt": 1693609200,
+    "numEntrants": 14,
+    "state": "COMPLETED"
+  },
   "589125": {
     "id": 983165,
     "name": "P+ Singles",

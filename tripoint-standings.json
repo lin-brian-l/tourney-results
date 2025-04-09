@@ -1,4 +1,1154 @@
 {
+  "868202": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "XXX | Comb"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "Pablito"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Joey"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Star"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "LTWB | SoulOfficer"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "BIRB"
+      }
+    }
+  ],
+  "874185": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "XXX | Comb"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "KoF | Rise"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "SC | Nave"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "LTWB | SoulOfficer"
+      }
+    }
+  ],
+  "876451": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "Pablito"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "Douhboi"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "C-UM | AlCoda"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Jamba Juice | Jorf"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Noon"
+      }
+    }
+  ],
+  "879787": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "HFR | Jisp"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "PK | Star"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "Pablito"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "SC | Nave"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "LTWB | SoulOfficer"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Tuck"
+      }
+    }
+  ],
+  "892205": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "PK | Star"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "ELLA | Olivia :3"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "PMNexus | Che"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "ELLA | SoulOfficer"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "SC | Nave"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Tuck"
+      }
+    }
+  ],
+  "896969": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "Lunchables"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "PK | Star"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "ELLA | SoulOfficer"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "MVZY"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "TBLU | shad"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "BIRB"
+      }
+    }
+  ],
+  "906154": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "PK | Star"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "ELLA | Olivia :3"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "MVZY"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "ELLA | SoulOfficer"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "SHDJ | Mekk"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "BIRB"
+      }
+    }
+  ],
+  "909585": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "PK | Star"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "ELLA | Olivia :3"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "ELLA | SoulOfficer"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Joey"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Sakkai"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "TBLU | shad"
+      }
+    }
+  ],
+  "913740": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "XXX | Comb"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "PK | Star"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "ELLA | Olivia :3"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "ELLA | SoulOfficer"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Tuck"
+      }
+    }
+  ],
+  "914662": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "KoF | Rise"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "HiR | Ripple"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "ThotLot | sinister sapphic"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Boat"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Tuck"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "MVZY"
+      }
+    }
+  ],
+  "917466": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "C#"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "MVZY"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Iceking"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Peppy"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "TBLU | shad"
+      }
+    }
+  ],
+  "924211": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "PK | Star"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "Tuck"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "ELLA | SoulOfficer"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "thot lot | Trevor"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "SC | Nave"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "MVZY"
+      }
+    }
+  ],
+  "927869": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "GLS | Dirtboy"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "Chaloopy"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "XXX | Comb"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "PMNexus | Che"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "ThotLot | evil lesbian"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "mawwwk"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "PK | Star"
+      }
+    }
+  ],
+  "927959": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "ThotLot | sinister sapphic"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "PK | Star"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "C#"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "drugfreechu"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "MVZY"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Shrug"
+      }
+    }
+  ],
+  "932773": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "PK | Star"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Tuck"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "ThotLot | sinister sapphic"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "thot lot | Trevor"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "ELLA | SoulOfficer"
+      }
+    }
+  ],
+  "934649": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "Lunchables"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "XXX | Comb"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "PMNexus | Che"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "PK | Star"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Samantha"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "ThotLot | sinister sapphic"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "mawwwk"
+      }
+    }
+  ],
+  "938582": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "ThotLot | sinister sapphic"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "mawwwk"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "MVZY"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "ELLA | SoulOfficer"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "mikey20100"
+      }
+    }
+  ],
+  "942817": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "Lunchables"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "techboy"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "SipMastah"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "Chaloopy"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Cloudburst"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "GLS | Dirtboy"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "ELLA | SoulOfficer"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "NNG | [ePG] | Pikmon"
+      }
+    }
+  ],
+  "947716": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "MVZY"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Snocc"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Joey"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Jed12"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Noon"
+      }
+    }
+  ],
+  "955275": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "HFR | Jisp"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "PK | Star"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "ELLA | SoulOfficer"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "ThotLot | evil lesbian"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "SC | Nave"
+      }
+    }
+  ],
+  "958069": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "techboy"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "GLS | Dirtboy"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "PK | Star"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "mawwwk"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "MVZY"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "HFR | Jisp"
+      }
+    }
+  ],
+  "967891": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "metroid"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "Mr_YadoR"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "SoulOfficer"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "HFR | Jisp"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "Atomsk"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "ThotLot | evil lesbian"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "PK | Star"
+      }
+    }
+  ],
+  "972664": [
+    {
+      "placement": 1,
+      "entrant": {
+        "name": "ORLY"
+      }
+    },
+    {
+      "placement": 2,
+      "entrant": {
+        "name": "ThotLot | evil lesbian"
+      }
+    },
+    {
+      "placement": 3,
+      "entrant": {
+        "name": "Olivia :3"
+      }
+    },
+    {
+      "placement": 4,
+      "entrant": {
+        "name": "UGS | Michael"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "MVZY"
+      }
+    },
+    {
+      "placement": 5,
+      "entrant": {
+        "name": "ELLA | SoulOfficer"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "+Side | Tuck"
+      }
+    },
+    {
+      "placement": 7,
+      "entrant": {
+        "name": "Noon"
+      }
+    }
+  ],
   "983165": [
     {
       "placement": 1,
