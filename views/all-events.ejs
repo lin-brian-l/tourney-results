@@ -21,7 +21,7 @@
 
     <main>
       <h2>All Events</h2>
-      
+
       <div class="events-list">
         <% if (events && events.length > 0) { %>
           <table class="events-table">
@@ -38,7 +38,7 @@
             <tbody>
               <% events.forEach(item => { %>
                 <tr>
-                  <td><a href="/event/<%= item.event.id %>"><%= item.event.name %></a></td>
+                  <td><a href="/tournament/<%= item.tournament.id %>/event/<%= item.event.id %>"><%= item.event.name %></a></td>
                   <td><a href="/tournament/<%= item.tournament.id %>"><%= item.tournament.name %></a></td>
                   <td><%= formatDate(item.event.startAt) %></td>
                   <td><%= item.event.numEntrants %></td>
