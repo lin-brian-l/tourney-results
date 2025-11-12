@@ -18,6 +18,12 @@ app.set('views', path.join(__dirname, '../views'));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, '../public')));
 
+// Set basePath for templates (empty for local development)
+app.use((req, res, next) => {
+  res.locals.basePath = '';
+  next();
+});
+
 // Function to read JSON files
 async function readJsonFile(filePath) {
   try {
@@ -38,17 +44,17 @@ app.get('/', async (req, res) => {
     const tournamentsArray = Object.values(tournaments || {}).sort((a, b) => b.startAt - a.startAt);
 
     res.render('tournaments', {
+      basePath: res.locals.basePath,
       tournaments: tournamentsArray,
       formatDate: (timestamp) => new Date(timestamp * 1000).toLocaleDateString()
     });
   } catch (error) {
-    res.status(500).render('error', { error: 'Error loading tournament data' });
+    res.status(500).render('error', { error: 'Error loading tournament data', basePath: res.locals.basePath });
   }
 });
 
 app.get('/tournament/:id', async (req, res) => {
   try {
-    console.log('inside route!');
     const tournamentId = req.params.id;
     const tournaments = await readJsonFile(path.join(__dirname, '../data/tournaments.json'));
     const events = await readJsonFile(path.join(__dirname, '../data/singles-events.json'));
@@ -57,16 +63,17 @@ app.get('/tournament/:id', async (req, res) => {
     const tournamentEvents = tournament.events.map(eventId => events[eventId]);
 
     if (!tournament) {
-      return res.status(404).render('error', { error: 'Tournament not found' });
+      return res.status(404).render('error', { error: 'Tournament not found', basePath: res.locals.basePath });
     }
 
     res.render('tournament-detail', {
+      basePath: res.locals.basePath,
       tournament,
       events: tournamentEvents,
       formatDate: (timestamp) => new Date(timestamp * 1000).toLocaleDateString()
     });
   } catch (error) {
-    res.status(500).render('error', { error: 'Error loading tournament details' });
+    res.status(500).render('error', { error: 'Error loading tournament details', basePath: res.locals.basePath });
   }
 });
 
@@ -84,10 +91,11 @@ app.get('/tournament/:tournamentId/event/:eventId', async (req, res) => {
     const eventStandings = standings[eventId] || [];
 
     if (!event) {
-      return res.status(404).render('error', { error: 'Event not found' });
+      return res.status(404).render('error', { error: 'Event not found', basePath: res.locals.basePath });
     }
 
     res.render('event-detail', {
+      basePath: res.locals.basePath,
       event,
       tournament,
       standings: eventStandings,
@@ -95,7 +103,7 @@ app.get('/tournament/:tournamentId/event/:eventId', async (req, res) => {
     });
   } catch (error) {
     console.error('Error in /event/:id route:', error);
-    res.status(500).render('error', { error: 'Error loading event details' });
+    res.status(500).render('error', { error: 'Error loading event details', basePath: res.locals.basePath });
   }
 });
 
@@ -122,12 +130,13 @@ app.get('/all-events', async (req, res) => {
     allEvents.sort((a, b) => b.event.startAt - a.event.startAt);
 
     res.render('all-events', {
+      basePath: res.locals.basePath,
       events: allEvents,
       formatDate: (timestamp) => new Date(timestamp * 1000).toLocaleDateString()
     });
   } catch (error) {
     console.error('Error in /all-events route:', error);
-    res.status(500).render('error', { error: 'Error loading events data' });
+    res.status(500).render('error', { error: 'Error loading events data', basePath: res.locals.basePath });
   }
 });
 
@@ -182,11 +191,12 @@ app.get('/rankings', async (req, res) => {
     });
 
     res.render('rankings', {
+      basePath: res.locals.basePath,
       rankings
     });
   } catch (error) {
     console.error('Error in /rankings route:', error);
-    res.status(500).render('error', { error: 'Error loading rankings data' });
+    res.status(500).render('error', { error: 'Error loading rankings data', basePath: res.locals.basePath });
   }
 });
 

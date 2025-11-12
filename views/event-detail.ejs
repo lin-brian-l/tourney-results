@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><%= event.name %> - <%= tournament.name %> - Tripoint Results</title>
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="<%= basePath %>/css/style.css">
 </head>
 <body>
   <div class="container">
@@ -12,23 +12,23 @@
       <h1>Tripoint Tournament Results</h1>
       <nav class="main-nav">
         <ul>
-          <li><a href="/">Tournaments</a></li>
-          <li><a href="/all-events">All Events</a></li>
-          <li><a href="/rankings">Player Rankings</a></li>
+          <li><a href="<%= basePath %>/">Tournaments</a></li>
+          <li><a href="<%= basePath %>/all-events">All Events</a></li>
+          <li><a href="<%= basePath %>/rankings">Player Rankings</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
       <div class="breadcrumbs">
-        <a href="/">Tournaments</a> &gt;
-        <a href="/tournament/<%= tournament.id %>"><%= tournament.name %></a> &gt;
+        <a href="<%= basePath %>/">Tournaments</a> &gt;
+        <a href="<%= basePath %>/tournament/<%= tournament.id %>"><%= tournament.name %></a> &gt;
         <%= event.name %>
       </div>
 
       <div class="event-detail">
         <h2><%= event.name %></h2>
-        <p>Tournament: <a href="/tournament/<%= tournament.id %>"><%= tournament.name %></a></p>
+        <p>Tournament: <a href="<%= basePath %>/tournament/<%= tournament.id %>"><%= tournament.name %></a></p>
         <p>Date: <%= formatDate(event.startAt) %></p>
         <p>Entrants: <%= event.numEntrants %></p>
         <p>Status: <%= event.state %></p>

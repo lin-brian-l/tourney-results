@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Error - Tripoint Tournament Results</title>
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="<%= basePath %>/css/style.css">
 </head>
 <body>
   <div class="container">
@@ -12,9 +12,9 @@
       <h1>Tripoint Tournament Results</h1>
       <nav class="main-nav">
         <ul>
-          <li><a href="/">Tournaments</a></li>
-          <li><a href="/all-events">All Events</a></li>
-          <li><a href="/rankings">Player Rankings</a></li>
+          <li><a href="<%= basePath %>/">Tournaments</a></li>
+          <li><a href="<%= basePath %>/all-events">All Events</a></li>
+          <li><a href="<%= basePath %>/rankings">Player Rankings</a></li>
         </ul>
       </nav>
     </header>
@@ -23,7 +23,7 @@
       <div class="error-container">
         <h2>Error</h2>
         <p class="error-message"><%= error %></p>
-        <a href="/" class="btn">Return to Home</a>
+        <a href="<%= basePath %>/" class="btn">Return to Home</a>
       </div>
     </main>
 

@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><%= tournament.name %> - Tripoint Tournament Results</title>
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="<%= basePath %>/css/style.css">
 </head>
 <body>
   <div class="container">
@@ -12,16 +12,16 @@
       <h1>Tripoint Tournament Results</h1>
       <nav class="main-nav">
         <ul>
-          <li><a href="/">Tournaments</a></li>
-          <li><a href="/all-events">All Events</a></li>
-          <li><a href="/rankings">Player Rankings</a></li>
+          <li><a href="<%= basePath %>/">Tournaments</a></li>
+          <li><a href="<%= basePath %>/all-events">All Events</a></li>
+          <li><a href="<%= basePath %>/rankings">Player Rankings</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
       <div class="breadcrumbs">
-        <a href="/">Tournaments</a> &gt; <%= tournament.name %>
+        <a href="<%= basePath %>/">Tournaments</a> &gt; <%= tournament.name %>
       </div>
 
       <div class="tournament-detail">
@@ -33,7 +33,7 @@
           <% if (events && events.length > 0) { %>
             <% events.forEach(event => { %>
               <div class="event-card">
-                <h4><a href="/tournament/<%= tournament.id %>/event/<%= event.id %>"><%= event.name %></a></h4>
+                <h4><a href="<%= basePath %>/tournament/<%= tournament.id %>/event/<%= event.id %>"><%= event.name %></a></h4>
                 <p><%= event.numEntrants %> entrants</p>
                 <p>Status: <%= event.state %></p>
               </div>
