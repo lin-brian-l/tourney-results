@@ -154,12 +154,16 @@ app.get('/rankings', async (req, res) => {
       eventStandings.forEach(standing => {
         if (!standing.entrant?.participants[0]?.user?.player?.gamerTag) return;
 
+        const excludedPlayerIds = new Set([9767, 12373, 1861, 38899]);
+        const playerId = standing.entrant.participants[0].user.id;
+        if (excludedPlayerIds.has(playerId)) return;
+
         const playerName = standing.entrant.participants[0].user.player.gamerTag;
         const placement = standing.placement;
 
         // Initialize player record if not exists
-        if (!playerStats[playerName]) {
-          playerStats[playerName] = {
+        if (!playerStats[playerId]) {
+          playerStats[playerId] = {
             name: playerName,
             totalTop3: 0,
             first: 0,
@@ -170,14 +174,14 @@ app.get('/rankings', async (req, res) => {
 
         // Count placements
         if (placement === 1) {
-          playerStats[playerName].first++;
-          playerStats[playerName].totalTop3++;
+          playerStats[playerId].first++;
+          playerStats[playerId].totalTop3++;
         } else if (placement === 2) {
-          playerStats[playerName].second++;
-          playerStats[playerName].totalTop3++;
+          playerStats[playerId].second++;
+          playerStats[playerId].totalTop3++;
         } else if (placement === 3) {
-          playerStats[playerName].third++;
-          playerStats[playerName].totalTop3++;
+          playerStats[playerId].third++;
+          playerStats[playerId].totalTop3++;
         }
       });
     });
