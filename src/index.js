@@ -32,7 +32,7 @@ async function readJsonFile(filePath) {
 // Routes
 app.get('/', async (req, res) => {
   try {
-    const tournaments = await readJsonFile(path.join(__dirname, '../tripoint-tournaments.json'));
+    const tournaments = await readJsonFile(path.join(__dirname, '../data/tournaments.json'));
 
     // Convert object to array and sort by startAt date (descending)
     const tournamentsArray = Object.values(tournaments || {}).sort((a, b) => b.startAt - a.startAt);
@@ -50,11 +50,11 @@ app.get('/tournament/:id', async (req, res) => {
   try {
     console.log('inside route!');
     const tournamentId = req.params.id;
-    const tournaments = await readJsonFile(path.join(__dirname, '../tripoint-tournaments.json'));
-    const events = await readJsonFile(path.join(__dirname, '../tripoint-events.json'));
+    const tournaments = await readJsonFile(path.join(__dirname, '../data/tournaments.json'));
+    const events = await readJsonFile(path.join(__dirname, '../data/singles-events.json'));
 
     const tournament = tournaments[tournamentId];
-    const tournamentEvent = events[tournamentId] || {};
+    const tournamentEvents = tournament.events.map(eventId => events[eventId]);
 
     if (!tournament) {
       return res.status(404).render('error', { error: 'Tournament not found' });
@@ -62,7 +62,7 @@ app.get('/tournament/:id', async (req, res) => {
 
     res.render('tournament-detail', {
       tournament,
-      events: [tournamentEvent],
+      events: tournamentEvents,
       formatDate: (timestamp) => new Date(timestamp * 1000).toLocaleDateString()
     });
   } catch (error) {
@@ -70,39 +70,26 @@ app.get('/tournament/:id', async (req, res) => {
   }
 });
 
-app.get('/event/:id', async (req, res) => {
+app.get('/tournament/:tournamentId/event/:eventId', async (req, res) => {
   try {
-    const eventId = req.params.id;
-    const standings = await readJsonFile(path.join(__dirname, '../tripoint-standings.json'));
+    const tournamentId = req.params.tournamentId;
+    const eventId = req.params.eventId;
+    const tournaments = await readJsonFile(path.join(__dirname, '../data/tournaments.json'));
+    const events = await readJsonFile(path.join(__dirname, '../data/singles-events.json'));
+    const standings = await readJsonFile(path.join(__dirname, '../data/singles-standings.json'));
 
-    // Find the tournament that contains this event
-    const tournaments = await readJsonFile(path.join(__dirname, '../tripoint-tournaments.json'));
-    const events = await readJsonFile(path.join(__dirname, '../tripoint-events.json'));
-
-    // Find the event info
-    let eventInfo = null;
-    let tournamentInfo = null;
-
-    // Search through all tournaments to find the event
-    const event = Object.values(events).find(tournamentEvent => tournamentEvent.id.toString() === eventId);
-
-    for (const [tournamentId, tournamentEvent] of Object.entries(events)) {
-      if (tournamentEvent.id.toString() === eventId) {
-        eventInfo = tournamentEvent;
-        tournamentInfo = tournaments[tournamentId];
-        break;
-      }
-    }
+    const tournament = tournaments[tournamentId];
+    const event = events[eventId];
 
     const eventStandings = standings[eventId] || [];
 
-    if (!eventInfo) {
+    if (!event) {
       return res.status(404).render('error', { error: 'Event not found' });
     }
 
     res.render('event-detail', {
-      event: eventInfo,
-      tournament: tournamentInfo,
+      event,
+      tournament,
       standings: eventStandings,
       formatDate: (timestamp) => new Date(timestamp * 1000).toLocaleDateString()
     });
@@ -114,24 +101,22 @@ app.get('/event/:id', async (req, res) => {
 
 app.get('/all-events', async (req, res) => {
   try {
-    const tournaments = await readJsonFile(path.join(__dirname, '../tripoint-tournaments.json'));
-    const events = await readJsonFile(path.join(__dirname, '../tripoint-events.json'));
-    const standings = await readJsonFile(path.join(__dirname, '../tripoint-standings.json'));
+    const tournaments = await readJsonFile(path.join(__dirname, '../data/tournaments.json'));
+    const events = await readJsonFile(path.join(__dirname, '../data/singles-events.json'));
+    const standings = await readJsonFile(path.join(__dirname, '../data/singles-standings.json'));
 
     // Create an array of all events with their tournament info
     const allEvents = [];
 
-    for (const [tournamentId, event] of Object.entries(events)) {
-      const tournament = tournaments[tournamentId];
-
-      if (tournament) {
+    Object.values(tournaments).forEach(tournament => {
+      tournament.events.forEach(eventId => {
         allEvents.push({
-          event,
+          event: events[eventId],
           tournament,
-          hasStandings: !!standings[event.id]
+          hasStandings: !!standings[eventId],
         });
-      }
-    }
+      });
+    })
 
     // Sort events by date (newest first)
     allEvents.sort((a, b) => b.event.startAt - a.event.startAt);
@@ -148,21 +133,21 @@ app.get('/all-events', async (req, res) => {
 
 app.get('/rankings', async (req, res) => {
   try {
-    const standings = await readJsonFile(path.join(__dirname, '../tripoint-standings.json'));
-    
+    const standings = await readJsonFile(path.join(__dirname, '../data/singles-standings.json'));
+
     // Create a map to track player placements
     const playerStats = {};
-    
+
     // Process all standings data
-    for (const [eventId, eventStandings] of Object.entries(standings)) {
-      if (!Array.isArray(eventStandings)) continue;
-      
+    Object.values(standings).forEach(eventStandings => {
+      if (!Array.isArray(eventStandings)) return;
+
       eventStandings.forEach(standing => {
-        if (!standing.entrant || !standing.entrant.name) return;
-        
-        const playerName = standing.entrant.name;
+        if (!standing.entrant?.participants[0]?.user?.player?.gamerTag) return;
+
+        const playerName = standing.entrant.participants[0].user.player.gamerTag;
         const placement = standing.placement;
-        
+
         // Initialize player record if not exists
         if (!playerStats[playerName]) {
           playerStats[playerName] = {
@@ -173,7 +158,7 @@ app.get('/rankings', async (req, res) => {
             third: 0
           };
         }
-        
+
         // Count placements
         if (placement === 1) {
           playerStats[playerName].first++;
@@ -186,8 +171,8 @@ app.get('/rankings', async (req, res) => {
           playerStats[playerName].totalTop3++;
         }
       });
-    }
-    
+    });
+
     // Convert to array and sort by total top 3 placements, then by 1st, 2nd, 3rd
     const rankings = Object.values(playerStats).sort((a, b) => {
       if (b.totalTop3 !== a.totalTop3) return b.totalTop3 - a.totalTop3;
@@ -195,7 +180,7 @@ app.get('/rankings', async (req, res) => {
       if (b.second !== a.second) return b.second - a.second;
       return b.third - a.third;
     });
-    
+
     res.render('rankings', {
       rankings
     });

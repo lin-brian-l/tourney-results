@@ -21,8 +21,8 @@
 
     <main>
       <div class="breadcrumbs">
-        <a href="/">Tournaments</a> &gt; 
-        <a href="/tournament/<%= tournament.id %>"><%= tournament.name %></a> &gt; 
+        <a href="/">Tournaments</a> &gt;
+        <a href="/tournament/<%= tournament.id %>"><%= tournament.name %></a> &gt;
         <%= event.name %>
       </div>
 
@@ -32,7 +32,7 @@
         <p>Date: <%= formatDate(event.startAt) %></p>
         <p>Entrants: <%= event.numEntrants %></p>
         <p>Status: <%= event.state %></p>
-        
+
         <h3>Final Standings</h3>
         <% if (standings && standings.length > 0) { %>
           <table class="standings-table">
@@ -46,7 +46,7 @@
               <% standings.forEach(standing => { %>
                 <tr class="place-<%= standing.placement %>">
                   <td><%= standing.placement %></td>
-                  <td><%= standing.entrant.name %></td>
+                  <td><%= standing.entrant.participants[0].user.player.gamerTag %></td>
                 </tr>
               <% }); %>
             </tbody>
