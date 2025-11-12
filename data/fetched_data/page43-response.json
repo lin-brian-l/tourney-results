@@ -1,0 +1,1216 @@
+{
+  "tournaments": {
+    "nodes": [
+      {
+        "id": 495485,
+        "name": "Tripoint Smash 167",
+        "slug": "tournament/tripoint-smash-167",
+        "startAt": 1668211200,
+        "endAt": 1668232740,
+        "events": [
+          {
+            "id": 812875,
+            "name": "P+ Singles",
+            "slug": "tournament/tripoint-smash-167/event/p-singles",
+            "startAt": 1668211200,
+            "numEntrants": 17,
+            "state": "COMPLETED",
+            "standings": {
+              "nodes": [
+                {
+                  "placement": 1,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 16877,
+                          "player": {
+                            "gamerTag": "Kip"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 2,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 78348,
+                          "player": {
+                            "gamerTag": "Atomsk"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 3874,
+                          "player": {
+                            "gamerTag": "Star"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 4,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 364667,
+                          "player": {
+                            "gamerTag": "SoulOfficer"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 163413,
+                          "player": {
+                            "gamerTag": "Olivia :3"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 516275,
+                          "player": {
+                            "gamerTag": "Ken Combo Griffey Jr"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 43981,
+                          "player": {
+                            "gamerTag": "Samot"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 162387,
+                          "player": {
+                            "gamerTag": "arryu"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 9,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 409223,
+                          "player": {
+                            "gamerTag": "shad"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 9,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 3512,
+                          "player": {
+                            "gamerTag": "Maddy"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 9,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 17676,
+                          "player": {
+                            "gamerTag": "Ravenking"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 9,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 30811,
+                          "player": {
+                            "gamerTag": "Cocaine Montana"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 13,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 1021859,
+                          "player": {
+                            "gamerTag": "RAMEN!"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 13,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 271168,
+                          "player": {
+                            "gamerTag": "Noon"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 13,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 1545738,
+                          "player": {
+                            "gamerTag": "BIRB"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 13,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 61751,
+                          "player": {
+                            "gamerTag": "Stump"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 17,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 39821,
+                          "player": {
+                            "gamerTag": "Man Li Gi"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": 812897,
+            "name": "P+ Character Bans",
+            "slug": "tournament/tripoint-smash-167/event/p-character-bans",
+            "startAt": 1668211200,
+            "numEntrants": 5,
+            "state": "COMPLETED",
+            "standings": {
+              "nodes": [
+                {
+                  "placement": 1,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 3874,
+                          "player": {
+                            "gamerTag": "Star"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 2,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 43981,
+                          "player": {
+                            "gamerTag": "Samot"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 409223,
+                          "player": {
+                            "gamerTag": "shad"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 516275,
+                          "player": {
+                            "gamerTag": "Ken Combo Griffey Jr"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 163413,
+                          "player": {
+                            "gamerTag": "Olivia :3"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 497679,
+        "name": "Tripoint Smash 168",
+        "slug": "tournament/tripoint-smash-168",
+        "startAt": 1668816000,
+        "endAt": 1668837540,
+        "events": [
+          {
+            "id": 816826,
+            "name": "P+ Singles",
+            "slug": "tournament/tripoint-smash-168/event/p-singles",
+            "startAt": 1668816000,
+            "numEntrants": 19,
+            "state": "COMPLETED",
+            "standings": {
+              "nodes": [
+                {
+                  "placement": 1,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 3313,
+                          "player": {
+                            "gamerTag": "metroid"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 2,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 78348,
+                          "player": {
+                            "gamerTag": "Atomsk"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 3874,
+                          "player": {
+                            "gamerTag": "Star"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 4,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 29682,
+                          "player": {
+                            "gamerTag": "Tuck"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 10678,
+                          "player": {
+                            "gamerTag": "C#"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 3827,
+                          "player": {
+                            "gamerTag": "joey"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 3737,
+                          "player": {
+                            "gamerTag": "ORLY"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 163413,
+                          "player": {
+                            "gamerTag": "Olivia :3"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 9,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 1605128,
+                          "player": {
+                            "gamerTag": "lovestory4a"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 9,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 17676,
+                          "player": {
+                            "gamerTag": "Ravenking"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 9,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 364667,
+                          "player": {
+                            "gamerTag": "SoulOfficer"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 9,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 77752,
+                          "player": {
+                            "gamerTag": "Douhboi"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 13,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 1416675,
+                          "player": {
+                            "gamerTag": "Fenne"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 13,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 271168,
+                          "player": {
+                            "gamerTag": "Noon"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 13,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 1606635,
+                          "player": {
+                            "gamerTag": "arachnidsGrip"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 13,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 591322,
+                          "player": {
+                            "gamerTag": "influenza"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 17,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 39821,
+                          "player": {
+                            "gamerTag": "Man Li Gi"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 17,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 604883,
+                          "player": {
+                            "gamerTag": "Osama Bin Ledgedash"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 17,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 1545738,
+                          "player": {
+                            "gamerTag": "BIRB"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 499647,
+        "name": "Tripoint Smash 169",
+        "slug": "tournament/tripoint-smash-169",
+        "startAt": 1669420800,
+        "endAt": 1669442340,
+        "events": [
+          {
+            "id": 820418,
+            "name": "P+ Singles",
+            "slug": "tournament/tripoint-smash-169/event/p-singles",
+            "startAt": 1669420800,
+            "numEntrants": 21,
+            "state": "COMPLETED",
+            "standings": {
+              "nodes": [
+                {
+                  "placement": 1,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 135035,
+                          "player": {
+                            "gamerTag": "Chaloopy"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 2,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 3313,
+                          "player": {
+                            "gamerTag": "metroid"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 78348,
+                          "player": {
+                            "gamerTag": "Atomsk"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 4,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 3737,
+                          "player": {
+                            "gamerTag": "ORLY"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 3874,
+                          "player": {
+                            "gamerTag": "Star"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 3985,
+                          "player": {
+                            "gamerTag": "Trevor"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 3827,
+                          "player": {
+                            "gamerTag": "joey"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 29682,
+                          "player": {
+                            "gamerTag": "Tuck"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 9,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 4223,
+                          "player": {
+                            "gamerTag": "mawwwk"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 9,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 271168,
+                          "player": {
+                            "gamerTag": "Noon"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 9,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 909927,
+                          "player": {
+                            "gamerTag": "Jorf"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 9,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 48542,
+                          "player": {
+                            "gamerTag": "Jisp"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 13,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 24671,
+                          "player": {
+                            "gamerTag": "Forest"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 13,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 409223,
+                          "player": {
+                            "gamerTag": "shad"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 13,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 1512981,
+                          "player": {
+                            "gamerTag": "Snocc"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 13,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 163413,
+                          "player": {
+                            "gamerTag": "Olivia :3"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 17,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 279574,
+                          "player": {
+                            "gamerTag": "Andy"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 17,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 1416675,
+                          "player": {
+                            "gamerTag": "Fenne"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 17,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 136672,
+                          "player": {
+                            "gamerTag": "Havard"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 17,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 1545738,
+                          "player": {
+                            "gamerTag": "BIRB"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 17,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 5043,
+                          "player": {
+                            "gamerTag": "Nave"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": 820421,
+            "name": "PM Side Event",
+            "slug": "tournament/tripoint-smash-169/event/pm-side-event",
+            "startAt": 1669422600,
+            "numEntrants": 12,
+            "state": "COMPLETED",
+            "standings": {
+              "nodes": [
+                {
+                  "placement": 1,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 3874,
+                          "player": {
+                            "gamerTag": "Star"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 2,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 4223,
+                          "player": {
+                            "gamerTag": "mawwwk"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 48542,
+                          "player": {
+                            "gamerTag": "Jisp"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 409223,
+                          "player": {
+                            "gamerTag": "shad"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 135035,
+                          "player": {
+                            "gamerTag": "Chaloopy"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 1605128,
+                          "player": {
+                            "gamerTag": "lovestory4a"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 909927,
+                          "player": {
+                            "gamerTag": "Jorf"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 3827,
+                          "player": {
+                            "gamerTag": "joey"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 9,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 882422,
+                          "player": {
+                            "gamerTag": "Kiwi"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 9,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 78348,
+                          "player": {
+                            "gamerTag": "Atomsk"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 9,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 268702,
+                          "player": {
+                            "gamerTag": "Amazon"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 9,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 7826,
+                          "player": {
+                            "gamerTag": "pajarito pequeño"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 483318,
+        "name": "Tripoint Stadium",
+        "slug": "tournament/tripoint-stadium",
+        "startAt": 1669478400,
+        "endAt": 1669528740,
+        "events": []
+      }
+    ],
+    "pageInfo": {
+      "totalPages": 78,
+      "page": 43,
+      "perPage": 4
+    }
+  }
+}

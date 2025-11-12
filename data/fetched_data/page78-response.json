@@ -1,0 +1,297 @@
+{
+  "tournaments": {
+    "nodes": [
+      {
+        "id": 845690,
+        "name": "Tripoint 302",
+        "slug": "tournament/tripoint-302",
+        "startAt": 1761951600,
+        "endAt": 1761973140,
+        "events": [
+          {
+            "id": 1492135,
+            "name": "Project+ Singles",
+            "slug": "tournament/tripoint-302/event/project-singles",
+            "startAt": 1761962400,
+            "numEntrants": 2,
+            "state": "CREATED",
+            "standings": {
+              "nodes": []
+            }
+          }
+        ]
+      },
+      {
+        "id": 847512,
+        "name": "Tripoint 303",
+        "slug": "tournament/tripoint-303",
+        "startAt": 1762560000,
+        "endAt": 1762581540,
+        "events": [
+          {
+            "id": 1495790,
+            "name": "Project+ Singles",
+            "slug": "tournament/tripoint-303/event/project-singles",
+            "startAt": 1762570800,
+            "numEntrants": 15,
+            "state": "COMPLETED",
+            "standings": {
+              "nodes": [
+                {
+                  "placement": 1,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 3313,
+                          "player": {
+                            "gamerTag": "metroid"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 2,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 364667,
+                          "player": {
+                            "gamerTag": "SoulOfficer"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 3,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 135035,
+                          "player": {
+                            "gamerTag": "Chaloopy"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 4,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 2387393,
+                          "player": {
+                            "gamerTag": "LIVE"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 29311,
+                          "player": {
+                            "gamerTag": "EsMod"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 5,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 3874,
+                          "player": {
+                            "gamerTag": "Star"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 604883,
+                          "player": {
+                            "gamerTag": "Osama Bin Ledgedash"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 7,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 1598939,
+                          "player": {
+                            "gamerTag": "Jertop"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 9,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 271168,
+                          "player": {
+                            "gamerTag": "Noon"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 9,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 50109,
+                          "player": {
+                            "gamerTag": "Autumn"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 9,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 2932347,
+                          "player": {
+                            "gamerTag": "Reala"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 9,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 2590274,
+                          "player": {
+                            "gamerTag": "Kangaroo"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 13,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 1373446,
+                          "player": {
+                            "gamerTag": "Ashes"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 13,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 763946,
+                          "player": {
+                            "gamerTag": "Cherry"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "placement": 13,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 2934454,
+                          "player": {
+                            "gamerTag": "El Mexican"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 850277,
+        "name": "Tripoint 304",
+        "slug": "tournament/tripoint-304",
+        "startAt": 1763164800,
+        "endAt": 1763186340,
+        "events": [
+          {
+            "id": 1501203,
+            "name": "Project+ Singles",
+            "slug": "tournament/tripoint-304/event/project-singles",
+            "startAt": 1763175600,
+            "numEntrants": 0,
+            "state": "CREATED",
+            "standings": {
+              "nodes": []
+            }
+          }
+        ]
+      }
+    ],
+    "pageInfo": {
+      "totalPages": 78,
+      "page": 78,
+      "perPage": 4
+    }
+  }
+}

@@ -1,6 +1,6 @@
 # Tournament Results Viewer
 
-A web application that displays tournament data from the start.gg API, showing tournaments, events, and player rankings.
+An Express web application that displays tournament data from the start.gg API, showing tournaments, events, and player rankings.
 
 ## Features
 
