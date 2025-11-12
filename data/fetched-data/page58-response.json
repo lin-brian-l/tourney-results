@@ -14,7 +14,6 @@
             "slug": "tournament/tripoint-smash-223/event/p-singles",
             "startAt": 1707523200,
             "numEntrants": 17,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -290,7 +289,6 @@
             "slug": "tournament/tripoint-smash-224-lemesis-edition/event/p-singles",
             "startAt": 1708128000,
             "numEntrants": 12,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -491,7 +489,6 @@
             "slug": "tournament/tripoint-smash-225/event/p-singles",
             "startAt": 1709337600,
             "numEntrants": 22,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -842,7 +839,6 @@
             "slug": "tournament/tripoint-smash-226/event/p-singles",
             "startAt": 1709942400,
             "numEntrants": 10,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {

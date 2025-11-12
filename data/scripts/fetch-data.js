@@ -1,15 +1,15 @@
 /**
- * Script to fetch tournament data from start.gg API.
+ * Script to fetch tournament data from start.gg API. This should be run from the root of this application (`/tourney-results`).
  *
- * Usage: node fetch-data.js --perPage=<number> --startPage=<number> --endPage=<number>
+ * Usage: node data/scripts/fetch-data.js --perPage=<number> --startPage=<number> --endPage=<number>
  *
  * --perPage: The number of tournaments to display per page of results. Defaults to 4 to avoid start.gg query limits.
  * --startPage: The starting page of tournament results to query. Defaults to 1.
  * --endPage: The ending page of tournament results to query, stopping queries once the page number exceeds this limit.
  *
- * Example: node fetch-data.js
- * Example: node fetch-data.js --startPage=48
- * Example: node fetch-data.js --perPage=10 --startPage=2 --endPage=5
+ * Example: node data/scripts/fetch-data.js
+ * Example: node data/scripts/fetch-data.js --startPage=48
+ * Example: node data/scripts/fetch-data.js --perPage=10 --startPage=2 --endPage=5
  */
 import { request, gql } from 'graphql-request';
 import fs from 'fs';
@@ -62,7 +62,6 @@ const query = gql`
           slug
           startAt
           numEntrants
-          state
           standings(query: { page: 1, perPage: 100 }) {
             nodes {
               placement
@@ -128,7 +127,8 @@ async function fetchData(pageNum, endPage) {
 
     if (hasResults) {
       // Write response to file
-      const outputFile = `./data/fetched_data/page${pageNum}-response.json`;
+      const outputFile = `./data/fetched-data/page${pageNum}-response.json`;
+      console.log(`outputFile: ${outputFile}`);
       fs.writeFileSync(outputFile, JSON.stringify(data, null, 2));
       console.log(`Response saved to ${outputFile}. Continuing to fetch data.`);
 

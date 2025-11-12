@@ -14,7 +14,6 @@
             "slug": "tournament/tripoint-smash-167/event/p-singles",
             "startAt": 1668211200,
             "numEntrants": 17,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -281,7 +280,6 @@
             "slug": "tournament/tripoint-smash-167/event/p-character-bans",
             "startAt": 1668211200,
             "numEntrants": 5,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -377,7 +375,6 @@
             "slug": "tournament/tripoint-smash-168/event/p-singles",
             "startAt": 1668816000,
             "numEntrants": 19,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -683,7 +680,6 @@
             "slug": "tournament/tripoint-smash-169/event/p-singles",
             "startAt": 1669420800,
             "numEntrants": 21,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -1010,7 +1006,6 @@
             "slug": "tournament/tripoint-smash-169/event/pm-side-event",
             "startAt": 1669422600,
             "numEntrants": 12,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {

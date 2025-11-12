@@ -14,7 +14,6 @@
             "slug": "tournament/tripoint-smash-254/event/p-singles",
             "startAt": 1728687600,
             "numEntrants": 13,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -230,7 +229,6 @@
             "slug": "tournament/tripoint-community-day/event/project-m-3-02",
             "startAt": 1729296000,
             "numEntrants": 13,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -437,7 +435,6 @@
             "slug": "tournament/tripoint-community-day/event/project-m-3-6",
             "startAt": 1729303200,
             "numEntrants": 13,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -653,7 +650,6 @@
             "slug": "tournament/tripoint-smash-255-rivals-of-aether-ii-launch/event/p-singles",
             "startAt": 1729897200,
             "numEntrants": 24,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -1034,7 +1030,6 @@
             "slug": "tournament/tripoint-smash-256/event/p-singles",
             "startAt": 1730502000,
             "numEntrants": 7,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {

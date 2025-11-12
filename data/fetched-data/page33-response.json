@@ -14,7 +14,6 @@
             "slug": "tournament/tripoint-smash-128-ft-joey-s-birthday-bash/event/p-singles",
             "startAt": 1643414400,
             "numEntrants": 75,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -1160,7 +1159,6 @@
             "slug": "tournament/tripoint-smash-129/event/p-singles",
             "startAt": 1644019200,
             "numEntrants": 13,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -1376,7 +1374,6 @@
             "slug": "tournament/tripoint-smash-130/event/p-singles",
             "startAt": 1644624000,
             "numEntrants": 19,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -1682,7 +1679,6 @@
             "slug": "tournament/tripoint-smash-131/event/p-singles",
             "startAt": 1645228800,
             "numEntrants": 18,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {

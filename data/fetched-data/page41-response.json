@@ -22,7 +22,6 @@
             "slug": "tournament/tripoint-smash-160/event/pm-side-event",
             "startAt": 1663974000,
             "numEntrants": 0,
-            "state": "CREATED",
             "standings": {
               "nodes": []
             }
@@ -33,7 +32,6 @@
             "slug": "tournament/tripoint-smash-160/event/p-singles",
             "startAt": 1663974000,
             "numEntrants": 26,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -444,7 +442,6 @@
             "slug": "tournament/tripoint-smash-161/event/p-singles",
             "startAt": 1664578800,
             "numEntrants": 16,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -705,7 +702,6 @@
             "slug": "tournament/tripoint-smash-162/event/p-singles",
             "startAt": 1665183600,
             "numEntrants": 18,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -987,7 +983,6 @@
             "slug": "tournament/tripoint-smash-162/event/project-m-side-bracket",
             "startAt": 1665185400,
             "numEntrants": 6,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {

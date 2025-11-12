@@ -14,7 +14,6 @@
             "slug": "tournament/tripoint-smash-215/event/p-singles",
             "startAt": 1702080000,
             "numEntrants": 15,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -260,7 +259,6 @@
             "slug": "tournament/tripoint-smash-216/event/p-singles",
             "startAt": 1702684800,
             "numEntrants": 25,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -656,7 +654,6 @@
             "slug": "tournament/a-holly-jolly-tripoint-smash-217/event/p-singles",
             "startAt": 1703289600,
             "numEntrants": 15,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -902,7 +899,6 @@
             "slug": "tournament/tripoint-smash-218/event/p-singles",
             "startAt": 1703894400,
             "numEntrants": 21,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {

@@ -14,7 +14,6 @@
             "slug": "tournament/tripoint-smash-193/event/p-singles",
             "startAt": 1686351600,
             "numEntrants": 13,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -230,7 +229,6 @@
             "slug": "tournament/tripoint-smash-fgc-returns/event/p-singles",
             "startAt": 1686956400,
             "numEntrants": 21,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -566,7 +564,6 @@
             "slug": "tournament/tripoint-smash-194/event/p-singles",
             "startAt": 1687572000,
             "numEntrants": 19,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -872,7 +869,6 @@
             "slug": "tournament/tripoint-smash-195-pridepoint/event/p-singles",
             "startAt": 1688166000,
             "numEntrants": 29,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {

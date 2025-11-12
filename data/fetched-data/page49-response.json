@@ -14,7 +14,6 @@
             "slug": "tournament/tripoint-smash-189/event/p-singles",
             "startAt": 1683932400,
             "numEntrants": 12,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -215,7 +214,6 @@
             "slug": "tournament/tripoint-smash-190/event/p-singles",
             "startAt": 1684537200,
             "numEntrants": 18,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -497,7 +495,6 @@
             "slug": "tournament/tripoint-smash-190/event/p-lethal-league-starts-at-6-30",
             "startAt": 1684539000,
             "numEntrants": 5,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -593,7 +590,6 @@
             "slug": "tournament/tripoint-smash-191/event/p-singles",
             "startAt": 1685142000,
             "numEntrants": 17,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -869,7 +865,6 @@
             "slug": "tournament/tripoint-smash-192-a-pm-concert-qualifier/event/p-singles-a-pm-concert-symphony-qualifier",
             "startAt": 1685754000,
             "numEntrants": 29,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -1316,7 +1311,6 @@
             "slug": "tournament/tripoint-smash-192-a-pm-concert-qualifier/event/p-lethal-league-starts-at-6-30",
             "startAt": 1685746800,
             "numEntrants": 0,
-            "state": "CREATED",
             "standings": {
               "nodes": []
             }

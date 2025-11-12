@@ -14,7 +14,6 @@
             "slug": "tournament/tripoint-smash-185/event/p-side-event-starts-at-6-30",
             "startAt": 1681513200,
             "numEntrants": 0,
-            "state": "CREATED",
             "standings": {
               "nodes": []
             }
@@ -25,7 +24,6 @@
             "slug": "tournament/tripoint-smash-185/event/p-singles",
             "startAt": 1681513200,
             "numEntrants": 21,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -361,7 +359,6 @@
             "slug": "tournament/tripoint-smash-186-the-saturday-stadium-2-prelocal/event/p-singles",
             "startAt": 1682118000,
             "numEntrants": 10,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -532,7 +529,6 @@
             "slug": "tournament/tripoint-smash-187/event/honeypot-5-p-pre-local",
             "startAt": 1682722800,
             "numEntrants": 16,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -793,7 +789,6 @@
             "slug": "tournament/tripoint-smash-188/event/p-side-event-starts-at-6-30",
             "startAt": 1683327600,
             "numEntrants": 0,
-            "state": "CREATED",
             "standings": {
               "nodes": []
             }
@@ -804,7 +799,6 @@
             "slug": "tournament/tripoint-smash-188/event/p-singles",
             "startAt": 1683327600,
             "numEntrants": 12,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {

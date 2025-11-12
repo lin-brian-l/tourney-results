@@ -14,7 +14,6 @@
             "slug": "tournament/tripoint-smash-235/event/p-singles",
             "startAt": 1715382000,
             "numEntrants": 16,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -275,7 +274,6 @@
             "slug": "tournament/tripoint-smash-236/event/p-singles",
             "startAt": 1715986800,
             "numEntrants": 19,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -581,7 +579,6 @@
             "slug": "tournament/tripoint-smash-presents-super-tps-iii/event/project-m-3-02-singles",
             "startAt": 1716588000,
             "numEntrants": 12,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -773,7 +770,6 @@
             "slug": "tournament/tripoint-smash-presents-super-tps-iii/event/project-m-3-6-singles",
             "startAt": 1716595200,
             "numEntrants": 18,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -1055,7 +1051,6 @@
             "slug": "tournament/tripoint-smash-presents-super-tps-iii/event/project-singles",
             "startAt": 1716602400,
             "numEntrants": 41,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -1691,7 +1686,6 @@
             "slug": "tournament/tripoint-smash-237/event/p-singles",
             "startAt": 1717801200,
             "numEntrants": 29,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {

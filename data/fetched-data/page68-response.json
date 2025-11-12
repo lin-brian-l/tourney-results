@@ -14,7 +14,6 @@
             "slug": "tournament/tripoint-261/event/p-singles",
             "startAt": 1734134400,
             "numEntrants": 19,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -320,7 +319,6 @@
             "slug": "tournament/tripoint-community-day-winter-2024/event/p-singles",
             "startAt": 1734739200,
             "numEntrants": 9,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -471,7 +469,6 @@
             "slug": "tournament/tripoint-262-chicago-summit-ultimate-qualifier/event/p-singles",
             "startAt": 1735344000,
             "numEntrants": 17,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -747,7 +744,6 @@
             "slug": "tournament/tripoint-smash-263/event/p-singles",
             "startAt": 1735948800,
             "numEntrants": 9,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {

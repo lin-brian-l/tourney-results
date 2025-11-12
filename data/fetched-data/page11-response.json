@@ -14,7 +14,6 @@
             "slug": "tournament/tripoint-smash-41/event/project-m-singles",
             "startAt": 1546041600,
             "numEntrants": 26,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -410,7 +409,6 @@
             "slug": "tournament/tripoint-smash-42/event/project-m-singles",
             "startAt": 1546646400,
             "numEntrants": 32,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -881,7 +879,6 @@
             "slug": "tournament/tripoint-smash-43/event/project-m-singles",
             "startAt": 1547251200,
             "numEntrants": 28,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -1307,7 +1304,6 @@
             "slug": "tournament/tripoint-smash-44-ft-doubles-and-squad-strike-1/event/project-m-singles",
             "startAt": 1547856000,
             "numEntrants": 18,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {

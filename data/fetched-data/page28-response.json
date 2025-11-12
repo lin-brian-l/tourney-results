@@ -14,7 +14,6 @@
             "slug": "tournament/tripoint-smash-108-ft-ppa-vs-yacht-club-crew-battle/event/p-singles",
             "startAt": 1628290800,
             "numEntrants": 22,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -365,7 +364,6 @@
             "slug": "tournament/tripoint-smash-109/event/p-singles",
             "startAt": 1628895600,
             "numEntrants": 36,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -926,7 +924,6 @@
             "slug": "tournament/tripoint-smash-110/event/p-singles",
             "startAt": 1629500400,
             "numEntrants": 23,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -1292,7 +1289,6 @@
             "slug": "tournament/tripoint-smash-111/event/p-singles",
             "startAt": 1630105200,
             "numEntrants": 21,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {

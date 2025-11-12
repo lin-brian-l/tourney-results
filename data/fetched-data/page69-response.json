@@ -14,7 +14,6 @@
             "slug": "tournament/tripoint-264/event/p-singles",
             "startAt": 1736553600,
             "numEntrants": 11,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -200,7 +199,6 @@
             "slug": "tournament/tripoint-smash-265/event/p-singles",
             "startAt": 1737158400,
             "numEntrants": 10,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -371,7 +369,6 @@
             "slug": "tournament/tripoint-266/event/p-singles",
             "startAt": 1738368000,
             "numEntrants": 8,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -512,7 +509,6 @@
             "slug": "tournament/tripoint-267/event/p-singles",
             "startAt": 1738972800,
             "numEntrants": 10,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {

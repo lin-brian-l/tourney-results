@@ -14,7 +14,6 @@
             "slug": "tournament/tripoint-smash-199-the-pm-concert-symphony-prelocal/event/p-singles",
             "startAt": 1691794800,
             "numEntrants": 18,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -305,7 +304,6 @@
             "slug": "tournament/tripoint-smash-200/event/p-singles",
             "startAt": 1692410400,
             "numEntrants": 36,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -866,7 +864,6 @@
             "slug": "tournament/tripoint-smash-201-2/event/p-singles",
             "startAt": 1693004400,
             "numEntrants": 23,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -1232,7 +1229,6 @@
             "slug": "tournament/tripoint-smash-202/event/p-singles",
             "startAt": 1693609200,
             "numEntrants": 14,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {

@@ -14,7 +14,6 @@
             "slug": "tournament/tripoint-smash-151-pre-invincible-tps-feat-kumatora-pikmon-and/event/p-singles",
             "startAt": 1657926000,
             "numEntrants": 43,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -680,7 +679,6 @@
             "slug": "tournament/tripoint-smash-152/event/p-singles",
             "startAt": 1658530800,
             "numEntrants": 3,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -746,7 +744,6 @@
             "slug": "tournament/tripoint-smash-153/event/pm-side-event",
             "startAt": 1659136500,
             "numEntrants": 0,
-            "state": "CREATED",
             "standings": {
               "nodes": []
             }
@@ -757,7 +754,6 @@
             "slug": "tournament/tripoint-smash-153/event/p-singles",
             "startAt": 1659135600,
             "numEntrants": 17,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -1033,7 +1029,6 @@
             "slug": "tournament/tripoint-smash-154/event/pm-side-event",
             "startAt": 1659741300,
             "numEntrants": 6,
-            "state": "ACTIVE",
             "standings": {
               "nodes": [
                 {
@@ -1135,7 +1130,6 @@
             "slug": "tournament/tripoint-smash-154/event/p-singles",
             "startAt": 1659740400,
             "numEntrants": 11,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {

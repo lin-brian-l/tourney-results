@@ -14,7 +14,6 @@
             "slug": "tournament/tripoint-smash-89/event/project-m-singles",
             "startAt": 1576281600,
             "numEntrants": 0,
-            "state": "CREATED",
             "standings": {
               "nodes": []
             }
@@ -25,7 +24,6 @@
             "slug": "tournament/tripoint-smash-89/event/tri-again-for-a-bonus-point-pm",
             "startAt": 1576281600,
             "numEntrants": 0,
-            "state": "CREATED",
             "standings": {
               "nodes": []
             }
@@ -45,7 +43,6 @@
             "slug": "tournament/tripoint-smash-89-1/event/p-singles",
             "startAt": 1576886400,
             "numEntrants": 14,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -276,7 +273,6 @@
             "slug": "tournament/tripoint-smash-90/event/p-singles",
             "startAt": 1577491221,
             "numEntrants": 24,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -647,7 +643,6 @@
             "slug": "tournament/tripoint-smash-91/event/p-singles",
             "startAt": 1578096000,
             "numEntrants": 18,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {

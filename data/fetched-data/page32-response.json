@@ -14,7 +14,6 @@
             "slug": "tournament/tripoint-smash-124-feat-motobug-for-p/event/p-singles",
             "startAt": 1639180800,
             "numEntrants": 29,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -465,7 +464,6 @@
             "slug": "tournament/tripoint-smash-125-the-last-one-for-the-year/event/p-singles",
             "startAt": 1639785600,
             "numEntrants": 24,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -846,7 +844,6 @@
             "slug": "tournament/tripoint-smash-126/event/p-singles",
             "startAt": 1642204800,
             "numEntrants": 16,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -1107,7 +1104,6 @@
             "slug": "tournament/tripoint-smash-127/event/p-singles",
             "startAt": 1642809600,
             "numEntrants": 15,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {

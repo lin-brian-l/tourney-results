@@ -14,7 +14,6 @@
             "slug": "tournament/tripoint-284/event/project-singles",
             "startAt": 1750460400,
             "numEntrants": 19,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -320,7 +319,6 @@
             "slug": "tournament/tripoint-285/event/project-singles",
             "startAt": 1751670000,
             "numEntrants": 11,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -506,7 +504,6 @@
             "slug": "tournament/tripoint-286-featuring-unranked-doubles/event/project-arcadian-singles",
             "startAt": 1752890400,
             "numEntrants": 37,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -1082,7 +1079,6 @@
             "slug": "tournament/tripoint-287/event/project-doubles",
             "startAt": 1753484400,
             "numEntrants": 0,
-            "state": "CREATED",
             "standings": {
               "nodes": []
             }
@@ -1093,7 +1089,6 @@
             "slug": "tournament/tripoint-287/event/project-singles",
             "startAt": 1753484400,
             "numEntrants": 10,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {

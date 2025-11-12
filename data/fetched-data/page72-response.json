@@ -14,7 +14,6 @@
             "slug": "tournament/tripoint-276/event/project-singles",
             "startAt": 1745017200,
             "numEntrants": 16,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -275,7 +274,6 @@
             "slug": "tournament/tripoint-277/event/project-singles",
             "startAt": 1745622000,
             "numEntrants": 10,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -446,7 +444,6 @@
             "slug": "tournament/tripoint-278/event/project-singles",
             "startAt": 1746226800,
             "numEntrants": 12,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -647,7 +644,6 @@
             "slug": "tournament/tripoint-279/event/project-singles",
             "startAt": 1746831600,
             "numEntrants": 11,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {

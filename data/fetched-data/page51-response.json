@@ -14,7 +14,6 @@
             "slug": "tournament/tripoint-smash-196/event/p-singles",
             "startAt": 1688770800,
             "numEntrants": 21,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -350,7 +349,6 @@
             "slug": "tournament/tripoint-smash-197/event/p-singles",
             "startAt": 1689980400,
             "numEntrants": 11,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -536,7 +534,6 @@
             "slug": "tournament/tripoint-romeoville-rumble-the-warp-zone-2-prelocal/event/p-singles",
             "startAt": 1690585200,
             "numEntrants": 50,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -1307,7 +1304,6 @@
             "slug": "tournament/tripoint-smash-198/event/p-singles",
             "startAt": 1691190000,
             "numEntrants": 23,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {

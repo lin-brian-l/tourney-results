@@ -14,7 +14,6 @@
             "slug": "tournament/tripoint-smash-136/event/p-singles",
             "startAt": 1648249200,
             "numEntrants": 17,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -290,7 +289,6 @@
             "slug": "tournament/tripoint-smash-137/event/april-fool-s-pm-event",
             "startAt": 1648864800,
             "numEntrants": 14,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -521,7 +519,6 @@
             "slug": "tournament/tripoint-smash-138/event/p-singles",
             "startAt": 1649458800,
             "numEntrants": 20,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
@@ -842,7 +839,6 @@
             "slug": "tournament/tripoint-smash-139/event/p-singles",
             "startAt": 1650063600,
             "numEntrants": 26,
-            "state": "COMPLETED",
             "standings": {
               "nodes": [
                 {
