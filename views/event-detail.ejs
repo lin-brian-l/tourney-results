@@ -46,7 +46,7 @@
               <% standings.forEach(standing => { %>
                 <tr class="place-<%= standing.placement %>">
                   <td><%= standing.placement %></td>
-                  <td><%= standing.entrant.participants[0].user.player.gamerTag %></td>
+                  <td><%= standing.entrant?.participants[0]?.user?.player?.gamerTag || 'Unknown Player' %></td>
                 </tr>
               <% }); %>
             </tbody>

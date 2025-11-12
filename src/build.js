@@ -1,0 +1,273 @@
+import 'dotenv/config';
+import express from 'express';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import fs from 'fs/promises';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Import the app setup from index.js
+const app = express();
+
+// Set up EJS as the view engine
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, '../views'));
+
+// Middleware
+app.use(express.urlencoded({ extended: true }));
+app.use(express.static(path.join(__dirname, '../public')));
+
+// Function to read JSON files
+async function readJsonFile(filePath) {
+  try {
+    const data = await fs.readFile(filePath, 'utf8');
+    return JSON.parse(data);
+  } catch (error) {
+    console.error(`Error reading file ${filePath}:`, error);
+    return null;
+  }
+}
+
+// Routes (copied from index.js)
+app.get('/', async (req, res) => {
+  try {
+    const tournaments = await readJsonFile(path.join(__dirname, '../data/tournaments.json'));
+    const tournamentsArray = Object.values(tournaments || {}).sort((a, b) => b.startAt - a.startAt);
+    res.render('tournaments', {
+      tournaments: tournamentsArray,
+      formatDate: (timestamp) => new Date(timestamp * 1000).toLocaleDateString()
+    });
+  } catch (error) {
+    res.status(500).render('error', { error: 'Error loading tournament data' });
+  }
+});
+
+app.get('/tournament/:id', async (req, res) => {
+  try {
+    const tournamentId = req.params.id;
+    const tournaments = await readJsonFile(path.join(__dirname, '../data/tournaments.json'));
+    const events = await readJsonFile(path.join(__dirname, '../data/singles-events.json'));
+    const tournament = tournaments[tournamentId];
+    const tournamentEvents = tournament.events.map(eventId => events[eventId]);
+
+    if (!tournament) {
+      return res.status(404).render('error', { error: 'Tournament not found' });
+    }
+
+    res.render('tournament-detail', {
+      tournament,
+      events: tournamentEvents,
+      formatDate: (timestamp) => new Date(timestamp * 1000).toLocaleDateString()
+    });
+  } catch (error) {
+    res.status(500).render('error', { error: 'Error loading tournament details' });
+  }
+});
+
+app.get('/tournament/:tournamentId/event/:eventId', async (req, res) => {
+  try {
+    const tournamentId = req.params.tournamentId;
+    const eventId = req.params.eventId;
+    const tournaments = await readJsonFile(path.join(__dirname, '../data/tournaments.json'));
+    const events = await readJsonFile(path.join(__dirname, '../data/singles-events.json'));
+    const standings = await readJsonFile(path.join(__dirname, '../data/singles-standings.json'));
+    const tournament = tournaments[tournamentId];
+    const event = events[eventId];
+    const eventStandings = standings[eventId] || [];
+
+    if (!event) {
+      return res.status(404).render('error', { error: 'Event not found' });
+    }
+
+    res.render('event-detail', {
+      event,
+      tournament,
+      standings: eventStandings,
+      formatDate: (timestamp) => new Date(timestamp * 1000).toLocaleDateString()
+    });
+  } catch (error) {
+    console.error('Error in /event/:id route:', error);
+    res.status(500).render('error', { error: 'Error loading event details' });
+  }
+});
+
+app.get('/all-events', async (req, res) => {
+  try {
+    const tournaments = await readJsonFile(path.join(__dirname, '../data/tournaments.json'));
+    const events = await readJsonFile(path.join(__dirname, '../data/singles-events.json'));
+    const standings = await readJsonFile(path.join(__dirname, '../data/singles-standings.json'));
+
+    const allEvents = [];
+    Object.values(tournaments).forEach(tournament => {
+      tournament.events.forEach(eventId => {
+        allEvents.push({
+          event: events[eventId],
+          tournament,
+          hasStandings: !!standings[eventId],
+        });
+      });
+    });
+
+    allEvents.sort((a, b) => b.event.startAt - a.event.startAt);
+
+    res.render('all-events', {
+      events: allEvents,
+      formatDate: (timestamp) => new Date(timestamp * 1000).toLocaleDateString()
+    });
+  } catch (error) {
+    console.error('Error in /all-events route:', error);
+    res.status(500).render('error', { error: 'Error loading events data' });
+  }
+});
+
+app.get('/rankings', async (req, res) => {
+  try {
+    const standings = await readJsonFile(path.join(__dirname, '../data/singles-standings.json'));
+    const playerStats = {};
+
+    Object.values(standings).forEach(eventStandings => {
+      if (!Array.isArray(eventStandings)) return;
+
+      eventStandings.forEach(standing => {
+        if (!standing.entrant?.participants[0]?.user?.player?.gamerTag) return;
+
+        const playerName = standing.entrant.participants[0].user.player.gamerTag;
+        const placement = standing.placement;
+
+        if (!playerStats[playerName]) {
+          playerStats[playerName] = {
+            name: playerName,
+            totalTop3: 0,
+            first: 0,
+            second: 0,
+            third: 0
+          };
+        }
+
+        if (placement === 1) {
+          playerStats[playerName].first++;
+          playerStats[playerName].totalTop3++;
+        } else if (placement === 2) {
+          playerStats[playerName].second++;
+          playerStats[playerName].totalTop3++;
+        } else if (placement === 3) {
+          playerStats[playerName].third++;
+          playerStats[playerName].totalTop3++;
+        }
+      });
+    });
+
+    const rankings = Object.values(playerStats).sort((a, b) => {
+      if (b.totalTop3 !== a.totalTop3) return b.totalTop3 - a.totalTop3;
+      if (b.first !== a.first) return b.first - a.first;
+      if (b.second !== a.second) return b.second - a.second;
+      return b.third - a.third;
+    });
+
+    res.render('rankings', {
+      rankings
+    });
+  } catch (error) {
+    console.error('Error in /rankings route:', error);
+    res.status(500).render('error', { error: 'Error loading rankings data' });
+  }
+});
+
+// Build function to generate static files
+async function build() {
+  const outputDir = path.join(__dirname, '../docs');
+
+  console.log('Starting static site build...');
+
+  // Clean output directory
+  try {
+    await fs.rm(outputDir, { recursive: true, force: true });
+  } catch (error) {
+    // Directory might not exist, that's fine
+  }
+  await fs.mkdir(outputDir, { recursive: true });
+
+  // Helper function to fetch and save a route
+  const saveRoute = async (route, filename) => {
+    return new Promise((resolve, reject) => {
+      const server = app.listen(0, async () => {
+        try {
+          const port = server.address().port;
+          const response = await fetch(`http://localhost:${port}${route}`);
+          const html = await response.text();
+
+          const filePath = path.join(outputDir, filename);
+          await fs.mkdir(path.dirname(filePath), { recursive: true });
+          await fs.writeFile(filePath, html);
+
+          console.log(`✓ Generated ${filename}`);
+          server.close(() => resolve());
+        } catch (error) {
+          server.close(() => reject(error));
+        }
+      });
+    });
+  };
+
+  try {
+    // Generate home page
+    await saveRoute('/', 'index.html');
+
+    // Generate all-events page
+    await saveRoute('/all-events', 'all-events.html');
+
+    // Generate rankings page
+    await saveRoute('/rankings', 'rankings.html');
+
+    // Get tournament and event data to generate all detail pages
+    const tournaments = await readJsonFile(path.join(__dirname, '../data/tournaments.json'));
+    const events = await readJsonFile(path.join(__dirname, '../data/singles-events.json'));
+
+    // Generate tournament detail pages
+    for (const tournamentId of Object.keys(tournaments)) {
+      await saveRoute(`/tournament/${tournamentId}`, `tournament/${tournamentId}.html`);
+    }
+
+    // Generate event detail pages
+    for (const [tournamentId, tournament] of Object.entries(tournaments)) {
+      for (const eventId of tournament.events) {
+        await saveRoute(
+          `/tournament/${tournamentId}/event/${eventId}`,
+          `tournament/${tournamentId}/event/${eventId}.html`
+        );
+      }
+    }
+
+    // Copy public directory
+    const publicDir = path.join(__dirname, '../public');
+    const publicOutputDir = path.join(outputDir);
+
+    async function copyDir(src, dest) {
+      await fs.mkdir(dest, { recursive: true });
+      const entries = await fs.readdir(src, { withFileTypes: true });
+
+      for (const entry of entries) {
+        const srcPath = path.join(src, entry.name);
+        const destPath = path.join(dest, entry.name);
+
+        if (entry.isDirectory()) {
+          await copyDir(srcPath, destPath);
+        } else {
+          await fs.copyFile(srcPath, destPath);
+        }
+      }
+    }
+
+    await copyDir(publicDir, publicOutputDir);
+    console.log('✓ Copied public assets');
+
+    console.log('\n✅ Build complete! Static files generated in ./docs');
+  } catch (error) {
+    console.error('❌ Build failed:', error);
+    process.exit(1);
+  }
+}
+
+// Run the build
+build();
