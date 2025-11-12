@@ -64,6 +64,7 @@ const query = gql`
           numEntrants
           standings(query: { page: 1, perPage: 100 }) {
             nodes {
+              id
               placement
               entrant {
                 participants {

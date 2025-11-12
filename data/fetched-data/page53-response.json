@@ -25,6 +25,7 @@
             "standings": {
               "nodes": [
                 {
+                  "id": 58117131,
                   "placement": 1,
                   "entrant": {
                     "participants": [
@@ -40,6 +41,7 @@
                   }
                 },
                 {
+                  "id": 58117133,
                   "placement": 2,
                   "entrant": {
                     "participants": [
@@ -55,6 +57,7 @@
                   }
                 },
                 {
+                  "id": 58117129,
                   "placement": 3,
                   "entrant": {
                     "participants": [
@@ -70,6 +73,7 @@
                   }
                 },
                 {
+                  "id": 58117134,
                   "placement": 4,
                   "entrant": {
                     "participants": [
@@ -85,6 +89,7 @@
                   }
                 },
                 {
+                  "id": 58117124,
                   "placement": 5,
                   "entrant": {
                     "participants": [
@@ -100,6 +105,7 @@
                   }
                 },
                 {
+                  "id": 58117125,
                   "placement": 5,
                   "entrant": {
                     "participants": [
@@ -115,6 +121,7 @@
                   }
                 },
                 {
+                  "id": 58117127,
                   "placement": 7,
                   "entrant": {
                     "participants": [
@@ -130,6 +137,7 @@
                   }
                 },
                 {
+                  "id": 58117128,
                   "placement": 7,
                   "entrant": {
                     "participants": [
@@ -145,6 +153,7 @@
                   }
                 },
                 {
+                  "id": 58117123,
                   "placement": 9,
                   "entrant": {
                     "participants": [
@@ -160,6 +169,7 @@
                   }
                 },
                 {
+                  "id": 58117126,
                   "placement": 9,
                   "entrant": {
                     "participants": [
@@ -175,6 +185,7 @@
                   }
                 },
                 {
+                  "id": 58117130,
                   "placement": 9,
                   "entrant": {
                     "participants": [
@@ -190,6 +201,7 @@
                   }
                 },
                 {
+                  "id": 58117132,
                   "placement": 9,
                   "entrant": {
                     "participants": [
@@ -225,6 +237,7 @@
             "standings": {
               "nodes": [
                 {
+                  "id": 58409814,
                   "placement": 1,
                   "entrant": {
                     "participants": [
@@ -240,6 +253,7 @@
                   }
                 },
                 {
+                  "id": 58409815,
                   "placement": 2,
                   "entrant": {
                     "participants": [
@@ -255,6 +269,7 @@
                   }
                 },
                 {
+                  "id": 58409820,
                   "placement": 3,
                   "entrant": {
                     "participants": [
@@ -270,6 +285,7 @@
                   }
                 },
                 {
+                  "id": 58409821,
                   "placement": 4,
                   "entrant": {
                     "participants": [
@@ -285,6 +301,7 @@
                   }
                 },
                 {
+                  "id": 58409822,
                   "placement": 5,
                   "entrant": {
                     "participants": [
@@ -300,6 +317,7 @@
                   }
                 },
                 {
+                  "id": 58409823,
                   "placement": 5,
                   "entrant": {
                     "participants": [
@@ -315,6 +333,7 @@
                   }
                 },
                 {
+                  "id": 58409816,
                   "placement": 7,
                   "entrant": {
                     "participants": [
@@ -330,6 +349,7 @@
                   }
                 },
                 {
+                  "id": 58409818,
                   "placement": 7,
                   "entrant": {
                     "participants": [
@@ -345,6 +365,7 @@
                   }
                 },
                 {
+                  "id": 58409817,
                   "placement": 9,
                   "entrant": {
                     "participants": [
@@ -360,6 +381,7 @@
                   }
                 },
                 {
+                  "id": 58409819,
                   "placement": 9,
                   "entrant": {
                     "participants": [
@@ -395,6 +417,7 @@
             "standings": {
               "nodes": [
                 {
+                  "id": 58703051,
                   "placement": 1,
                   "entrant": {
                     "participants": [
@@ -410,6 +433,7 @@
                   }
                 },
                 {
+                  "id": 58703056,
                   "placement": 2,
                   "entrant": {
                     "participants": [
@@ -425,6 +449,7 @@
                   }
                 },
                 {
+                  "id": 58703060,
                   "placement": 3,
                   "entrant": {
                     "participants": [
@@ -440,6 +465,7 @@
                   }
                 },
                 {
+                  "id": 58703052,
                   "placement": 4,
                   "entrant": {
                     "participants": [
@@ -455,6 +481,7 @@
                   }
                 },
                 {
+                  "id": 58703050,
                   "placement": 5,
                   "entrant": {
                     "participants": [
@@ -470,6 +497,7 @@
                   }
                 },
                 {
+                  "id": 58703058,
                   "placement": 5,
                   "entrant": {
                     "participants": [
@@ -485,6 +513,7 @@
                   }
                 },
                 {
+                  "id": 58703054,
                   "placement": 7,
                   "entrant": {
                     "participants": [
@@ -500,6 +529,7 @@
                   }
                 },
                 {
+                  "id": 58703062,
                   "placement": 7,
                   "entrant": {
                     "participants": [
@@ -515,6 +545,7 @@
                   }
                 },
                 {
+                  "id": 58703049,
                   "placement": 9,
                   "entrant": {
                     "participants": [
@@ -530,6 +561,7 @@
                   }
                 },
                 {
+                  "id": 58703053,
                   "placement": 9,
                   "entrant": {
                     "participants": [
@@ -545,6 +577,7 @@
                   }
                 },
                 {
+                  "id": 58703059,
                   "placement": 9,
                   "entrant": {
                     "participants": [
@@ -560,6 +593,7 @@
                   }
                 },
                 {
+                  "id": 58703063,
                   "placement": 9,
                   "entrant": {
                     "participants": [
@@ -575,6 +609,7 @@
                   }
                 },
                 {
+                  "id": 58703055,
                   "placement": 13,
                   "entrant": {
                     "participants": [
@@ -590,6 +625,7 @@
                   }
                 },
                 {
+                  "id": 58703057,
                   "placement": 13,
                   "entrant": {
                     "participants": [
@@ -605,6 +641,7 @@
                   }
                 },
                 {
+                  "id": 58703061,
                   "placement": 13,
                   "entrant": {
                     "participants": [

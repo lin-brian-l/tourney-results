@@ -1,20 +1,22 @@
 /**
- * Script to aggregate data files with information from the fetched-data directory.
+ * Script to aggregate data files with information from the fetched-data directory. This should be run from the root of this application (`/tourney-results`).
  * This script assumes that file names in /fetched-data are in the format `page{pageNum}-response.json`.
  * It also appends new data to the end of the respective files and does not create new files on every execution.
  *
- * Usage: node aggregate-fetched-data.js --startPage=<number> --endPage=<number> --shouldNotUpdatePlayers
+ * Usage: node data/scripts/aggregate-fetched-data.js --startPage=<number> --endPage=<number> --shouldNotUpdatePlayers
  *
  * --startPage: The starting page number of the files to aggregate. Defaults to 1.
  * --endPage: The ending page number of the files to aggregate, stopping once the page number exceeds this limit.
  * --shouldNotUpdatePlayers: Whether to skip updating the players.json file with the data in singles-standings.json. Adding this argument sets the value to `true`.
  *
- * Example: node aggregate-fetched-data.js
- * Example: node aggregate-fetched-data.js --startPage=48
- * Example: node aggregate-fetched-data.js --startPage=2 --endPage=5 --shouldNotUpdatePlayers
+ * Example: node data/scripts/aggregate-fetched-data.js
+ * Example: node data/scripts/aggregate-fetched-data.js --startPage=48
+ * Example: node data/scripts/aggregate-fetched-data.js --startPage=2 --endPage=5 --shouldNotUpdatePlayers
  */
 import fs from 'fs';
 import { getArg } from './helpers.js';
+
+const startggLink = 'https://start.gg/';
 
 const relativePath = './data';
 const fetchedDataPath = `${relativePath}/fetched-data`;
@@ -36,20 +38,20 @@ if (endPage && startPage > endPage) {
 const shouldUpdatePlayers = !getArg('shouldNotUpdatePlayers', false);
 
 try {
-    const jsonFiles = getJsonFileNames();
+    // const jsonFiles = getJsonFileNames();
 
-    const startingIndex = startPage - 1;
-    const endingIndex = endPage ? Math.min(endPage, jsonFiles.length) : jsonFiles.length;
+    // const startingIndex = startPage - 1;
+    // const endingIndex = endPage ? Math.min(endPage, jsonFiles.length) : jsonFiles.length;
 
-    for (let i = startingIndex; i < endingIndex; i++) {
-        const fileName = jsonFiles[i];
-        const responseData = JSON.parse(fs.readFileSync(`${fetchedDataPath}/${fileName}`, 'utf8'));
-        const tournaments = responseData.tournaments.nodes;
+    // for (let i = startingIndex; i < endingIndex; i++) {
+    //     const fileName = jsonFiles[i];
+    //     const responseData = JSON.parse(fs.readFileSync(`${fetchedDataPath}/${fileName}`, 'utf8'));
+    //     const tournaments = responseData.tournaments.nodes;
 
-        updateTournamentsFile(fileName, tournaments);
-        updateEventsFile(fileName, tournaments);
-        updateStandingsFile(fileName, tournaments);
-    }
+    //     updateTournamentsFile(fileName, tournaments);
+    //     updateEventsFile(fileName, tournaments);
+    //     updateStandingsFile(fileName, tournaments);
+    // }
 
     if (shouldUpdatePlayers) {
         updatePlayersFile();
@@ -77,14 +79,14 @@ function updateTournamentsFile(fileName, tournaments) {
     // Add tournament data
     let tournamentsAdded = 0;
     tournaments.forEach(tournament => {
-        const eventIds = tournament.events ? tournament.events.map(event => event.id) : [];
-
         // Use tournament id as the key
         if (tournament.id) {
+            const eventIds = tournament.events ? tournament.events.map(event => event.id) : [];
+
             tournamentsData[tournament.id] = {
                 id: tournament.id,
                 name: tournament.name,
-                slug: tournament.slug,
+                url: startggLink + tournament.slug,
                 startAt: tournament.startAt,
                 endAt: tournament.endAt,
                 events: eventIds,
@@ -108,16 +110,15 @@ function updateEventsFile(fileName, tournaments) {
             tournament.events.forEach(event => {
                 if (event.id) {
                     // Create a clean event object without the standings data
-                    const eventObject = {
+                    eventsData[event.id] = {
                         id: event.id,
                         name: event.name,
-                        slug: event.slug,
+                        url: startggLink + event.slug,
                         startAt: event.startAt,
                         numEntrants: event.numEntrants,
-                        state: event.state
+                        tournament_id: tournament.id,
                     };
 
-                    eventsData[event.id] = eventObject;
                     eventsAdded++;
                 }
             });
@@ -140,10 +141,17 @@ function updateStandingsFile(fileName, tournaments) {
                     event.standings.nodes &&
                     event.standings.nodes.length > 0) {
 
-                    // Use event id as the key
-                    standingsData[event.id] = event.standings.nodes;
-                    console.log(`Added standings for: ${event.name} (ID: ${event.id}) from tournament: ${tournament.name}`);
+                    event.standings.nodes.forEach(standing => {
+                        // Use standings id as the key
+                        standingsData[standing.id] = {
+                            ...standing,
+                            tournament_id: tournament.id,
+                            event_id: event.id,
+                        };
+                    })
+
                     standingsEventsAdded++;
+                    console.log(`Added standings for: ${event.name} (ID: ${event.id}) from tournament: ${tournament.name}`);
                 }
             });
         }
@@ -169,21 +177,22 @@ function updatePlayersFile() {
     const playersData = getExistingOrFreshFileData(playersPath);
 
     let playersAdded = 0;
-    Object.values(standingsData).forEach(standings => {
-        if (standings.length > 0) {
-            standings.forEach(standing => {
-                const user = getValidUser(standing);
+    Object.values(standingsData).forEach(standing => {
+        const user = getValidUser(standing);
+        if (!user) return;
 
-                if (user && !playersData[user.id]) {
-                    playersData[user.id] = {
-                        id: user.id,
-                        name: user.player.gamerTag,
-                    };
-                    playersAdded++;
-                }
-            });
+        if (!playersData[user.id]) {
+            playersData[user.id] = {
+                id: user.id,
+                name: user.player.gamerTag,
+                standings: [],
+            };
+            playersAdded++;
         }
-    });
+
+        // Add standing to player's standings
+        playersData[user.id].standings.push(standing.id);
+    })
 
     if (playersAdded > 0) {
         // Write the players data to the file
