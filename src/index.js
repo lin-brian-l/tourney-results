@@ -80,7 +80,7 @@ app.get('/tournament/:id', async (req, res) => {
 app.get('/tournament/:tournamentId/event/:eventId', async (req, res) => {
   try {
     const tournamentId = req.params.tournamentId;
-    const eventId = req.params.eventId;
+    const eventId = parseInt(req.params.eventId);
     const tournaments = await readJsonFile(path.join(__dirname, '../data/tournaments.json'));
     const events = await readJsonFile(path.join(__dirname, '../data/singles-events.json'));
     const standings = await readJsonFile(path.join(__dirname, '../data/singles-standings.json'));
@@ -88,7 +88,9 @@ app.get('/tournament/:tournamentId/event/:eventId', async (req, res) => {
     const tournament = tournaments[tournamentId];
     const event = events[eventId];
 
-    const eventStandings = standings[eventId] || [];
+    const eventStandings = Object.values(standings)
+      .filter(standing => standing.event_id === eventId)
+      .sort((standingA, standingB) => standingA.placement - standingB.placement);
 
     if (!event) {
       return res.status(404).render('error', { error: 'Event not found', basePath: res.locals.basePath });
@@ -148,42 +150,38 @@ app.get('/rankings', async (req, res) => {
     const playerStats = {};
 
     // Process all standings data
-    Object.values(standings).forEach(eventStandings => {
-      if (!Array.isArray(eventStandings)) return;
+    Object.values(standings).forEach(standing => {
+      if (!standing.entrant?.participants[0]?.user?.player?.gamerTag) return;
 
-      eventStandings.forEach(standing => {
-        if (!standing.entrant?.participants[0]?.user?.player?.gamerTag) return;
+      const excludedPlayerIds = new Set([9767, 12373, 1861, 38899]);
+      const playerId = standing.entrant.participants[0].user.id;
+      if (excludedPlayerIds.has(playerId)) return;
 
-        const excludedPlayerIds = new Set([9767, 12373, 1861, 38899]);
-        const playerId = standing.entrant.participants[0].user.id;
-        if (excludedPlayerIds.has(playerId)) return;
+      const playerName = standing.entrant.participants[0].user.player.gamerTag;
+      const placement = standing.placement;
 
-        const playerName = standing.entrant.participants[0].user.player.gamerTag;
-        const placement = standing.placement;
+      // Initialize player record if not exists
+      if (!playerStats[playerId]) {
+        playerStats[playerId] = {
+          name: playerName,
+          totalTop3: 0,
+          first: 0,
+          second: 0,
+          third: 0
+        };
+      }
 
-        // Initialize player record if not exists
-        if (!playerStats[playerId]) {
-          playerStats[playerId] = {
-            name: playerName,
-            totalTop3: 0,
-            first: 0,
-            second: 0,
-            third: 0
-          };
-        }
-
-        // Count placements
-        if (placement === 1) {
-          playerStats[playerId].first++;
-          playerStats[playerId].totalTop3++;
-        } else if (placement === 2) {
-          playerStats[playerId].second++;
-          playerStats[playerId].totalTop3++;
-        } else if (placement === 3) {
-          playerStats[playerId].third++;
-          playerStats[playerId].totalTop3++;
-        }
-      });
+      // Count placements
+      if (placement === 1) {
+        playerStats[playerId].first++;
+        playerStats[playerId].totalTop3++;
+      } else if (placement === 2) {
+        playerStats[playerId].second++;
+        playerStats[playerId].totalTop3++;
+      } else if (placement === 3) {
+        playerStats[playerId].third++;
+        playerStats[playerId].totalTop3++;
+      }
     });
 
     // Convert to array and sort by total top 3 placements, then by 1st, 2nd, 3rd

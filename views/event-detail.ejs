@@ -31,7 +31,6 @@
         <p>Tournament: <a href="<%= basePath %>/tournament/<%= tournament.id %>"><%= tournament.name %></a></p>
         <p>Date: <%= formatDate(event.startAt) %></p>
         <p>Entrants: <%= event.numEntrants %></p>
-        <p>Status: <%= event.state %></p>
 
         <h3>Final Standings</h3>
         <% if (standings && standings.length > 0) { %>
