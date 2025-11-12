@@ -208,6 +208,10 @@ async function build() {
   }
   await fs.mkdir(outputDir, { recursive: true });
 
+  // Create .nojekyll file to prevent GitHub Pages from processing with Jekyll
+  await fs.writeFile(path.join(outputDir, '.nojekyll'), '');
+  console.log('✓ Created .nojekyll file');
+
   // Helper function to fetch and save a route
   const saveRoute = async (route, filename) => {
     return new Promise((resolve, reject) => {
