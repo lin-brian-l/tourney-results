@@ -1,29 +1,74 @@
-// Script to update data files with information from the fetched_data directory
+/**
+ * Script to aggregate data files with information from the fetched-data directory.
+ * This script assumes that file names in /fetched-data are in the format `page{pageNum}-response.json`.
+ * It also appends new data to the end of the respective files and does not create new files on every execution.
+ *
+ * Usage: node aggregate-fetched-data.js --startPage=<number> --endPage=<number> --shouldNotUpdatePlayers
+ *
+ * --startPage: The starting page number of the files to aggregate. Defaults to 1.
+ * --endPage: The ending page number of the files to aggregate, stopping once the page number exceeds this limit.
+ * --shouldNotUpdatePlayers: Whether to skip updating the players.json file with the data in singles-standings.json. Adding this argument sets the value to `true`.
+ *
+ * Example: node aggregate-fetched-data.js
+ * Example: node aggregate-fetched-data.js --startPage=48
+ * Example: node aggregate-fetched-data.js --startPage=2 --endPage=5 --shouldNotUpdatePlayers
+ */
 import fs from 'fs';
+import { getArg } from './helpers.js';
 
-const relativePath = './data'
-const fetchedDataPath = `${relativePath}/fetched_data`;
+const relativePath = './data';
+const fetchedDataPath = `${relativePath}/fetched-data`;
 const tournamentsPath = `${relativePath}/tournaments.json`;
 const eventsPath = `${relativePath}/singles-events.json`;
 const standingsPath = `${relativePath}/singles-standings.json`;
-const
+const playersPath = `${relativePath}/players.json`;
+
+const startPage = getArg('startPage', 1);
+if (startPage < 1) {
+    throw new Error('Start page must be greater than 0.');
+}
+
+const endPage = getArg('endPage', NaN);
+if (endPage && startPage > endPage) {
+  throw new Error(`Start page (${startPage}) is greater than end page (${endPage})`);
+}
+
+const shouldUpdatePlayers = !getArg('shouldNotUpdatePlayers', false);
 
 try {
-    const allFiles = fs.readdirSync(fetchedDataPath);
-    const jsonFiles = allFiles.filter(file => file.endsWith('.json'));
+    const jsonFiles = getJsonFileNames();
 
-    jsonFiles.forEach(fileName => {
+    const startingIndex = startPage - 1;
+    const endingIndex = endPage ? Math.min(endPage, jsonFiles.length) : jsonFiles.length;
+
+    for (let i = startingIndex; i < endingIndex; i++) {
+        const fileName = jsonFiles[i];
         const responseData = JSON.parse(fs.readFileSync(`${fetchedDataPath}/${fileName}`, 'utf8'));
         const tournaments = responseData.tournaments.nodes;
 
         updateTournamentsFile(fileName, tournaments);
         updateEventsFile(fileName, tournaments);
         updateStandingsFile(fileName, tournaments);
-    });
+    }
 
-    updatePlayersFile();
+    if (shouldUpdatePlayers) {
+        updatePlayersFile();
+    }
 } catch (error) {
     console.log(error);
+}
+
+function getJsonFileNames() {
+    const allFiles = fs.readdirSync(fetchedDataPath);
+
+    return allFiles
+        .filter(file => file.endsWith('.json'))
+        .sort((a, b) => {
+            // Extract page numbers from filenames like "page1-response.json"
+            const pageNumA = parseInt(a.match(/page(\d+)/)?.[1] || 0);
+            const pageNumB = parseInt(b.match(/page(\d+)/)?.[1] || 0);
+            return pageNumA - pageNumB;
+        });
 }
 
 function updateTournamentsFile(fileName, tournaments) {
@@ -32,6 +77,8 @@ function updateTournamentsFile(fileName, tournaments) {
     // Add tournament data
     let tournamentsAdded = 0;
     tournaments.forEach(tournament => {
+        const eventIds = tournament.events ? tournament.events.map(event => event.id) : [];
+
         // Use tournament id as the key
         if (tournament.id) {
             tournamentsData[tournament.id] = {
@@ -39,7 +86,8 @@ function updateTournamentsFile(fileName, tournaments) {
                 name: tournament.name,
                 slug: tournament.slug,
                 startAt: tournament.startAt,
-                endAt: tournament.endAt
+                endAt: tournament.endAt,
+                events: eventIds,
             };
 
             tournamentsAdded++;
@@ -54,14 +102,11 @@ function updateTournamentsFile(fileName, tournaments) {
 function updateEventsFile(fileName, tournaments) {
     const eventsData = getExistingOrFreshFileData(eventsPath);
 
-    // Add events data - only for events with "Singles" in the name
     let eventsAdded = 0;
     tournaments.forEach(tournament => {
-        // Use tournament id as the key for organizing events
-        if (tournament.id && tournament.events && tournament.events.length > 0) {
-            // Add each event from the tournament that contains "Singles" in the name
+        if (tournament.events && tournament.events.length > 0) {
             tournament.events.forEach(event => {
-                if (event.id && event.name.includes('Singles')) {
+                if (event.id) {
                     // Create a clean event object without the standings data
                     const eventObject = {
                         id: event.id,
@@ -72,7 +117,7 @@ function updateEventsFile(fileName, tournaments) {
                         state: event.state
                     };
 
-                    eventsData[tournament.id] = eventObject;
+                    eventsData[event.id] = eventObject;
                     eventsAdded++;
                 }
             });
@@ -87,20 +132,21 @@ function updateEventsFile(fileName, tournaments) {
 function updateStandingsFile(fileName, tournaments) {
     const standingsData = getExistingOrFreshFileData(standingsPath);
 
-    // Add standings data - only for events with "Singles" in the name
     let standingsEventsAdded = 0;
     tournaments.forEach(tournament => {
-        tournament.events.forEach(event => {
-            if (event.standings &&
-                event.standings.nodes &&
-                event.standings.nodes.length > 0) {
+        if (tournament.events && tournament.events.length > 0) {
+            tournament.events.forEach(event => {
+                if (event.standings &&
+                    event.standings.nodes &&
+                    event.standings.nodes.length > 0) {
 
-                // Use event id as the key
-                standingsData[event.id] = event.standings.nodes;
-                console.log(`Added standings for: ${event.name} (ID: ${event.id}) from tournament: ${tournament.name}`);
-                standingsEventsAdded++;
-            }
-        });
+                    // Use event id as the key
+                    standingsData[event.id] = event.standings.nodes;
+                    console.log(`Added standings for: ${event.name} (ID: ${event.id}) from tournament: ${tournament.name}`);
+                    standingsEventsAdded++;
+                }
+            });
+        }
     });
 
     // Write the updated standings data to the file
@@ -120,4 +166,44 @@ function getExistingOrFreshFileData(filePath) {
 
 function updatePlayersFile() {
     const standingsData = getExistingOrFreshFileData(standingsPath);
+    const playersData = getExistingOrFreshFileData(playersPath);
+
+    let playersAdded = 0;
+    Object.values(standingsData).forEach(standings => {
+        if (standings.length > 0) {
+            standings.forEach(standing => {
+                const user = getValidUser(standing);
+
+                if (user && !playersData[user.id]) {
+                    playersData[user.id] = {
+                        id: user.id,
+                        name: user.player.gamerTag,
+                    };
+                    playersAdded++;
+                }
+            });
+        }
+    });
+
+    if (playersAdded > 0) {
+        // Write the players data to the file
+        fs.writeFileSync(playersPath, JSON.stringify(playersData, null, 2));
+        console.log(`Successfully updated ${playersPath} with ${playersAdded} new players`);
+    } else {
+        console.log('No new players to add');
+    }
+}
+
+function getValidUser(standing) {
+    if (!standing.entrant?.participants?.length) {
+        return undefined;
+    }
+
+    const participant = standing.entrant.participants[0];
+
+    if (!participant.user || !participant.user.player) {
+        return undefined;
+    }
+
+    return participant.user.id && participant.user.player.gamerTag ? participant.user : undefined;
 }

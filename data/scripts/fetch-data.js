@@ -14,6 +14,7 @@
 import { request, gql } from 'graphql-request';
 import fs from 'fs';
 import dotenv from 'dotenv';
+import { getArg } from './helpers.js';
 
 // Load environment variables
 dotenv.config();
@@ -91,33 +92,13 @@ const query = gql`
 // API endpoint
 const endpoint = 'https://api.start.gg/gql/alpha';
 
-const startPage = getStartPage();
-const endPage = getEndPage();
+const startPage = getArg('startPage', 1);
+const endPage = getArg('endPage', NaN);
 if (endPage && startPage > endPage) {
   throw new Error(`Start page (${startPage}) is greater than end page (${endPage})`);
 }
 
 fetchData(startPage, endPage);
-
-function getStartPage() {
-  return getArg('startPage', 1);
-}
-
-function getEndPage() {
-  return getArg('endPage', NaN);
-}
-
-function getArg(argName, defaultValue) {
-  let value = defaultValue;
-
-  process.argv.forEach(arg => {
-    if (arg.startsWith(`--${argName}=`)) {
-      value = parseInt(arg.split('=')[1]) || 1;
-    }
-  });
-
-  return value;
-}
 
 // Make the request
 async function fetchData(pageNum, endPage) {
