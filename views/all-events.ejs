@@ -31,8 +31,6 @@
                 <th>Tournament</th>
                 <th>Date</th>
                 <th>Entrants</th>
-                <th>Status</th>
-                <th>Standings</th>
               </tr>
             </thead>
             <tbody>
@@ -42,14 +40,6 @@
                   <td><a href="<%= basePath %>/tournament/<%= item.tournament.id %>"><%= item.tournament.name %></a></td>
                   <td><%= formatDate(item.event.startAt) %></td>
                   <td><%= item.event.numEntrants %></td>
-                  <td><%= item.event.state %></td>
-                  <td>
-                    <% if (item.hasStandings) { %>
-                      <a href="<%= basePath %>/event/<%= item.event.id %>" class="badge badge-success">Available</a>
-                    <% } else { %>
-                      <span class="badge badge-warning">Not Available</span>
-                    <% } %>
-                  </td>
                 </tr>
               <% }); %>
             </tbody>
