@@ -9,7 +9,7 @@
 <body>
   <div class="container">
     <h1>Tournament Results Viewer</h1>
-    
+
     <form action="/tournament" method="POST" class="search-form">
       <div class="form-group">
         <label for="slug">Tournament Slug:</label>
@@ -28,15 +28,15 @@
       <div class="tournament-info">
         <h2><%= tournament.name %></h2>
         <p>
-          <strong>Dates:</strong> 
-          <%= new Date(tournament.startAt * 1000).toLocaleDateString() %> - 
-          <%= new Date(tournament.endAt * 1000).toLocaleDateString() %>
+          <strong>Dates:</strong>
+          <%= new Date(tournament.start_at * 1000).toLocaleDateString() %> -
+          <%= new Date(tournament.end_at * 1000).toLocaleDateString() %>
         </p>
 
         <% tournament.events.forEach(event => { %>
           <div class="event">
-            <h3><%= event.name %> (<%= event.numEntrants %> entrants)</h3>
-            
+            <h3><%= event.name %> (<%= event.num_entrants %> entrants)</h3>
+
             <% if (event.standings && event.standings.nodes && event.standings.nodes.length > 0) { %>
               <table class="standings">
                 <thead>
@@ -50,8 +50,8 @@
                     <tr>
                       <td><%= standing.placement %></td>
                       <td>
-                        <% if (standing.entrant && standing.entrant.participants && 
-                              standing.entrant.participants[0] && 
+                        <% if (standing.entrant && standing.entrant.participants &&
+                              standing.entrant.participants[0] &&
                               standing.entrant.participants[0].player) { %>
                           <%= standing.entrant.participants[0].player.gamerTag %>
                         <% } else { %>

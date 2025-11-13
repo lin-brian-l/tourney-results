@@ -29,8 +29,9 @@
       <div class="event-detail">
         <h2><%= event.name %></h2>
         <p>Tournament: <a href="<%= basePath %>/tournament/<%= tournament.id %>"><%= tournament.name %></a></p>
-        <p>Date: <%= formatDate(event.startAt) %></p>
-        <p>Entrants: <%= event.numEntrants %></p>
+        <p>Date: <%= formatDate(event.start_at) %></p>
+        <p>Entrants: <%= event.num_entrants %></p>
+        <p>Start.gg Link: <a href="<%= event.url %>" target="_blank" rel="noopener noreferrer"><%= event.url %></a></p>
 
         <h3>Final Standings</h3>
         <% if (standings && standings.length > 0) { %>
@@ -45,7 +46,7 @@
               <% standings.forEach(standing => { %>
                 <tr class="place-<%= standing.placement %>">
                   <td><%= standing.placement %></td>
-                  <td><%= standing.entrant?.participants[0]?.user?.player?.gamerTag || 'Unknown Player' %></td>
+                  <td><%= standing.name || '(Unknown Player)' %></td>
                 </tr>
               <% }); %>
             </tbody>

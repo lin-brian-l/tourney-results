@@ -27,7 +27,7 @@
           <% tournaments.forEach(tournament => { %>
             <div class="tournament-card">
               <h3><a href="<%= basePath %>/tournament/<%= tournament.id %>"><%= tournament.name %></a></h3>
-              <p class="tournament-date"><%= formatDate(tournament.startAt) %></p>
+              <p class="tournament-date"><%= formatDate(tournament.start_at) %></p>
             </div>
           <% }); %>
         <% } else { %>

@@ -26,7 +26,7 @@
 
       <div class="tournament-detail">
         <h2><%= tournament.name %></h2>
-        <p class="tournament-date">Date: <%= formatDate(tournament.startAt) %></p>
+        <p class="tournament-date">Date: <%= formatDate(tournament.start_at) %></p>
 
         <h3>Events</h3>
         <div class="event-list">
@@ -34,8 +34,7 @@
             <% events.forEach(event => { %>
               <div class="event-card">
                 <h4><a href="<%= basePath %>/tournament/<%= tournament.id %>/event/<%= event.id %>"><%= event.name %></a></h4>
-                <p><%= event.numEntrants %> entrants</p>
-                <p>Status: <%= event.state %></p>
+                <p><%= event.num_entrants %> entrants</p>
               </div>
             <% }); %>
           <% } else { %>

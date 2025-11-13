@@ -40,8 +40,8 @@ app.get('/', async (req, res) => {
   try {
     const tournaments = await readJsonFile(path.join(__dirname, '../data/tournaments.json'));
 
-    // Convert object to array and sort by startAt date (descending)
-    const tournamentsArray = Object.values(tournaments || {}).sort((a, b) => b.startAt - a.startAt);
+    // Convert object to array and sort by start_at date (descending)
+    const tournamentsArray = Object.values(tournaments || {}).sort((a, b) => b.start_at - a.start_at);
 
     res.render('tournaments', {
       basePath: res.locals.basePath,
@@ -78,18 +78,24 @@ app.get('/tournament/:id', async (req, res) => {
 });
 
 app.get('/tournament/:tournamentId/event/:eventId', async (req, res) => {
+  const tournamentId = req.params.tournamentId;
+  const eventId = parseInt(req.params.eventId);
+
   try {
-    const tournamentId = req.params.tournamentId;
-    const eventId = parseInt(req.params.eventId);
     const tournaments = await readJsonFile(path.join(__dirname, '../data/tournaments.json'));
     const events = await readJsonFile(path.join(__dirname, '../data/singles-events.json'));
     const standings = await readJsonFile(path.join(__dirname, '../data/singles-standings.json'));
+    const players = await readJsonFile(path.join(__dirname, '../data/players.json'));
 
     const tournament = tournaments[tournamentId];
     const event = events[eventId];
 
     const eventStandings = Object.values(standings)
       .filter(standing => standing.event_id === eventId)
+      .map(standing => ({
+        ...standing,
+        name: players[standing.player_id]?.name || null,
+      }))
       .sort((standingA, standingB) => standingA.placement - standingB.placement);
 
     if (!event) {
@@ -104,7 +110,7 @@ app.get('/tournament/:tournamentId/event/:eventId', async (req, res) => {
       formatDate: (timestamp) => new Date(timestamp * 1000).toLocaleDateString()
     });
   } catch (error) {
-    console.error('Error in /event/:id route:', error);
+    console.error(`Error in /tournament/${tournamentId}/event/${eventId} route:`, error);
     res.status(500).render('error', { error: 'Error loading event details', basePath: res.locals.basePath });
   }
 });
@@ -113,7 +119,6 @@ app.get('/all-events', async (req, res) => {
   try {
     const tournaments = await readJsonFile(path.join(__dirname, '../data/tournaments.json'));
     const events = await readJsonFile(path.join(__dirname, '../data/singles-events.json'));
-    const standings = await readJsonFile(path.join(__dirname, '../data/singles-standings.json'));
 
     // Create an array of all events with their tournament info
     const allEvents = [];
@@ -123,13 +128,12 @@ app.get('/all-events', async (req, res) => {
         allEvents.push({
           event: events[eventId],
           tournament,
-          hasStandings: !!standings[eventId],
         });
       });
     })
 
     // Sort events by date (newest first)
-    allEvents.sort((a, b) => b.event.startAt - a.event.startAt);
+    allEvents.sort((a, b) => b.event.start_at - a.event.start_at);
 
     res.render('all-events', {
       basePath: res.locals.basePath,
@@ -144,44 +148,46 @@ app.get('/all-events', async (req, res) => {
 
 app.get('/rankings', async (req, res) => {
   try {
+    const players = await readJsonFile(path.join(__dirname, '../data/players.json'));
     const standings = await readJsonFile(path.join(__dirname, '../data/singles-standings.json'));
 
     // Create a map to track player placements
     const playerStats = {};
 
     // Process all standings data
-    Object.values(standings).forEach(standing => {
-      if (!standing.entrant?.participants[0]?.user?.player?.gamerTag) return;
+    Object.values(players).forEach(player => {
+      if (!player.name) return;
 
       const excludedPlayerIds = new Set([9767, 12373, 1861, 38899]);
-      const playerId = standing.entrant.participants[0].user.id;
+      const playerId = player.id;
       if (excludedPlayerIds.has(playerId)) return;
 
-      const playerName = standing.entrant.participants[0].user.player.gamerTag;
-      const placement = standing.placement;
+      player.standings.forEach(standingId => {
+        const placement = standings[standingId].placement;
 
-      // Initialize player record if not exists
-      if (!playerStats[playerId]) {
-        playerStats[playerId] = {
-          name: playerName,
-          totalTop3: 0,
-          first: 0,
-          second: 0,
-          third: 0
-        };
-      }
+        // Initialize player record if not exists
+        if (!playerStats[playerId]) {
+          playerStats[playerId] = {
+            name: player.name,
+            totalTop3: 0,
+            first: 0,
+            second: 0,
+            third: 0
+          };
+        }
 
-      // Count placements
-      if (placement === 1) {
-        playerStats[playerId].first++;
-        playerStats[playerId].totalTop3++;
-      } else if (placement === 2) {
-        playerStats[playerId].second++;
-        playerStats[playerId].totalTop3++;
-      } else if (placement === 3) {
-        playerStats[playerId].third++;
-        playerStats[playerId].totalTop3++;
-      }
+        // Count placements
+        if (placement === 1) {
+          playerStats[playerId].first++;
+          playerStats[playerId].totalTop3++;
+        } else if (placement === 2) {
+          playerStats[playerId].second++;
+          playerStats[playerId].totalTop3++;
+        } else if (placement === 3) {
+          playerStats[playerId].third++;
+          playerStats[playerId].totalTop3++;
+        }
+      });
     });
 
     // Convert to array and sort by total top 3 placements, then by 1st, 2nd, 3rd
