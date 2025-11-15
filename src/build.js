@@ -118,20 +118,21 @@ app.get('/all-events', async (req, res) => {
   try {
     const tournaments = await readJsonFile(path.join(__dirname, '../data/tournaments.json'));
     const events = await readJsonFile(path.join(__dirname, '../data/singles-events.json'));
-    const standings = await readJsonFile(path.join(__dirname, '../data/singles-standings.json'));
 
+    // Create an array of all events with their tournament info
     const allEvents = [];
-    Object.values(tournaments).forEach(tournament => {
-      tournament.events.forEach(eventId => {
-        allEvents.push({
-          event: events[eventId],
-          tournament,
-          hasStandings: !!standings[eventId],
-        });
-      });
-    });
 
-    allEvents.sort((a, b) => b.event.start_at - a.event.start_at);
+    Object.values(events).forEach(event => {
+      const tournament = tournaments[event.tournament_id];
+
+      allEvents.push({
+        ...event,
+        tournament,
+      });
+    })
+
+    // Sort events by date (newest first)
+    allEvents.sort((a, b) => b.start_at - a.start_at);
 
     res.render('all-events', {
       basePath: res.locals.basePath,
@@ -166,6 +167,7 @@ app.get('/rankings', async (req, res) => {
         // Initialize player record if not exists
         if (!playerStats[playerId]) {
           playerStats[playerId] = {
+            id: player.id,
             name: player.name,
             totalTop3: 0,
             first: 0,
@@ -203,6 +205,75 @@ app.get('/rankings', async (req, res) => {
   } catch (error) {
     console.error('Error in /rankings route:', error);
     res.status(500).render('error', { error: 'Error loading rankings data', basePath: res.locals.basePath });
+  }
+});
+
+app.get('/players/:id', async (req, res) => {
+  const playerId = req.params.id;
+
+  try {
+    const tournaments = await readJsonFile(path.join(__dirname, '../data/tournaments.json'));
+    const events = await readJsonFile(path.join(__dirname, '../data/singles-events.json'));
+    const standings = await readJsonFile(path.join(__dirname, '../data/singles-standings.json'));
+    const players = await readJsonFile(path.join(__dirname, '../data/players.json'));
+
+    const player = players[playerId];
+
+    const playerStandings = {
+      totalTop3: 0,
+      first: 0,
+      second: 0,
+      third: 0,
+    };
+
+    const eventStandings = player.standings.map(standingId => {
+      const standing = standings[standingId];
+      const event = events[standing.event_id];
+
+      let placementStr;
+
+      switch (standing.placement) {
+        case 1:
+          placementStr = '1st';
+          playerStandings.first++;
+          playerStandings.totalTop3++;
+          break;
+        case 2:
+          placementStr = '2nd';
+          playerStandings.second++;
+          playerStandings.totalTop3++;
+          break;
+        case 3:
+          placementStr = '3rd';
+          playerStandings.third++;
+          playerStandings.totalTop3++;
+          break;
+        default:
+          placementStr = `${standing.placement}th`;
+          break;
+      }
+
+      event.tournament = tournaments[event.tournament_id];
+
+      return {
+        ...standing,
+        placementStr,
+        event
+      }
+    }).sort((eventStandingA, eventStandingB) => {
+      return eventStandingB.event.start_at - eventStandingA.event.start_at;
+    });
+
+    res.render('player-detail', {
+      basePath: res.locals.basePath,
+      player,
+      eventStandings,
+      playerStandings,
+      formatDate: (timestamp) => new Date(timestamp * 1000).toLocaleDateString()
+    });
+  } catch (error) {
+    console.error('Error in /players/:id route:', error);
+    res.status(500).render('error', { error: 'Error loading player data', basePath: res.locals.basePath })
   }
 });
 
@@ -264,6 +335,13 @@ async function build() {
 
     // Get tournament and event data to generate all detail pages
     const tournaments = await readJsonFile(path.join(__dirname, '../data/tournaments.json'));
+    const events = await readJsonFile(path.join(__dirname, '../data/singles-events.json'));
+    const players = await readJsonFile(path.join(__dirname, '../data/players.json'));
+
+    // Generate player detail pages
+    for (const playerId of Object.keys(players)) {
+      await saveRoute(`/players/${playerId}`, `players/${playerId}.html`);
+    }
 
     // Generate tournament detail pages
     for (const tournamentId of Object.keys(tournaments)) {
@@ -271,13 +349,11 @@ async function build() {
     }
 
     // Generate event detail pages
-    for (const [tournamentId, tournament] of Object.entries(tournaments)) {
-      for (const eventId of tournament.events) {
-        await saveRoute(
-          `/tournament/${tournamentId}/event/${eventId}`,
-          `tournament/${tournamentId}/event/${eventId}.html`
-        );
-      }
+    for (const [eventId, event] of Object.entries(events)) {
+      await saveRoute(
+        `/tournament/${event.tournament_id}/event/${eventId}`,
+        `tournament/${event.tournament_id}/event/${eventId}.html`
+      );
     }
 
     // Copy public directory
