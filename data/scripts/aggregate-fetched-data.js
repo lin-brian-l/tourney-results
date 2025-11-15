@@ -21,6 +21,7 @@ const fetchedDataPath = `${relativePath}/fetched-data`;
 const tournamentsPath = `${relativePath}/tournaments.json`;
 const eventsPath = `${relativePath}/singles-events.json`;
 const standingsPath = `${relativePath}/singles-standings.json`;
+const standingsOverridePath = `${relativePath}/standings-to-players-override.json`;
 const playersPath = `${relativePath}/players.json`;
 
 const startPage = getArg('startPage', 1);
@@ -122,6 +123,7 @@ function updateEventsFile(fileName, tournaments) {
 function updateStandingsAndPlayersFiles(fileName, tournaments) {
     const standingsData = getExistingOrFreshFileData(standingsPath);
     const playersData = getExistingOrFreshFileData(playersPath);
+    const standingsOverride = getExistingOrFreshFileData(standingsOverridePath);
 
     let playersAdded = 0;
     let playersUpdated = 0;
@@ -135,7 +137,10 @@ function updateStandingsAndPlayersFiles(fileName, tournaments) {
                     event.standings.nodes.length > 0) {
 
                     event.standings.nodes.forEach(standing => {
-                        const playerId = standing.entrant?.participants[0]?.user?.id || null;
+                        let playerId = standing.entrant?.participants[0]?.user?.id || null;
+                        if (!playerId && standingsOverride[standing.id]) {
+                            playerId = standingsOverride[standing.id].player_id;
+                        }
 
                         // Use standings id as the key
                         standingsData[standing.id] = {
