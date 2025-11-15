@@ -73,15 +73,12 @@ function updateTournamentsFile(fileName, tournaments) {
     tournaments.forEach(tournament => {
         // Use tournament id as the key
         if (tournament.id) {
-            const eventIds = tournament.events ? tournament.events.map(event => event.id) : [];
-
             tournamentsData[tournament.id] = {
                 id: tournament.id,
                 name: tournament.name,
                 url: startggLink + tournament.slug,
                 start_at: tournament.startAt,
                 end_at: tournament.endAt,
-                events: eventIds,
             };
 
             tournamentsAdded++;
@@ -100,19 +97,19 @@ function updateEventsFile(fileName, tournaments) {
     tournaments.forEach(tournament => {
         if (tournament.events && tournament.events.length > 0) {
             tournament.events.forEach(event => {
-                if (event.id) {
-                    // Create a clean event object without the standings data
-                    eventsData[event.id] = {
-                        id: event.id,
-                        name: event.name,
-                        url: startggLink + event.slug,
-                        start_at: event.startAt,
-                        num_entrants: event.numEntrants,
-                        tournament_id: tournament.id,
-                    };
+                if (isExcludedEvent(event)) return;
 
-                    eventsAdded++;
-                }
+                // Create a clean event object without the standings data
+                eventsData[event.id] = {
+                    id: event.id,
+                    name: event.name,
+                    url: startggLink + event.slug,
+                    start_at: event.startAt,
+                    num_entrants: event.numEntrants,
+                    tournament_id: tournament.id,
+                };
+
+                eventsAdded++;
             });
         }
     });
@@ -132,7 +129,8 @@ function updateStandingsAndPlayersFiles(fileName, tournaments) {
     tournaments.forEach(tournament => {
         if (tournament.events && tournament.events.length > 0) {
             tournament.events.forEach(event => {
-                if (event.standings &&
+                if (!isExcludedEvent(event) &&
+                    event.standings &&
                     event.standings.nodes &&
                     event.standings.nodes.length > 0) {
 
@@ -179,6 +177,35 @@ function updateStandingsAndPlayersFiles(fileName, tournaments) {
     // Write the players data to the file
     fs.writeFileSync(playersPath, JSON.stringify(playersData, null, 2));
     console.log(`Added ${playersAdded} new players and updated ${playersUpdated} players`);
+}
+
+function isExcludedEvent(event) {
+    const excludedEventIds = [
+        1238506, // Community Day 10/18/24, 3.02 event
+        1238507, // Community Day 10/18/24, 3.6 event
+        1092057, // Super TPS III, 3.6 event
+        1092058, // Super TPS III, 3.02 event
+    ];
+
+    return excludedEventIds.includes(event.id) || isSideEvent(event.name);
+}
+
+function isSideEvent(eventName) {
+    const sideEventNames = [
+        'random',
+        'amateur',
+        'bonus',
+        'dorito',
+        'side bracket',
+        'side event',
+        'character bans',
+        'lethal league',
+        'ban 5',
+        'all-stars',
+    ];
+    const sideEventRegex = new RegExp(sideEventNames.join('|'), 'i');
+
+    return sideEventRegex.test(eventName);
 }
 
 function getExistingOrFreshFileData(filePath) {

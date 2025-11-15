@@ -292,7 +292,251 @@
             "name": "Project+ Singles",
             "slug": "tournament/tripoint-304/event/project-singles",
             "startAt": 1763175600,
-            "numEntrants": 0,
+            "numEntrants": 14,
+            "standings": {
+              "nodes": [
+                {
+                  "id": 87962517,
+                  "placement": 1,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 3313,
+                          "player": {
+                            "gamerTag": "metroid"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 87962523,
+                  "placement": 2,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 135035,
+                          "player": {
+                            "gamerTag": "Chaloopy"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 87962518,
+                  "placement": 3,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 364667,
+                          "player": {
+                            "gamerTag": "SoulOfficer"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 87962521,
+                  "placement": 4,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 973753,
+                          "player": {
+                            "gamerTag": "grealy"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 87962519,
+                  "placement": 5,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 2387393,
+                          "player": {
+                            "gamerTag": "LIVE"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 87962525,
+                  "placement": 5,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 3923,
+                          "player": {
+                            "gamerTag": "Tarchwood"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 87962513,
+                  "placement": 7,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 50109,
+                          "player": {
+                            "gamerTag": "Autumn"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 87962515,
+                  "placement": 7,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 29311,
+                          "player": {
+                            "gamerTag": "EsMod"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 87962514,
+                  "placement": 9,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 2440565,
+                          "player": {
+                            "gamerTag": "Virtigris"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 87962516,
+                  "placement": 9,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 2932347,
+                          "player": {
+                            "gamerTag": "Reala"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 87962520,
+                  "placement": 9,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 143882,
+                          "player": {
+                            "gamerTag": "rake^v^"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 87962526,
+                  "placement": 9,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 271168,
+                          "player": {
+                            "gamerTag": "Noon"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 87962522,
+                  "placement": 13,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 1373446,
+                          "player": {
+                            "gamerTag": "Ashes"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": 87962524,
+                  "placement": 13,
+                  "entrant": {
+                    "participants": [
+                      {
+                        "user": {
+                          "id": 1512759,
+                          "player": {
+                            "gamerTag": "heck!"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 850279,
+        "name": "Tripoint Smash: The Finale",
+        "slug": "tournament/tripoint-smash-the-finale",
+        "startAt": 1766188800,
+        "endAt": 1766210340,
+        "events": [
+          {
+            "id": 1501216,
+            "name": "Project+ Singles",
+            "slug": "tournament/tripoint-smash-the-finale/event/project-singles",
+            "startAt": 1766199600,
+            "numEntrants": 3,
             "standings": {
               "nodes": []
             }

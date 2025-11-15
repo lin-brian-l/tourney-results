@@ -34,12 +34,12 @@
               </tr>
             </thead>
             <tbody>
-              <% events.forEach(item => { %>
+              <% events.forEach(event => { %>
                 <tr>
-                  <td><a href="<%= basePath %>/tournament/<%= item.tournament.id %>/event/<%= item.event.id %>"><%= item.event.name %></a></td>
-                  <td><a href="<%= basePath %>/tournament/<%= item.tournament.id %>"><%= item.tournament.name %></a></td>
-                  <td><%= formatDate(item.event.start_at) %></td>
-                  <td><%= item.event.num_entrants %></td>
+                  <td><a href="<%= basePath %>/tournament/<%= event.tournament_id %>/event/<%= event.id %>"><%= event.name %></a></td>
+                  <td><a href="<%= basePath %>/tournament/<%= event.tournament_id %>"><%= event.tournament.name %></a></td>
+                  <td><%= formatDate(event.start_at) %></td>
+                  <td><%= event.num_entrants %></td>
                 </tr>
               <% }); %>
             </tbody>

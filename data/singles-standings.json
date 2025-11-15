@@ -2274,97 +2274,6 @@
     "player_id": 52053,
     "placement": 17
   },
-  "2457166": {
-    "id": 2457166,
-    "tournament_id": 52897,
-    "event_id": 114744,
-    "player_id": 163413,
-    "placement": 5
-  },
-  "2457167": {
-    "id": 2457167,
-    "tournament_id": 52897,
-    "event_id": 114744,
-    "player_id": 3827,
-    "placement": 7
-  },
-  "2457168": {
-    "id": 2457168,
-    "tournament_id": 52897,
-    "event_id": 114744,
-    "player_id": null,
-    "placement": 9
-  },
-  "2457169": {
-    "id": 2457169,
-    "tournament_id": 52897,
-    "event_id": 114744,
-    "player_id": 10678,
-    "placement": 2
-  },
-  "2457170": {
-    "id": 2457170,
-    "tournament_id": 52897,
-    "event_id": 114744,
-    "player_id": 143648,
-    "placement": 3
-  },
-  "2457171": {
-    "id": 2457171,
-    "tournament_id": 52897,
-    "event_id": 114744,
-    "player_id": 3657,
-    "placement": 4
-  },
-  "2457172": {
-    "id": 2457172,
-    "tournament_id": 52897,
-    "event_id": 114744,
-    "player_id": 345067,
-    "placement": 9
-  },
-  "2457173": {
-    "id": 2457173,
-    "tournament_id": 52897,
-    "event_id": 114744,
-    "player_id": 12305,
-    "placement": 5
-  },
-  "2457174": {
-    "id": 2457174,
-    "tournament_id": 52897,
-    "event_id": 114744,
-    "player_id": 43133,
-    "placement": 9
-  },
-  "2457175": {
-    "id": 2457175,
-    "tournament_id": 52897,
-    "event_id": 114744,
-    "player_id": 95494,
-    "placement": 9
-  },
-  "2457176": {
-    "id": 2457176,
-    "tournament_id": 52897,
-    "event_id": 114744,
-    "player_id": 136672,
-    "placement": 13
-  },
-  "2457177": {
-    "id": 2457177,
-    "tournament_id": 52897,
-    "event_id": 114744,
-    "player_id": 9767,
-    "placement": 1
-  },
-  "2457178": {
-    "id": 2457178,
-    "tournament_id": 52897,
-    "event_id": 114744,
-    "player_id": 3985,
-    "placement": 7
-  },
   "2525717": {
     "id": 2525717,
     "tournament_id": 53213,
@@ -4514,118 +4423,6 @@
     "player_id": null,
     "placement": 25
   },
-  "3296400": {
-    "id": 3296400,
-    "tournament_id": 63740,
-    "event_id": 144694,
-    "player_id": 16901,
-    "placement": 4
-  },
-  "3296401": {
-    "id": 3296401,
-    "tournament_id": 63740,
-    "event_id": 144694,
-    "player_id": 12305,
-    "placement": 9
-  },
-  "3296402": {
-    "id": 3296402,
-    "tournament_id": 63740,
-    "event_id": 144694,
-    "player_id": 163413,
-    "placement": 13
-  },
-  "3296403": {
-    "id": 3296403,
-    "tournament_id": 63740,
-    "event_id": 144694,
-    "player_id": 35116,
-    "placement": 5
-  },
-  "3296404": {
-    "id": 3296404,
-    "tournament_id": 63740,
-    "event_id": 144694,
-    "player_id": 40179,
-    "placement": 9
-  },
-  "3296405": {
-    "id": 3296405,
-    "tournament_id": 63740,
-    "event_id": 144694,
-    "player_id": 19108,
-    "placement": 13
-  },
-  "3296406": {
-    "id": 3296406,
-    "tournament_id": 63740,
-    "event_id": 144694,
-    "player_id": null,
-    "placement": 2
-  },
-  "3296407": {
-    "id": 3296407,
-    "tournament_id": 63740,
-    "event_id": 144694,
-    "player_id": 38370,
-    "placement": 9
-  },
-  "3296408": {
-    "id": 3296408,
-    "tournament_id": 63740,
-    "event_id": 144694,
-    "player_id": 17676,
-    "placement": 5
-  },
-  "3296409": {
-    "id": 3296409,
-    "tournament_id": 63740,
-    "event_id": 144694,
-    "player_id": null,
-    "placement": 13
-  },
-  "3296410": {
-    "id": 3296410,
-    "tournament_id": 63740,
-    "event_id": 144694,
-    "player_id": 3512,
-    "placement": 3
-  },
-  "3296411": {
-    "id": 3296411,
-    "tournament_id": 63740,
-    "event_id": 144694,
-    "player_id": 271168,
-    "placement": 7
-  },
-  "3296412": {
-    "id": 3296412,
-    "tournament_id": 63740,
-    "event_id": 144694,
-    "player_id": 42992,
-    "placement": 2
-  },
-  "3296413": {
-    "id": 3296413,
-    "tournament_id": 63740,
-    "event_id": 144694,
-    "player_id": 390076,
-    "placement": 13
-  },
-  "3296414": {
-    "id": 3296414,
-    "tournament_id": 63740,
-    "event_id": 144694,
-    "player_id": 1004,
-    "placement": 9
-  },
-  "3296415": {
-    "id": 3296415,
-    "tournament_id": 63740,
-    "event_id": 144694,
-    "player_id": 100016,
-    "placement": 7
-  },
   "3376321": {
     "id": 3376321,
     "tournament_id": 68305,
@@ -4877,202 +4674,6 @@
     "event_id": 144776,
     "player_id": 271168,
     "placement": 17
-  },
-  "3377663": {
-    "id": 3377663,
-    "tournament_id": 68305,
-    "event_id": 152715,
-    "player_id": null,
-    "placement": 5
-  },
-  "3377664": {
-    "id": 3377664,
-    "tournament_id": 68305,
-    "event_id": 152715,
-    "player_id": 153521,
-    "placement": 5
-  },
-  "3377665": {
-    "id": 3377665,
-    "tournament_id": 68305,
-    "event_id": 152715,
-    "player_id": 9767,
-    "placement": 5
-  },
-  "3377666": {
-    "id": 3377666,
-    "tournament_id": 68305,
-    "event_id": 152715,
-    "player_id": 35112,
-    "placement": 5
-  },
-  "3377667": {
-    "id": 3377667,
-    "tournament_id": 68305,
-    "event_id": 152715,
-    "player_id": 43133,
-    "placement": 9
-  },
-  "3377668": {
-    "id": 3377668,
-    "tournament_id": 68305,
-    "event_id": 152715,
-    "player_id": 37341,
-    "placement": 9
-  },
-  "3377669": {
-    "id": 3377669,
-    "tournament_id": 68305,
-    "event_id": 152715,
-    "player_id": 42992,
-    "placement": 2
-  },
-  "3377670": {
-    "id": 3377670,
-    "tournament_id": 68305,
-    "event_id": 152715,
-    "player_id": 30475,
-    "placement": 3
-  },
-  "3377671": {
-    "id": 3377671,
-    "tournament_id": 68305,
-    "event_id": 152715,
-    "player_id": null,
-    "placement": 17
-  },
-  "3377672": {
-    "id": 3377672,
-    "tournament_id": 68305,
-    "event_id": 152715,
-    "player_id": 135595,
-    "placement": 9
-  },
-  "3377673": {
-    "id": 3377673,
-    "tournament_id": 68305,
-    "event_id": 152715,
-    "player_id": 45709,
-    "placement": 17
-  },
-  "3377674": {
-    "id": 3377674,
-    "tournament_id": 68305,
-    "event_id": 152715,
-    "player_id": 3413,
-    "placement": 1
-  },
-  "3377675": {
-    "id": 3377675,
-    "tournament_id": 68305,
-    "event_id": 152715,
-    "player_id": 142032,
-    "placement": 17
-  },
-  "3377676": {
-    "id": 3377676,
-    "tournament_id": 68305,
-    "event_id": 152715,
-    "player_id": null,
-    "placement": 13
-  },
-  "3377677": {
-    "id": 3377677,
-    "tournament_id": 68305,
-    "event_id": 152715,
-    "player_id": 143346,
-    "placement": 17
-  },
-  "3377678": {
-    "id": 3377678,
-    "tournament_id": 68305,
-    "event_id": 152715,
-    "player_id": 3595,
-    "placement": 17
-  },
-  "3377679": {
-    "id": 3377679,
-    "tournament_id": 68305,
-    "event_id": 152715,
-    "player_id": 19108,
-    "placement": 13
-  },
-  "3377680": {
-    "id": 3377680,
-    "tournament_id": 68305,
-    "event_id": 152715,
-    "player_id": 22492,
-    "placement": 9
-  },
-  "3377681": {
-    "id": 3377681,
-    "tournament_id": 68305,
-    "event_id": 152715,
-    "player_id": 163413,
-    "placement": 13
-  },
-  "3377682": {
-    "id": 3377682,
-    "tournament_id": 68305,
-    "event_id": 152715,
-    "player_id": 44073,
-    "placement": 17
-  },
-  "3377683": {
-    "id": 3377683,
-    "tournament_id": 68305,
-    "event_id": 152715,
-    "player_id": 40179,
-    "placement": 17
-  },
-  "3377684": {
-    "id": 3377684,
-    "tournament_id": 68305,
-    "event_id": 152715,
-    "player_id": 271168,
-    "placement": 17
-  },
-  "3377685": {
-    "id": 3377685,
-    "tournament_id": 68305,
-    "event_id": 152715,
-    "player_id": null,
-    "placement": 3
-  },
-  "3377686": {
-    "id": 3377686,
-    "tournament_id": 68305,
-    "event_id": 152715,
-    "player_id": null,
-    "placement": 25
-  },
-  "3377687": {
-    "id": 3377687,
-    "tournament_id": 68305,
-    "event_id": 152715,
-    "player_id": null,
-    "placement": 25
-  },
-  "3377688": {
-    "id": 3377688,
-    "tournament_id": 68305,
-    "event_id": 152715,
-    "player_id": null,
-    "placement": 25
-  },
-  "3377689": {
-    "id": 3377689,
-    "tournament_id": 68305,
-    "event_id": 152715,
-    "player_id": 100016,
-    "placement": 13
-  },
-  "3377690": {
-    "id": 3377690,
-    "tournament_id": 68305,
-    "event_id": 152715,
-    "player_id": 17393,
-    "placement": 25
   },
   "3508305": {
     "id": 3508305,
@@ -24443,48 +24044,6 @@
     "player_id": 1821471,
     "placement": 9
   },
-  "41490003": {
-    "id": 41490003,
-    "tournament_id": 442219,
-    "event_id": 718356,
-    "player_id": 1743739,
-    "placement": 3
-  },
-  "41490004": {
-    "id": 41490004,
-    "tournament_id": 442219,
-    "event_id": 718356,
-    "player_id": 604883,
-    "placement": 2
-  },
-  "41490005": {
-    "id": 41490005,
-    "tournament_id": 442219,
-    "event_id": 718356,
-    "player_id": 3874,
-    "placement": 1
-  },
-  "41490006": {
-    "id": 41490006,
-    "tournament_id": 442219,
-    "event_id": 718356,
-    "player_id": 10445,
-    "placement": 3
-  },
-  "41490007": {
-    "id": 41490007,
-    "tournament_id": 442219,
-    "event_id": 718356,
-    "player_id": 1833188,
-    "placement": 5
-  },
-  "41490008": {
-    "id": 41490008,
-    "tournament_id": 442219,
-    "event_id": 718356,
-    "player_id": 52757,
-    "placement": 5
-  },
   "41495944": {
     "id": 41495944,
     "tournament_id": 442219,
@@ -25206,209 +24765,6 @@
     "player_id": 271168,
     "placement": 33
   },
-  "42195608": {
-    "id": 42195608,
-    "tournament_id": 435969,
-    "event_id": 707033,
-    "player_id": 12908,
-    "placement": 17
-  },
-  "42195609": {
-    "id": 42195609,
-    "tournament_id": 435969,
-    "event_id": 707033,
-    "player_id": 721658,
-    "placement": 17
-  },
-  "42195610": {
-    "id": 42195610,
-    "tournament_id": 435969,
-    "event_id": 707033,
-    "player_id": 582270,
-    "placement": 17
-  },
-  "42195611": {
-    "id": 42195611,
-    "tournament_id": 435969,
-    "event_id": 707033,
-    "player_id": 28237,
-    "placement": 17
-  },
-  "42195612": {
-    "id": 42195612,
-    "tournament_id": 435969,
-    "event_id": 707033,
-    "player_id": 847425,
-    "placement": 17
-  },
-  "42195613": {
-    "id": 42195613,
-    "tournament_id": 435969,
-    "event_id": 707033,
-    "player_id": 283026,
-    "placement": 17
-  },
-  "42195614": {
-    "id": 42195614,
-    "tournament_id": 435969,
-    "event_id": 707033,
-    "player_id": 246768,
-    "placement": 3
-  },
-  "42195615": {
-    "id": 42195615,
-    "tournament_id": 435969,
-    "event_id": 707033,
-    "player_id": 3814,
-    "placement": 5
-  },
-  "42195616": {
-    "id": 42195616,
-    "tournament_id": 435969,
-    "event_id": 707033,
-    "player_id": 501545,
-    "placement": 1
-  },
-  "42195617": {
-    "id": 42195617,
-    "tournament_id": 435969,
-    "event_id": 707033,
-    "player_id": 967067,
-    "placement": 25
-  },
-  "42195618": {
-    "id": 42195618,
-    "tournament_id": 435969,
-    "event_id": 707033,
-    "player_id": 8626,
-    "placement": 9
-  },
-  "42195619": {
-    "id": 42195619,
-    "tournament_id": 435969,
-    "event_id": 707033,
-    "player_id": 591726,
-    "placement": 13
-  },
-  "42195620": {
-    "id": 42195620,
-    "tournament_id": 435969,
-    "event_id": 707033,
-    "player_id": 33849,
-    "placement": 7
-  },
-  "42195621": {
-    "id": 42195621,
-    "tournament_id": 435969,
-    "event_id": 707033,
-    "player_id": 37341,
-    "placement": 5
-  },
-  "42195622": {
-    "id": 42195622,
-    "tournament_id": 435969,
-    "event_id": 707033,
-    "player_id": 1853186,
-    "placement": 17
-  },
-  "42195623": {
-    "id": 42195623,
-    "tournament_id": 435969,
-    "event_id": 707033,
-    "player_id": 15569,
-    "placement": 17
-  },
-  "42195624": {
-    "id": 42195624,
-    "tournament_id": 435969,
-    "event_id": 707033,
-    "player_id": 390923,
-    "placement": 25
-  },
-  "42195625": {
-    "id": 42195625,
-    "tournament_id": 435969,
-    "event_id": 707033,
-    "player_id": 1651,
-    "placement": 9
-  },
-  "42195626": {
-    "id": 42195626,
-    "tournament_id": 435969,
-    "event_id": 707033,
-    "player_id": 1853185,
-    "placement": 25
-  },
-  "42195627": {
-    "id": 42195627,
-    "tournament_id": 435969,
-    "event_id": 707033,
-    "player_id": 12305,
-    "placement": 13
-  },
-  "42195628": {
-    "id": 42195628,
-    "tournament_id": 435969,
-    "event_id": 707033,
-    "player_id": 22528,
-    "placement": 7
-  },
-  "42195629": {
-    "id": 42195629,
-    "tournament_id": 435969,
-    "event_id": 707033,
-    "player_id": 1493409,
-    "placement": 25
-  },
-  "42195630": {
-    "id": 42195630,
-    "tournament_id": 435969,
-    "event_id": 707033,
-    "player_id": 640010,
-    "placement": 13
-  },
-  "42195631": {
-    "id": 42195631,
-    "tournament_id": 435969,
-    "event_id": 707033,
-    "player_id": 1396067,
-    "placement": 9
-  },
-  "42195632": {
-    "id": 42195632,
-    "tournament_id": 435969,
-    "event_id": 707033,
-    "player_id": 30408,
-    "placement": 9
-  },
-  "42195633": {
-    "id": 42195633,
-    "tournament_id": 435969,
-    "event_id": 707033,
-    "player_id": 1002572,
-    "placement": 4
-  },
-  "42195634": {
-    "id": 42195634,
-    "tournament_id": 435969,
-    "event_id": 707033,
-    "player_id": 679379,
-    "placement": 25
-  },
-  "42195635": {
-    "id": 42195635,
-    "tournament_id": 435969,
-    "event_id": 707033,
-    "player_id": 10445,
-    "placement": 2
-  },
-  "42195636": {
-    "id": 42195636,
-    "tournament_id": 435969,
-    "event_id": 707033,
-    "player_id": 75645,
-    "placement": 13
-  },
   "42400888": {
     "id": 42400888,
     "tournament_id": 449798,
@@ -25654,69 +25010,6 @@
     "player_id": 17676,
     "placement": 9
   },
-  "42860204": {
-    "id": 42860204,
-    "tournament_id": 453248,
-    "event_id": 736328,
-    "player_id": 3874,
-    "placement": 1
-  },
-  "42860205": {
-    "id": 42860205,
-    "tournament_id": 453248,
-    "event_id": 736328,
-    "player_id": 282300,
-    "placement": 3
-  },
-  "42860206": {
-    "id": 42860206,
-    "tournament_id": 453248,
-    "event_id": 736328,
-    "player_id": 434223,
-    "placement": 5
-  },
-  "42860207": {
-    "id": 42860207,
-    "tournament_id": 453248,
-    "event_id": 736328,
-    "player_id": 29682,
-    "placement": 5
-  },
-  "42860208": {
-    "id": 42860208,
-    "tournament_id": 453248,
-    "event_id": 736328,
-    "player_id": 1743739,
-    "placement": 3
-  },
-  "42860209": {
-    "id": 42860209,
-    "tournament_id": 453248,
-    "event_id": 736328,
-    "player_id": 43981,
-    "placement": 5
-  },
-  "42860210": {
-    "id": 42860210,
-    "tournament_id": 453248,
-    "event_id": 736328,
-    "player_id": 604883,
-    "placement": 2
-  },
-  "42860211": {
-    "id": 42860211,
-    "tournament_id": 453248,
-    "event_id": 736328,
-    "player_id": 14241,
-    "placement": 9
-  },
-  "42860212": {
-    "id": 42860212,
-    "tournament_id": 453248,
-    "event_id": 736328,
-    "player_id": 1406150,
-    "placement": 5
-  },
   "42869565": {
     "id": 42869565,
     "tournament_id": 453248,
@@ -25855,62 +25148,6 @@
     "tournament_id": 453248,
     "event_id": 736325,
     "player_id": 43981,
-    "placement": 5
-  },
-  "43119695": {
-    "id": 43119695,
-    "tournament_id": 451636,
-    "event_id": 733465,
-    "player_id": 3874,
-    "placement": 1
-  },
-  "43119696": {
-    "id": 43119696,
-    "tournament_id": 451636,
-    "event_id": 733465,
-    "player_id": 74596,
-    "placement": 3
-  },
-  "43119697": {
-    "id": 43119697,
-    "tournament_id": 451636,
-    "event_id": 733465,
-    "player_id": 43133,
-    "placement": 2
-  },
-  "43119698": {
-    "id": 43119698,
-    "tournament_id": 451636,
-    "event_id": 733465,
-    "player_id": 604883,
-    "placement": 3
-  },
-  "43119699": {
-    "id": 43119699,
-    "tournament_id": 451636,
-    "event_id": 733465,
-    "player_id": 7913,
-    "placement": 5
-  },
-  "43119700": {
-    "id": 43119700,
-    "tournament_id": 451636,
-    "event_id": 733465,
-    "player_id": 1028738,
-    "placement": 5
-  },
-  "43119701": {
-    "id": 43119701,
-    "tournament_id": 451636,
-    "event_id": 733465,
-    "player_id": 1743739,
-    "placement": 5
-  },
-  "43119702": {
-    "id": 43119702,
-    "tournament_id": 451636,
-    "event_id": 733465,
-    "player_id": 255149,
     "placement": 5
   },
   "43150320": {
@@ -26753,48 +25990,6 @@
     "player_id": 38358,
     "placement": 7
   },
-  "44754254": {
-    "id": 44754254,
-    "tournament_id": 466209,
-    "event_id": 759298,
-    "player_id": 29682,
-    "placement": 4
-  },
-  "44754255": {
-    "id": 44754255,
-    "tournament_id": 466209,
-    "event_id": 759298,
-    "player_id": 882422,
-    "placement": 5
-  },
-  "44754256": {
-    "id": 44754256,
-    "tournament_id": 466209,
-    "event_id": 759298,
-    "player_id": 242369,
-    "placement": 5
-  },
-  "44754257": {
-    "id": 44754257,
-    "tournament_id": 466209,
-    "event_id": 759298,
-    "player_id": 409223,
-    "placement": 5
-  },
-  "44754258": {
-    "id": 44754258,
-    "tournament_id": 466209,
-    "event_id": 759298,
-    "player_id": 78348,
-    "placement": 3
-  },
-  "44754259": {
-    "id": 44754259,
-    "tournament_id": 466209,
-    "event_id": 759298,
-    "player_id": 3874,
-    "placement": 5
-  },
   "44759232": {
     "id": 44759232,
     "tournament_id": 466209,
@@ -27039,41 +26234,6 @@
     "event_id": 766414,
     "player_id": 4223,
     "placement": 7
-  },
-  "45548946": {
-    "id": 45548946,
-    "tournament_id": 472249,
-    "event_id": 769855,
-    "player_id": 12305,
-    "placement": 3
-  },
-  "45548947": {
-    "id": 45548947,
-    "tournament_id": 472249,
-    "event_id": 769855,
-    "player_id": 3985,
-    "placement": 2
-  },
-  "45548948": {
-    "id": 45548948,
-    "tournament_id": 472249,
-    "event_id": 769855,
-    "player_id": 3874,
-    "placement": 1
-  },
-  "45548949": {
-    "id": 45548949,
-    "tournament_id": 472249,
-    "event_id": 769855,
-    "player_id": 48542,
-    "placement": 3
-  },
-  "45548950": {
-    "id": 45548950,
-    "tournament_id": 472249,
-    "event_id": 769855,
-    "player_id": 1344591,
-    "placement": 5
   },
   "45553309": {
     "id": 45553309,
@@ -27551,48 +26711,6 @@
     "player_id": 3827,
     "placement": 13
   },
-  "46839369": {
-    "id": 46839369,
-    "tournament_id": 484870,
-    "event_id": 793398,
-    "player_id": 3874,
-    "placement": 1
-  },
-  "46839370": {
-    "id": 46839370,
-    "tournament_id": 484870,
-    "event_id": 793398,
-    "player_id": 29682,
-    "placement": 3
-  },
-  "46839371": {
-    "id": 46839371,
-    "tournament_id": 484870,
-    "event_id": 793398,
-    "player_id": 409223,
-    "placement": 3
-  },
-  "46839372": {
-    "id": 46839372,
-    "tournament_id": 484870,
-    "event_id": 793398,
-    "player_id": 1943092,
-    "placement": 5
-  },
-  "46839373": {
-    "id": 46839373,
-    "tournament_id": 484870,
-    "event_id": 793398,
-    "player_id": 672273,
-    "placement": 5
-  },
-  "46839374": {
-    "id": 46839374,
-    "tournament_id": 484870,
-    "event_id": 793398,
-    "player_id": 43981,
-    "placement": 2
-  },
   "46841688": {
     "id": 46841688,
     "tournament_id": 484870,
@@ -28006,41 +27124,6 @@
     "player_id": 271168,
     "placement": 4
   },
-  "47924807": {
-    "id": 47924807,
-    "tournament_id": 495485,
-    "event_id": 812897,
-    "player_id": 409223,
-    "placement": 3
-  },
-  "47924808": {
-    "id": 47924808,
-    "tournament_id": 495485,
-    "event_id": 812897,
-    "player_id": 3874,
-    "placement": 1
-  },
-  "47924809": {
-    "id": 47924809,
-    "tournament_id": 495485,
-    "event_id": 812897,
-    "player_id": 516275,
-    "placement": 3
-  },
-  "47924810": {
-    "id": 47924810,
-    "tournament_id": 495485,
-    "event_id": 812897,
-    "player_id": 43981,
-    "placement": 2
-  },
-  "47924811": {
-    "id": 47924811,
-    "tournament_id": 495485,
-    "event_id": 812897,
-    "player_id": 163413,
-    "placement": 5
-  },
   "47931111": {
     "id": 47931111,
     "tournament_id": 495485,
@@ -28292,90 +27375,6 @@
     "event_id": 816826,
     "player_id": 591322,
     "placement": 13
-  },
-  "48279491": {
-    "id": 48279491,
-    "tournament_id": 499647,
-    "event_id": 820421,
-    "player_id": 3874,
-    "placement": 1
-  },
-  "48279492": {
-    "id": 48279492,
-    "tournament_id": 499647,
-    "event_id": 820421,
-    "player_id": 48542,
-    "placement": 3
-  },
-  "48279493": {
-    "id": 48279493,
-    "tournament_id": 499647,
-    "event_id": 820421,
-    "player_id": 4223,
-    "placement": 2
-  },
-  "48279494": {
-    "id": 48279494,
-    "tournament_id": 499647,
-    "event_id": 820421,
-    "player_id": 135035,
-    "placement": 5
-  },
-  "48279495": {
-    "id": 48279495,
-    "tournament_id": 499647,
-    "event_id": 820421,
-    "player_id": 1605128,
-    "placement": 5
-  },
-  "48279496": {
-    "id": 48279496,
-    "tournament_id": 499647,
-    "event_id": 820421,
-    "player_id": 882422,
-    "placement": 9
-  },
-  "48279497": {
-    "id": 48279497,
-    "tournament_id": 499647,
-    "event_id": 820421,
-    "player_id": 78348,
-    "placement": 9
-  },
-  "48279498": {
-    "id": 48279498,
-    "tournament_id": 499647,
-    "event_id": 820421,
-    "player_id": 909927,
-    "placement": 5
-  },
-  "48279499": {
-    "id": 48279499,
-    "tournament_id": 499647,
-    "event_id": 820421,
-    "player_id": 3827,
-    "placement": 5
-  },
-  "48279500": {
-    "id": 48279500,
-    "tournament_id": 499647,
-    "event_id": 820421,
-    "player_id": 268702,
-    "placement": 9
-  },
-  "48279501": {
-    "id": 48279501,
-    "tournament_id": 499647,
-    "event_id": 820421,
-    "player_id": 409223,
-    "placement": 3
-  },
-  "48279502": {
-    "id": 48279502,
-    "tournament_id": 499647,
-    "event_id": 820421,
-    "player_id": 7826,
-    "placement": 9
   },
   "48285774": {
     "id": 48285774,
@@ -29259,62 +28258,6 @@
     "player_id": 142098,
     "placement": 25
   },
-  "49532744": {
-    "id": 49532744,
-    "tournament_id": 509132,
-    "event_id": 837169,
-    "player_id": 3985,
-    "placement": 3
-  },
-  "49532745": {
-    "id": 49532745,
-    "tournament_id": 509132,
-    "event_id": 837169,
-    "player_id": 21302,
-    "placement": 1
-  },
-  "49532746": {
-    "id": 49532746,
-    "tournament_id": 509132,
-    "event_id": 837169,
-    "player_id": 151480,
-    "placement": 5
-  },
-  "49532747": {
-    "id": 49532747,
-    "tournament_id": 509132,
-    "event_id": 837169,
-    "player_id": 48542,
-    "placement": 5
-  },
-  "49532748": {
-    "id": 49532748,
-    "tournament_id": 509132,
-    "event_id": 837169,
-    "player_id": 3737,
-    "placement": 5
-  },
-  "49532749": {
-    "id": 49532749,
-    "tournament_id": 509132,
-    "event_id": 837169,
-    "player_id": 4223,
-    "placement": 3
-  },
-  "49532750": {
-    "id": 49532750,
-    "tournament_id": 509132,
-    "event_id": 837169,
-    "player_id": 29682,
-    "placement": 2
-  },
-  "49532751": {
-    "id": 49532751,
-    "tournament_id": 509132,
-    "event_id": 837169,
-    "player_id": 16996,
-    "placement": 5
-  },
   "49536900": {
     "id": 49536900,
     "tournament_id": 509132,
@@ -29447,76 +28390,6 @@
     "event_id": 837166,
     "player_id": 409223,
     "placement": 13
-  },
-  "49710936": {
-    "id": 49710936,
-    "tournament_id": 510901,
-    "event_id": 840437,
-    "player_id": 4223,
-    "placement": 1
-  },
-  "49710937": {
-    "id": 49710937,
-    "tournament_id": 510901,
-    "event_id": 840437,
-    "player_id": 591322,
-    "placement": 5
-  },
-  "49710938": {
-    "id": 49710938,
-    "tournament_id": 510901,
-    "event_id": 840437,
-    "player_id": 151480,
-    "placement": 3
-  },
-  "49710939": {
-    "id": 49710939,
-    "tournament_id": 510901,
-    "event_id": 840437,
-    "player_id": 29682,
-    "placement": 2
-  },
-  "49710940": {
-    "id": 49710940,
-    "tournament_id": 510901,
-    "event_id": 840437,
-    "player_id": 102319,
-    "placement": 3
-  },
-  "49710941": {
-    "id": 49710941,
-    "tournament_id": 510901,
-    "event_id": 840437,
-    "player_id": 676948,
-    "placement": 5
-  },
-  "49710942": {
-    "id": 49710942,
-    "tournament_id": 510901,
-    "event_id": 840437,
-    "player_id": 93541,
-    "placement": 9
-  },
-  "49710943": {
-    "id": 49710943,
-    "tournament_id": 510901,
-    "event_id": 840437,
-    "player_id": 604883,
-    "placement": 5
-  },
-  "49710944": {
-    "id": 49710944,
-    "tournament_id": 510901,
-    "event_id": 840437,
-    "player_id": 1606635,
-    "placement": 9
-  },
-  "49710945": {
-    "id": 49710945,
-    "tournament_id": 510901,
-    "event_id": 840437,
-    "player_id": 48542,
-    "placement": 5
   },
   "49717173": {
     "id": 49717173,
@@ -30211,34 +29084,6 @@
     "player_id": 38899,
     "placement": 7
   },
-  "51083918": {
-    "id": 51083918,
-    "tournament_id": 523617,
-    "event_id": 864047,
-    "player_id": 3985,
-    "placement": 1
-  },
-  "51083919": {
-    "id": 51083919,
-    "tournament_id": 523617,
-    "event_id": 864047,
-    "player_id": 10445,
-    "placement": 3
-  },
-  "51083920": {
-    "id": 51083920,
-    "tournament_id": 523617,
-    "event_id": 864047,
-    "player_id": 29682,
-    "placement": 2
-  },
-  "51083921": {
-    "id": 51083921,
-    "tournament_id": 523617,
-    "event_id": 864047,
-    "player_id": 12305,
-    "placement": 3
-  },
   "51090726": {
     "id": 51090726,
     "tournament_id": 523617,
@@ -30406,41 +29251,6 @@
     "event_id": 868202,
     "player_id": 271168,
     "placement": 13
-  },
-  "51531540": {
-    "id": 51531540,
-    "tournament_id": 529205,
-    "event_id": 874187,
-    "player_id": 74515,
-    "placement": 3
-  },
-  "51531541": {
-    "id": 51531541,
-    "tournament_id": 529205,
-    "event_id": 874187,
-    "player_id": 3827,
-    "placement": 2
-  },
-  "51531542": {
-    "id": 51531542,
-    "tournament_id": 529205,
-    "event_id": 874187,
-    "player_id": 77752,
-    "placement": 3
-  },
-  "51531543": {
-    "id": 51531543,
-    "tournament_id": 529205,
-    "event_id": 874187,
-    "player_id": 604883,
-    "placement": 5
-  },
-  "51531544": {
-    "id": 51531544,
-    "tournament_id": 529205,
-    "event_id": 874187,
-    "player_id": 559985,
-    "placement": 1
   },
   "51553372": {
     "id": 51553372,
@@ -31330,41 +30140,6 @@
     "event_id": 909585,
     "player_id": 163413,
     "placement": 3
-  },
-  "53941628": {
-    "id": 53941628,
-    "tournament_id": 550762,
-    "event_id": 913742,
-    "player_id": 409223,
-    "placement": 3
-  },
-  "53941629": {
-    "id": 53941629,
-    "tournament_id": 550762,
-    "event_id": 913742,
-    "player_id": 3874,
-    "placement": 1
-  },
-  "53941630": {
-    "id": 53941630,
-    "tournament_id": 550762,
-    "event_id": 913742,
-    "player_id": 29682,
-    "placement": 2
-  },
-  "53941631": {
-    "id": 53941631,
-    "tournament_id": 550762,
-    "event_id": 913742,
-    "player_id": 882422,
-    "placement": 3
-  },
-  "53941632": {
-    "id": 53941632,
-    "tournament_id": 550762,
-    "event_id": 913742,
-    "player_id": 1027368,
-    "placement": 5
   },
   "53947896": {
     "id": 53947896,
@@ -34158,48 +32933,6 @@
     "event_id": 1002619,
     "player_id": 50203,
     "placement": 5
-  },
-  "59456727": {
-    "id": 59456727,
-    "tournament_id": 601073,
-    "event_id": 1006307,
-    "player_id": 1045719,
-    "placement": 3
-  },
-  "59456728": {
-    "id": 59456728,
-    "tournament_id": 601073,
-    "event_id": 1006307,
-    "player_id": 76879,
-    "placement": 5
-  },
-  "59456729": {
-    "id": 59456729,
-    "tournament_id": 601073,
-    "event_id": 1006307,
-    "player_id": 409223,
-    "placement": 2
-  },
-  "59456730": {
-    "id": 59456730,
-    "tournament_id": 601073,
-    "event_id": 1006307,
-    "player_id": 604883,
-    "placement": 5
-  },
-  "59456731": {
-    "id": 59456731,
-    "tournament_id": 601073,
-    "event_id": 1006307,
-    "player_id": 3874,
-    "placement": 1
-  },
-  "59456732": {
-    "id": 59456732,
-    "tournament_id": 601073,
-    "event_id": 1006307,
-    "player_id": 271168,
-    "placement": 4
   },
   "59463530": {
     "id": 59463530,
@@ -37057,216 +35790,6 @@
     "player_id": 1545738,
     "placement": 13
   },
-  "67318730": {
-    "id": 67318730,
-    "tournament_id": 645334,
-    "event_id": 1092058,
-    "player_id": 50109,
-    "placement": 9
-  },
-  "67318731": {
-    "id": 67318731,
-    "tournament_id": 645334,
-    "event_id": 1092058,
-    "player_id": 962659,
-    "placement": 9
-  },
-  "67318732": {
-    "id": 67318732,
-    "tournament_id": 645334,
-    "event_id": 1092058,
-    "player_id": 4223,
-    "placement": 4
-  },
-  "67318733": {
-    "id": 67318733,
-    "tournament_id": 645334,
-    "event_id": 1092058,
-    "player_id": 53715,
-    "placement": 7
-  },
-  "67318734": {
-    "id": 67318734,
-    "tournament_id": 645334,
-    "event_id": 1092058,
-    "player_id": 598488,
-    "placement": 9
-  },
-  "67318735": {
-    "id": 67318735,
-    "tournament_id": 645334,
-    "event_id": 1092058,
-    "player_id": 2449834,
-    "placement": 9
-  },
-  "67318736": {
-    "id": 67318736,
-    "tournament_id": 645334,
-    "event_id": 1092058,
-    "player_id": 364667,
-    "placement": 5
-  },
-  "67318737": {
-    "id": 67318737,
-    "tournament_id": 645334,
-    "event_id": 1092058,
-    "player_id": 151480,
-    "placement": 7
-  },
-  "67318738": {
-    "id": 67318738,
-    "tournament_id": 645334,
-    "event_id": 1092058,
-    "player_id": 22563,
-    "placement": 3
-  },
-  "67318739": {
-    "id": 67318739,
-    "tournament_id": 645334,
-    "event_id": 1092058,
-    "player_id": 3874,
-    "placement": 2
-  },
-  "67318740": {
-    "id": 67318740,
-    "tournament_id": 645334,
-    "event_id": 1092058,
-    "player_id": 135035,
-    "placement": 1
-  },
-  "67318741": {
-    "id": 67318741,
-    "tournament_id": 645334,
-    "event_id": 1092058,
-    "player_id": 6773,
-    "placement": 5
-  },
-  "67324421": {
-    "id": 67324421,
-    "tournament_id": 645334,
-    "event_id": 1092057,
-    "player_id": 135035,
-    "placement": 5
-  },
-  "67324422": {
-    "id": 67324422,
-    "tournament_id": 645334,
-    "event_id": 1092057,
-    "player_id": 37341,
-    "placement": 7
-  },
-  "67324423": {
-    "id": 67324423,
-    "tournament_id": 645334,
-    "event_id": 1092057,
-    "player_id": 409223,
-    "placement": 13
-  },
-  "67324424": {
-    "id": 67324424,
-    "tournament_id": 645334,
-    "event_id": 1092057,
-    "player_id": 6773,
-    "placement": 2
-  },
-  "67324425": {
-    "id": 67324425,
-    "tournament_id": 645334,
-    "event_id": 1092057,
-    "player_id": 1983845,
-    "placement": 13
-  },
-  "67324426": {
-    "id": 67324426,
-    "tournament_id": 645334,
-    "event_id": 1092057,
-    "player_id": 859,
-    "placement": 5
-  },
-  "67324427": {
-    "id": 67324427,
-    "tournament_id": 645334,
-    "event_id": 1092057,
-    "player_id": 48542,
-    "placement": 7
-  },
-  "67324428": {
-    "id": 67324428,
-    "tournament_id": 645334,
-    "event_id": 1092057,
-    "player_id": 53715,
-    "placement": 9
-  },
-  "67324429": {
-    "id": 67324429,
-    "tournament_id": 645334,
-    "event_id": 1092057,
-    "player_id": 3737,
-    "placement": 1
-  },
-  "67324430": {
-    "id": 67324430,
-    "tournament_id": 645334,
-    "event_id": 1092057,
-    "player_id": 151480,
-    "placement": 13
-  },
-  "67324431": {
-    "id": 67324431,
-    "tournament_id": 645334,
-    "event_id": 1092057,
-    "player_id": 2449834,
-    "placement": 9
-  },
-  "67324432": {
-    "id": 67324432,
-    "tournament_id": 645334,
-    "event_id": 1092057,
-    "player_id": 191209,
-    "placement": 9
-  },
-  "67324433": {
-    "id": 67324433,
-    "tournament_id": 645334,
-    "event_id": 1092057,
-    "player_id": 2572650,
-    "placement": 17
-  },
-  "67324434": {
-    "id": 67324434,
-    "tournament_id": 645334,
-    "event_id": 1092057,
-    "player_id": 1012735,
-    "placement": 13
-  },
-  "67324435": {
-    "id": 67324435,
-    "tournament_id": 645334,
-    "event_id": 1092057,
-    "player_id": 44141,
-    "placement": 3
-  },
-  "67324436": {
-    "id": 67324436,
-    "tournament_id": 645334,
-    "event_id": 1092057,
-    "player_id": 598488,
-    "placement": 9
-  },
-  "67324437": {
-    "id": 67324437,
-    "tournament_id": 645334,
-    "event_id": 1092057,
-    "player_id": 4223,
-    "placement": 4
-  },
-  "67324438": {
-    "id": 67324438,
-    "tournament_id": 645334,
-    "event_id": 1092057,
-    "player_id": 38370,
-    "placement": 17
-  },
   "67331186": {
     "id": 67331186,
     "tournament_id": 645334,
@@ -39652,188 +38175,6 @@
     "tournament_id": 717411,
     "event_id": 1231882,
     "player_id": 1053784,
-    "placement": 13
-  },
-  "73305475": {
-    "id": 73305475,
-    "tournament_id": 720394,
-    "event_id": 1238506,
-    "player_id": 409223,
-    "placement": 5
-  },
-  "73305476": {
-    "id": 73305476,
-    "tournament_id": 720394,
-    "event_id": 1238506,
-    "player_id": 1512759,
-    "placement": 7
-  },
-  "73305477": {
-    "id": 73305477,
-    "tournament_id": 720394,
-    "event_id": 1238506,
-    "player_id": 1605128,
-    "placement": 9
-  },
-  "73305478": {
-    "id": 73305478,
-    "tournament_id": 720394,
-    "event_id": 1238506,
-    "player_id": 1600013,
-    "placement": 9
-  },
-  "73305479": {
-    "id": 73305479,
-    "tournament_id": 720394,
-    "event_id": 1238506,
-    "player_id": 43981,
-    "placement": 9
-  },
-  "73305480": {
-    "id": 73305480,
-    "tournament_id": 720394,
-    "event_id": 1238506,
-    "player_id": 12305,
-    "placement": 9
-  },
-  "73305481": {
-    "id": 73305481,
-    "tournament_id": 720394,
-    "event_id": 1238506,
-    "player_id": 135035,
-    "placement": 1
-  },
-  "73305482": {
-    "id": 73305482,
-    "tournament_id": 720394,
-    "event_id": 1238506,
-    "player_id": 3874,
-    "placement": 4
-  },
-  "73305483": {
-    "id": 73305483,
-    "tournament_id": 720394,
-    "event_id": 1238506,
-    "player_id": 3985,
-    "placement": 2
-  },
-  "73305484": {
-    "id": 73305484,
-    "tournament_id": 720394,
-    "event_id": 1238506,
-    "player_id": 364667,
-    "placement": 3
-  },
-  "73305485": {
-    "id": 73305485,
-    "tournament_id": 720394,
-    "event_id": 1238506,
-    "player_id": 5097,
-    "placement": 5
-  },
-  "73305486": {
-    "id": 73305486,
-    "tournament_id": 720394,
-    "event_id": 1238506,
-    "player_id": 50109,
-    "placement": 7
-  },
-  "73305487": {
-    "id": 73305487,
-    "tournament_id": 720394,
-    "event_id": 1238506,
-    "player_id": 1545738,
-    "placement": 13
-  },
-  "73311563": {
-    "id": 73311563,
-    "tournament_id": 720394,
-    "event_id": 1238507,
-    "player_id": 1512759,
-    "placement": 9
-  },
-  "73311564": {
-    "id": 73311564,
-    "tournament_id": 720394,
-    "event_id": 1238507,
-    "player_id": 271168,
-    "placement": 9
-  },
-  "73311565": {
-    "id": 73311565,
-    "tournament_id": 720394,
-    "event_id": 1238507,
-    "player_id": 409223,
-    "placement": 7
-  },
-  "73311566": {
-    "id": 73311566,
-    "tournament_id": 720394,
-    "event_id": 1238507,
-    "player_id": 1600013,
-    "placement": 9
-  },
-  "73311567": {
-    "id": 73311567,
-    "tournament_id": 720394,
-    "event_id": 1238507,
-    "player_id": 5097,
-    "placement": 5
-  },
-  "73311568": {
-    "id": 73311568,
-    "tournament_id": 720394,
-    "event_id": 1238507,
-    "player_id": 1545738,
-    "placement": 7
-  },
-  "73311569": {
-    "id": 73311569,
-    "tournament_id": 720394,
-    "event_id": 1238507,
-    "player_id": 135035,
-    "placement": 1
-  },
-  "73311570": {
-    "id": 73311570,
-    "tournament_id": 720394,
-    "event_id": 1238507,
-    "player_id": 43981,
-    "placement": 3
-  },
-  "73311571": {
-    "id": 73311571,
-    "tournament_id": 720394,
-    "event_id": 1238507,
-    "player_id": 3874,
-    "placement": 2
-  },
-  "73311572": {
-    "id": 73311572,
-    "tournament_id": 720394,
-    "event_id": 1238507,
-    "player_id": 3827,
-    "placement": 5
-  },
-  "73311573": {
-    "id": 73311573,
-    "tournament_id": 720394,
-    "event_id": 1238507,
-    "player_id": 2551722,
-    "placement": 9
-  },
-  "73311574": {
-    "id": 73311574,
-    "tournament_id": 720394,
-    "event_id": 1238507,
-    "player_id": 591322,
-    "placement": 4
-  },
-  "73311575": {
-    "id": 73311575,
-    "tournament_id": 720394,
-    "event_id": 1238507,
-    "player_id": 12305,
     "placement": 13
   },
   "73562729": {
@@ -43574,62 +41915,6 @@
     "player_id": 516275,
     "placement": 4
   },
-  "86383202": {
-    "id": 86383202,
-    "tournament_id": 835436,
-    "event_id": 1474627,
-    "player_id": 135035,
-    "placement": 1
-  },
-  "86383203": {
-    "id": 86383203,
-    "tournament_id": 835436,
-    "event_id": 1474627,
-    "player_id": 2590274,
-    "placement": 7
-  },
-  "86383204": {
-    "id": 86383204,
-    "tournament_id": 835436,
-    "event_id": 1474627,
-    "player_id": 2134728,
-    "placement": 4
-  },
-  "86383205": {
-    "id": 86383205,
-    "tournament_id": 835436,
-    "event_id": 1474627,
-    "player_id": 12305,
-    "placement": 5
-  },
-  "86383206": {
-    "id": 86383206,
-    "tournament_id": 835436,
-    "event_id": 1474627,
-    "player_id": 3827,
-    "placement": 2
-  },
-  "86383207": {
-    "id": 86383207,
-    "tournament_id": 835436,
-    "event_id": 1474627,
-    "player_id": 271168,
-    "placement": 7
-  },
-  "86383208": {
-    "id": 86383208,
-    "tournament_id": 835436,
-    "event_id": 1474627,
-    "player_id": 409223,
-    "placement": 3
-  },
-  "86383209": {
-    "id": 86383209,
-    "tournament_id": 835436,
-    "event_id": 1474627,
-    "player_id": 2932347,
-    "placement": 5
-  },
   "86384357": {
     "id": 86384357,
     "tournament_id": 835436,
@@ -44321,6 +42606,104 @@
     "tournament_id": 847512,
     "event_id": 1495790,
     "player_id": 2590274,
+    "placement": 9
+  },
+  "87962513": {
+    "id": 87962513,
+    "tournament_id": 850277,
+    "event_id": 1501203,
+    "player_id": 50109,
+    "placement": 7
+  },
+  "87962514": {
+    "id": 87962514,
+    "tournament_id": 850277,
+    "event_id": 1501203,
+    "player_id": 2440565,
+    "placement": 9
+  },
+  "87962515": {
+    "id": 87962515,
+    "tournament_id": 850277,
+    "event_id": 1501203,
+    "player_id": 29311,
+    "placement": 7
+  },
+  "87962516": {
+    "id": 87962516,
+    "tournament_id": 850277,
+    "event_id": 1501203,
+    "player_id": 2932347,
+    "placement": 9
+  },
+  "87962517": {
+    "id": 87962517,
+    "tournament_id": 850277,
+    "event_id": 1501203,
+    "player_id": 3313,
+    "placement": 1
+  },
+  "87962518": {
+    "id": 87962518,
+    "tournament_id": 850277,
+    "event_id": 1501203,
+    "player_id": 364667,
+    "placement": 3
+  },
+  "87962519": {
+    "id": 87962519,
+    "tournament_id": 850277,
+    "event_id": 1501203,
+    "player_id": 2387393,
+    "placement": 5
+  },
+  "87962520": {
+    "id": 87962520,
+    "tournament_id": 850277,
+    "event_id": 1501203,
+    "player_id": 143882,
+    "placement": 9
+  },
+  "87962521": {
+    "id": 87962521,
+    "tournament_id": 850277,
+    "event_id": 1501203,
+    "player_id": 973753,
+    "placement": 4
+  },
+  "87962522": {
+    "id": 87962522,
+    "tournament_id": 850277,
+    "event_id": 1501203,
+    "player_id": 1373446,
+    "placement": 13
+  },
+  "87962523": {
+    "id": 87962523,
+    "tournament_id": 850277,
+    "event_id": 1501203,
+    "player_id": 135035,
+    "placement": 2
+  },
+  "87962524": {
+    "id": 87962524,
+    "tournament_id": 850277,
+    "event_id": 1501203,
+    "player_id": 1512759,
+    "placement": 13
+  },
+  "87962525": {
+    "id": 87962525,
+    "tournament_id": 850277,
+    "event_id": 1501203,
+    "player_id": 3923,
+    "placement": 5
+  },
+  "87962526": {
+    "id": 87962526,
+    "tournament_id": 850277,
+    "event_id": 1501203,
+    "player_id": 271168,
     "placement": 9
   }
 }

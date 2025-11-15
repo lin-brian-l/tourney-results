@@ -123,17 +123,17 @@ app.get('/all-events', async (req, res) => {
     // Create an array of all events with their tournament info
     const allEvents = [];
 
-    Object.values(tournaments).forEach(tournament => {
-      tournament.events.forEach(eventId => {
-        allEvents.push({
-          event: events[eventId],
-          tournament,
-        });
+    Object.values(events).forEach(event => {
+      const tournament = tournaments[event.tournament_id];
+
+      allEvents.push({
+        ...event,
+        tournament,
       });
     })
 
     // Sort events by date (newest first)
-    allEvents.sort((a, b) => b.event.start_at - a.event.start_at);
+    allEvents.sort((a, b) => b.start_at - a.start_at);
 
     res.render('all-events', {
       basePath: res.locals.basePath,

@@ -4,3143 +4,2183 @@
     "name": "Tripoint Smash #1",
     "url": "https://start.gg/tournament/tripoint-smash-1",
     "start_at": 1520035200,
-    "end_at": 1520056740,
-    "events": [
-      81628
-    ]
+    "end_at": 1520056740
   },
   "42854": {
     "id": 42854,
     "name": "Tripoint Smash #2",
     "url": "https://start.gg/tournament/tripoint-smash-2",
     "start_at": 1520640000,
-    "end_at": 1520661540,
-    "events": [
-      91609
-    ]
+    "end_at": 1520661540
   },
   "44829": {
     "id": 44829,
     "name": "Tripoint Smash #3",
     "url": "https://start.gg/tournament/tripoint-smash-3",
     "start_at": 1521241200,
-    "end_at": 1521262740,
-    "events": [
-      94704
-    ]
+    "end_at": 1521262740
   },
   "46519": {
     "id": 46519,
     "name": "Tripoint Smash #4",
     "url": "https://start.gg/tournament/tripoint-smash-4-1",
     "start_at": 1521846000,
-    "end_at": 1521867540,
-    "events": [
-      97249
-    ]
+    "end_at": 1521867540
   },
   "47359": {
     "id": 47359,
     "name": "Tripoint Smash #5 ft. $100 Bonus!",
     "url": "https://start.gg/tournament/tripoint-smash-5-ft-100-bonus",
     "start_at": 1522450800,
-    "end_at": 1522472340,
-    "events": [
-      99003
-    ]
+    "end_at": 1522472340
   },
   "48271": {
     "id": 48271,
     "name": "Tripoint Smash #6",
     "url": "https://start.gg/tournament/tripoint-smash-6",
     "start_at": 1523055600,
-    "end_at": 1523077140,
-    "events": [
-      101263
-    ]
+    "end_at": 1523077140
   },
   "49915": {
     "id": 49915,
     "name": "Tripoint Smash #7",
     "url": "https://start.gg/tournament/tripoint-smash-7",
     "start_at": 1523660400,
-    "end_at": 1523681940,
-    "events": [
-      107536
-    ]
+    "end_at": 1523681940
   },
   "50872": {
     "id": 50872,
     "name": "Tripoint Smash 8",
     "url": "https://start.gg/tournament/tripoint-smash-8-1",
     "start_at": 1524265200,
-    "end_at": 1524286740,
-    "events": [
-      109867
-    ]
+    "end_at": 1524286740
   },
   "51858": {
     "id": 51858,
     "name": "Tripoint Smash 9",
     "url": "https://start.gg/tournament/tripoint-smash-9",
     "start_at": 1524870000,
-    "end_at": 1524891540,
-    "events": [
-      112151
-    ]
+    "end_at": 1524891540
   },
   "52897": {
     "id": 52897,
     "name": "Tripoint Smash 10",
     "url": "https://start.gg/tournament/tripoint-smash-10",
     "start_at": 1525474800,
-    "end_at": 1525496340,
-    "events": [
-      114301,
-      114744
-    ]
+    "end_at": 1525496340
   },
   "53213": {
     "id": 53213,
     "name": "Tripoint Smash 11 ft. Pokken",
     "url": "https://start.gg/tournament/tripoint-smash-11-ft-pokken",
     "start_at": 1526079600,
-    "end_at": 1526101140,
-    "events": [
-      114968
-    ]
+    "end_at": 1526101140
   },
   "54394": {
     "id": 54394,
     "name": "Tripoint Smash 12",
     "url": "https://start.gg/tournament/tripoint-smash-12",
     "start_at": 1526684400,
-    "end_at": 1526705940,
-    "events": [
-      117136
-    ]
+    "end_at": 1526705940
   },
   "54806": {
     "id": 54806,
     "name": "Tripoint Smash 13",
     "url": "https://start.gg/tournament/tripoint-smash-13",
     "start_at": 1527289200,
-    "end_at": 1527310740,
-    "events": [
-      117800
-    ]
+    "end_at": 1527310740
   },
   "56791": {
     "id": 56791,
     "name": "Tripoint Smash 14",
     "url": "https://start.gg/tournament/tripoint-smash-14",
     "start_at": 1528455600,
-    "end_at": 1528477140,
-    "events": [
-      121583
-    ]
+    "end_at": 1528477140
   },
   "57163": {
     "id": 57163,
     "name": "Tripoint Smash 15",
     "url": "https://start.gg/tournament/tripoint-smash-15",
     "start_at": 1529103600,
-    "end_at": 1529125140,
-    "events": [
-      122246
-    ]
+    "end_at": 1529125140
   },
   "57920": {
     "id": 57920,
     "name": "Tripoint Smash 16",
     "url": "https://start.gg/tournament/tripoint-smash-16",
     "start_at": 1529708400,
-    "end_at": 1529729940,
-    "events": [
-      123840
-    ]
+    "end_at": 1529729940
   },
   "59297": {
     "id": 59297,
     "name": "Tripoint Smash 17 ft. $100 Pot Bonus!",
     "url": "https://start.gg/tournament/tripoint-smash-17-ft-100-pot-bonus",
     "start_at": 1530313200,
-    "end_at": 1530334740,
-    "events": [
-      126056
-    ]
+    "end_at": 1530334740
   },
   "61326": {
     "id": 61326,
     "name": "Tripoint Smash 18",
     "url": "https://start.gg/tournament/tripoint-smash-18",
     "start_at": 1530918000,
-    "end_at": 1530939540,
-    "events": [
-      129274
-    ]
+    "end_at": 1530939540
   },
   "63740": {
     "id": 63740,
     "name": "Tripoint Smash 19",
     "url": "https://start.gg/tournament/tripoint-smash-19",
     "start_at": 1531530000,
-    "end_at": 1531551540,
-    "events": [
-      144694,
-      134258
-    ]
+    "end_at": 1531551540
   },
   "68305": {
     "id": 68305,
     "name": "Tripoint Smash 20",
     "url": "https://start.gg/tournament/tripoint-smash-20",
     "start_at": 1532127600,
-    "end_at": 1532149140,
-    "events": [
-      144776,
-      152715
-    ]
+    "end_at": 1532149140
   },
   "71038": {
     "id": 71038,
     "name": "Tripoint Smash 21",
     "url": "https://start.gg/tournament/tripoint-smash-21",
     "start_at": 1532732400,
-    "end_at": 1532753940,
-    "events": [
-      153731
-    ]
+    "end_at": 1532753940
   },
   "75119": {
     "id": 75119,
     "name": "Tripoint Smash 22",
     "url": "https://start.gg/tournament/tripoint-smash-22",
     "start_at": 1533337200,
-    "end_at": 1533358740,
-    "events": [
-      167333
-    ]
+    "end_at": 1533358740
   },
   "76642": {
     "id": 76642,
     "name": "Tripoint Smash 23",
     "url": "https://start.gg/tournament/tripoint-smash-23",
     "start_at": 1533898800,
-    "end_at": 1533963540,
-    "events": [
-      172173
-    ]
+    "end_at": 1533963540
   },
   "80089": {
     "id": 80089,
     "name": "Tripoint Smash 24",
     "url": "https://start.gg/tournament/tripoint-smash-24",
     "start_at": 1534546800,
-    "end_at": 1534568340,
-    "events": [
-      183403
-    ]
+    "end_at": 1534568340
   },
   "82512": {
     "id": 82512,
     "name": "Tripoint Smash 25",
     "url": "https://start.gg/tournament/tripoint-smash-25-1",
     "start_at": 1535151600,
-    "end_at": 1535173140,
-    "events": [
-      191247
-    ]
+    "end_at": 1535173140
   },
   "88472": {
     "id": 88472,
     "name": "Tripoint Smash 26 ft. $100 Pot Bonus!",
     "url": "https://start.gg/tournament/tripoint-smash-26-ft-100-pot-bonus-1",
     "start_at": 1535756400,
-    "end_at": 1535777940,
-    "events": [
-      206041
-    ]
+    "end_at": 1535777940
   },
   "90613": {
     "id": 90613,
     "name": "Tripoint Smash 27",
     "url": "https://start.gg/tournament/tripoint-smash-27",
     "start_at": 1536361200,
-    "end_at": 1536382740,
-    "events": [
-      210762
-    ]
+    "end_at": 1536382740
   },
   "91489": {
     "id": 91489,
     "name": "Tripoint Smash 28",
     "url": "https://start.gg/tournament/tripoint-smash-28",
     "start_at": 1536966000,
-    "end_at": 1536987540,
-    "events": [
-      212861
-    ]
+    "end_at": 1536987540
   },
   "97054": {
     "id": 97054,
     "name": "Tripoint Smash 29",
     "url": "https://start.gg/tournament/tripoint-smash-29",
     "start_at": 1538175600,
-    "end_at": 1538197140,
-    "events": [
-      225975
-    ]
+    "end_at": 1538197140
   },
   "98939": {
     "id": 98939,
     "name": "Tripoint Smash 30",
     "url": "https://start.gg/tournament/tripoint-smash-30",
     "start_at": 1538780400,
-    "end_at": 1538801940,
-    "events": [
-      230076
-    ]
+    "end_at": 1538801940
   },
   "102406": {
     "id": 102406,
     "name": "Tripoint Smash 31",
     "url": "https://start.gg/tournament/tripoint-smash-31",
     "start_at": 1539385200,
-    "end_at": 1539406740,
-    "events": [
-      238526
-    ]
+    "end_at": 1539406740
   },
   "105768": {
     "id": 105768,
     "name": "Tripoint Smash 32",
     "url": "https://start.gg/tournament/tripoint-smash-32",
     "start_at": 1539990000,
-    "end_at": 1540011540,
-    "events": [
-      245857
-    ]
+    "end_at": 1540011540
   },
   "107769": {
     "id": 107769,
     "name": "Tripoint Smash 33",
     "url": "https://start.gg/tournament/tripoint-smash-33",
     "start_at": 1540594800,
-    "end_at": 1540616340,
-    "events": [
-      250192
-    ]
+    "end_at": 1540616340
   },
   "109089": {
     "id": 109089,
     "name": "Tripoint Smash 34",
     "url": "https://start.gg/tournament/tripoint-smash-34",
     "start_at": 1541199600,
-    "end_at": 1541221140,
-    "events": [
-      252974
-    ]
+    "end_at": 1541221140
   },
   "111193": {
     "id": 111193,
     "name": "Tripoint Smash 35",
     "url": "https://start.gg/tournament/tripoint-smash-35",
     "start_at": 1541808000,
-    "end_at": 1541829540,
-    "events": [
-      257512
-    ]
+    "end_at": 1541829540
   },
   "112966": {
     "id": 112966,
     "name": "Tripoint Smash 36",
     "url": "https://start.gg/tournament/tripoint-smash-36",
     "start_at": 1542412800,
-    "end_at": 1542434340,
-    "events": [
-      261316
-    ]
+    "end_at": 1542434340
   },
   "114713": {
     "id": 114713,
     "name": "Tripoint Smash 37",
     "url": "https://start.gg/tournament/tripoint-smash-37",
     "start_at": 1543017600,
-    "end_at": 1543039140,
-    "events": [
-      265093
-    ]
+    "end_at": 1543039140
   },
   "117007": {
     "id": 117007,
     "name": "Tripoint Smash 38 ft. $100 Pot Bonus",
     "url": "https://start.gg/tournament/tripoint-smash-38-ft-100-pot-bonus",
     "start_at": 1543622400,
-    "end_at": 1543643940,
-    "events": [
-      270091
-    ]
+    "end_at": 1543643940
   },
   "121569": {
     "id": 121569,
     "name": "Tripoint Smash 39",
     "url": "https://start.gg/tournament/tripoint-smash-39",
     "start_at": 1544832000,
-    "end_at": 1544853540,
-    "events": [
-      279633
-    ]
+    "end_at": 1544853540
   },
   "122572": {
     "id": 122572,
     "name": "Tripoint Smash 40",
     "url": "https://start.gg/tournament/tripoint-smash-40",
     "start_at": 1545436800,
-    "end_at": 1545458340,
-    "events": [
-      281644
-    ]
+    "end_at": 1545458340
   },
   "125252": {
     "id": 125252,
     "name": "Tripoint Smash 41",
     "url": "https://start.gg/tournament/tripoint-smash-41",
     "start_at": 1546041600,
-    "end_at": 1546063140,
-    "events": [
-      287439
-    ]
+    "end_at": 1546063140
   },
   "126209": {
     "id": 126209,
     "name": "Tripoint Smash 42",
     "url": "https://start.gg/tournament/tripoint-smash-42",
     "start_at": 1546646400,
-    "end_at": 1546667940,
-    "events": [
-      289844
-    ]
+    "end_at": 1546667940
   },
   "128192": {
     "id": 128192,
     "name": "Tripoint Smash 43",
     "url": "https://start.gg/tournament/tripoint-smash-43",
     "start_at": 1547251200,
-    "end_at": 1547272740,
-    "events": [
-      294152
-    ]
+    "end_at": 1547272740
   },
   "131707": {
     "id": 131707,
     "name": "Tripoint Smash 44 ft. Doubles and Squad Strike!",
     "url": "https://start.gg/tournament/tripoint-smash-44-ft-doubles-and-squad-strike-1",
     "start_at": 1547856000,
-    "end_at": 1547877540,
-    "events": [
-      302668
-    ]
+    "end_at": 1547877540
   },
   "135811": {
     "id": 135811,
     "name": "Tripoint Smash 45",
     "url": "https://start.gg/tournament/tripoint-smash-45-1",
     "start_at": 1548460800,
-    "end_at": 1548486000,
-    "events": [
-      312985
-    ]
+    "end_at": 1548486000
   },
   "137290": {
     "id": 137290,
     "name": "Tripoint Smash 46",
     "url": "https://start.gg/tournament/tripoint-smash-46-1",
     "start_at": 1549065600,
-    "end_at": 1549083600,
-    "events": [
-      316473
-    ]
+    "end_at": 1549083600
   },
   "137330": {
     "id": 137330,
     "name": "Tripoint Smash 47",
     "url": "https://start.gg/tournament/tripoint-smash-47-1",
     "start_at": 1549670400,
-    "end_at": 1549691940,
-    "events": [
-      316562
-    ]
+    "end_at": 1549691940
   },
   "138278": {
     "id": 138278,
     "name": "Tripoint Smash 48",
     "url": "https://start.gg/tournament/tripoint-smash-48",
     "start_at": 1550275200,
-    "end_at": 1550296740,
-    "events": [
-      318388
-    ]
+    "end_at": 1550296740
   },
   "139738": {
     "id": 139738,
     "name": "Tripoint Smash 49",
     "url": "https://start.gg/tournament/tripoint-smash-49",
     "start_at": 1550880000,
-    "end_at": 1550901540,
-    "events": [
-      322106
-    ]
+    "end_at": 1550901540
   },
   "141634": {
     "id": 141634,
     "name": "Tripoint Smash 50",
     "url": "https://start.gg/tournament/tripoint-smash-50",
     "start_at": 1551484800,
-    "end_at": 1551506340,
-    "events": [
-      328668
-    ]
+    "end_at": 1551506340
   },
   "143475": {
     "id": 143475,
     "name": "Tripoint Smash 51",
     "url": "https://start.gg/tournament/tripoint-smash-51",
     "start_at": 1552046400,
-    "end_at": 1552114800,
-    "events": [
-      333792
-    ]
+    "end_at": 1552114800
   },
   "144796": {
     "id": 144796,
     "name": "Tripoint Smash 52",
     "url": "https://start.gg/tournament/tripoint-smash-52-1",
     "start_at": 1552690800,
-    "end_at": 1552712340,
-    "events": [
-      336430
-    ]
+    "end_at": 1552712340
   },
   "145307": {
     "id": 145307,
     "name": "Tripoint Smash 53",
     "url": "https://start.gg/tournament/tripoint-smash-53",
     "start_at": 1553295600,
-    "end_at": 1553317140,
-    "events": [
-      337330
-    ]
+    "end_at": 1553317140
   },
   "145805": {
     "id": 145805,
     "name": "Tripoint Smash 54 ft. Multiple Pot Bonuses!",
     "url": "https://start.gg/tournament/tripoint-smash-54-ft-multiple-pot-bonuses",
     "start_at": 1553900400,
-    "end_at": 1553921940,
-    "events": [
-      338303
-    ]
+    "end_at": 1553921940
   },
   "147411": {
     "id": 147411,
     "name": "Tripoint Smash 55",
     "url": "https://start.gg/tournament/tripoint-smash-55",
     "start_at": 1554505200,
-    "end_at": 1554526740,
-    "events": [
-      341624
-    ]
+    "end_at": 1554526740
   },
   "148031": {
     "id": 148031,
     "name": "Tripoint Smash 56",
     "url": "https://start.gg/tournament/tripoint-smash-56",
     "start_at": 1555110000,
-    "end_at": 1555131540,
-    "events": [
-      342998
-    ]
+    "end_at": 1555131540
   },
   "149464": {
     "id": 149464,
     "name": "Tripoint Smash 57",
     "url": "https://start.gg/tournament/tripoint-smash-57",
     "start_at": 1555714800,
-    "end_at": 1555736340,
-    "events": [
-      345817
-    ]
+    "end_at": 1555736340
   },
   "150354": {
     "id": 150354,
     "name": "Tripoint Smash 58",
     "url": "https://start.gg/tournament/tripoint-smash-58",
     "start_at": 1556319600,
-    "end_at": 1556341140,
-    "events": [
-      347352
-    ]
+    "end_at": 1556341140
   },
   "151693": {
     "id": 151693,
     "name": "Tripoint Smash 59",
     "url": "https://start.gg/tournament/tripoint-smash-59",
     "start_at": 1556924400,
-    "end_at": 1556945940,
-    "events": [
-      351467
-    ]
+    "end_at": 1556945940
   },
   "152955": {
     "id": 152955,
     "name": "Tripoint Smash 60",
     "url": "https://start.gg/tournament/tripoint-smash-60",
     "start_at": 1557529200,
-    "end_at": 1557550740,
-    "events": [
-      354074
-    ]
+    "end_at": 1557550740
   },
   "153950": {
     "id": 153950,
     "name": "Tripoint Smash 61",
     "url": "https://start.gg/tournament/tripoint-smash-61",
     "start_at": 1558134000,
-    "end_at": 1558155540,
-    "events": [
-      356134
-    ]
+    "end_at": 1558155540
   },
   "154444": {
     "id": 154444,
     "name": "Tripoint Smash 62",
     "url": "https://start.gg/tournament/tripoint-smash-62",
     "start_at": 1558738800,
-    "end_at": 1558760340,
-    "events": [
-      357099
-    ]
+    "end_at": 1558760340
   },
   "156730": {
     "id": 156730,
     "name": "Tripoint Smash 63",
     "url": "https://start.gg/tournament/tripoint-smash-63",
     "start_at": 1559948400,
-    "end_at": 1559969940,
-    "events": [
-      361761
-    ]
+    "end_at": 1559969940
   },
   "157763": {
     "id": 157763,
     "name": "Tripoint Smash 64 ft. Father's Day Amateurs!",
     "url": "https://start.gg/tournament/tripoint-smash-64-ft-father-s-day-amateurs",
     "start_at": 1560553200,
-    "end_at": 1560574740,
-    "events": [
-      363894
-    ]
+    "end_at": 1560574740
   },
   "158714": {
     "id": 158714,
     "name": "Tripoint Smash 65",
     "url": "https://start.gg/tournament/tripoint-smash-65",
     "start_at": 1561158000,
-    "end_at": 1561179540,
-    "events": [
-      365870
-    ]
+    "end_at": 1561179540
   },
   "159772": {
     "id": 159772,
     "name": "Tripoint Smash 66",
     "url": "https://start.gg/tournament/tripoint-smash-66",
     "start_at": 1561762800,
-    "end_at": 1561784340,
-    "events": [
-      367990
-    ]
+    "end_at": 1561784340
   },
   "160704": {
     "id": 160704,
     "name": "Tripoint Smash 67",
     "url": "https://start.gg/tournament/tripoint-smash-67",
     "start_at": 1562367600,
-    "end_at": 1562389140,
-    "events": [
-      369870
-    ]
+    "end_at": 1562389140
   },
   "162378": {
     "id": 162378,
     "name": "Tripoint Smash 68",
     "url": "https://start.gg/tournament/tripoint-smash-68",
     "start_at": 1562972400,
-    "end_at": 1562993940,
-    "events": [
-      374013
-    ]
+    "end_at": 1562993940
   },
   "163186": {
     "id": 163186,
     "name": "Tripoint Smash 69",
     "url": "https://start.gg/tournament/tripoint-smash-69",
     "start_at": 1563577200,
-    "end_at": 1563598740,
-    "events": [
-      375594
-    ]
+    "end_at": 1563598740
   },
   "164364": {
     "id": 164364,
     "name": "Tripoint Smash 70",
     "url": "https://start.gg/tournament/tripoint-smash-70",
     "start_at": 1564182000,
-    "end_at": 1564203540,
-    "events": [
-      378699
-    ]
+    "end_at": 1564203540
   },
   "165380": {
     "id": 165380,
     "name": "Tripoint Smash 71",
     "url": "https://start.gg/tournament/tripoint-smash-71",
     "start_at": 1564786800,
-    "end_at": 1564808340,
-    "events": [
-      380691
-    ]
+    "end_at": 1564808340
   },
   "166491": {
     "id": 166491,
     "name": "Tripoint Smash 72",
     "url": "https://start.gg/tournament/tripoint-smash-72",
     "start_at": 1565391600,
-    "end_at": 1565413140,
-    "events": [
-      382911
-    ]
+    "end_at": 1565413140
   },
   "167573": {
     "id": 167573,
     "name": "Tripoint Smash 73",
     "url": "https://start.gg/tournament/tripoint-smash-73",
     "start_at": 1565996400,
-    "end_at": 1566017940,
-    "events": [
-      385003
-    ]
+    "end_at": 1566017940
   },
   "168705": {
     "id": 168705,
     "name": "Tripoint Smash 74",
     "url": "https://start.gg/tournament/tripoint-smash-74",
     "start_at": 1566601200,
-    "end_at": 1566622740,
-    "events": [
-      387183
-    ]
+    "end_at": 1566622740
   },
   "169801": {
     "id": 169801,
     "name": "Tripoint Smash 75",
     "url": "https://start.gg/tournament/tripoint-smash-75",
     "start_at": 1567206000,
-    "end_at": 1567227540,
-    "events": [
-      389296
-    ]
+    "end_at": 1567227540
   },
   "171038": {
     "id": 171038,
     "name": "Tripoint Smash 76",
     "url": "https://start.gg/tournament/tripoint-smash-76",
     "start_at": 1567810800,
-    "end_at": 1567832340,
-    "events": [
-      391639
-    ]
+    "end_at": 1567832340
   },
   "172122": {
     "id": 172122,
     "name": "Tripoint Smash 77",
     "url": "https://start.gg/tournament/tripoint-smash-77",
     "start_at": 1568415600,
-    "end_at": 1568437140,
-    "events": [
-      394337
-    ]
+    "end_at": 1568437140
   },
   "173355": {
     "id": 173355,
     "name": "Tripoint Smash 78",
     "url": "https://start.gg/tournament/tripoint-smash-78",
     "start_at": 1569020400,
-    "end_at": 1569041940,
-    "events": [
-      396892
-    ]
+    "end_at": 1569041940
   },
   "174677": {
     "id": 174677,
     "name": "Tripoint Smash 79",
     "url": "https://start.gg/tournament/tripoint-smash-79",
     "start_at": 1569625200,
-    "end_at": 1569646740,
-    "events": [
-      399488
-    ]
+    "end_at": 1569646740
   },
   "176373": {
     "id": 176373,
     "name": "Tripoint Smash 80",
     "url": "https://start.gg/tournament/tripoint-smash-80",
     "start_at": 1570230000,
-    "end_at": 1570251540,
-    "events": [
-      403236
-    ]
+    "end_at": 1570251540
   },
   "177336": {
     "id": 177336,
     "name": "Tripoint Smash 81",
     "url": "https://start.gg/tournament/tripoint-smash-81",
     "start_at": 1570834800,
-    "end_at": 1570860000,
-    "events": [
-      405185
-    ]
+    "end_at": 1570860000
   },
   "178849": {
     "id": 178849,
     "name": "Tripoint Smash 82",
     "url": "https://start.gg/tournament/tripoint-smash-82",
     "start_at": 1571396400,
-    "end_at": 1571463000,
-    "events": [
-      408272
-    ]
+    "end_at": 1571463000
   },
   "179319": {
     "id": 179319,
     "name": "Tripoint Smash 83",
     "url": "https://start.gg/tournament/tripoint-smash-83",
     "start_at": 1572001200,
-    "end_at": 1572022740,
-    "events": [
-      409146
-    ]
+    "end_at": 1572022740
   },
   "181330": {
     "id": 181330,
     "name": "Tripoint Smash 84",
     "url": "https://start.gg/tournament/tripoint-smash-84",
     "start_at": 1572649200,
-    "end_at": 1572670751,
-    "events": [
-      413976
-    ]
+    "end_at": 1572670751
   },
   "182535": {
     "id": 182535,
     "name": "Tripoint Smash 85",
     "url": "https://start.gg/tournament/tripoint-smash-85",
     "start_at": 1573257600,
-    "end_at": 1573279140,
-    "events": [
-      416599
-    ]
+    "end_at": 1573279140
   },
   "182940": {
     "id": 182940,
     "name": "Tripoint Smash 86",
     "url": "https://start.gg/tournament/tripoint-smash-86",
     "start_at": 1573862400,
-    "end_at": 1573883940,
-    "events": [
-      417358
-    ]
+    "end_at": 1573883940
   },
   "184707": {
     "id": 184707,
     "name": "Tripoint Smash 87",
     "url": "https://start.gg/tournament/tripoint-smash-87",
     "start_at": 1574467200,
-    "end_at": 1574488740,
-    "events": [
-      420665
-    ]
+    "end_at": 1574488740
   },
   "186223": {
     "id": 186223,
     "name": "Tripoint Smash 88",
     "url": "https://start.gg/tournament/tripoint-smash-88",
     "start_at": 1575676800,
-    "end_at": 1575698340,
-    "events": [
-      423444
-    ]
+    "end_at": 1575698340
   },
   "187838": {
     "id": 187838,
     "name": "Tripoint Smash 89",
     "url": "https://start.gg/tournament/tripoint-smash-89",
     "start_at": 1576281600,
-    "end_at": 1576303140,
-    "events": [
-      426834,
-      426838
-    ]
+    "end_at": 1576303140
   },
   "187874": {
     "id": 187874,
     "name": "Tripoint Smash 89",
     "url": "https://start.gg/tournament/tripoint-smash-89-1",
     "start_at": 1576886400,
-    "end_at": 1576907940,
-    "events": [
-      426894
-    ]
+    "end_at": 1576907940
   },
   "189514": {
     "id": 189514,
     "name": "Tripoint Smash 90",
     "url": "https://start.gg/tournament/tripoint-smash-90",
     "start_at": 1577491221,
-    "end_at": 1577512761,
-    "events": [
-      430191
-    ]
+    "end_at": 1577512761
   },
   "190534": {
     "id": 190534,
     "name": "Tripoint Smash 91",
     "url": "https://start.gg/tournament/tripoint-smash-91",
     "start_at": 1578096000,
-    "end_at": 1578117540,
-    "events": [
-      432646
-    ]
+    "end_at": 1578117540
   },
   "190975": {
     "id": 190975,
     "name": "Tripoint Smash 92",
     "url": "https://start.gg/tournament/tripoint-smash-92",
     "start_at": 1578700800,
-    "end_at": 1578722340,
-    "events": [
-      433476
-    ]
+    "end_at": 1578722340
   },
   "193101": {
     "id": 193101,
     "name": "Tripoint Smash 93",
     "url": "https://start.gg/tournament/tripoint-smash-93",
     "start_at": 1579305623,
-    "end_at": 1579327163,
-    "events": [
-      437863
-    ]
+    "end_at": 1579327163
   },
   "193538": {
     "id": 193538,
     "name": "Tripoint Smash 94",
     "url": "https://start.gg/tournament/tripoint-smash-94",
     "start_at": 1579910400,
-    "end_at": 1579931940,
-    "events": [
-      438673
-    ]
+    "end_at": 1579931940
   },
   "195751": {
     "id": 195751,
     "name": "Tripoint Smash 95",
     "url": "https://start.gg/tournament/tripoint-smash-95",
     "start_at": 1580517600,
-    "end_at": 1580536680,
-    "events": [
-      443757
-    ]
+    "end_at": 1580536680
   },
   "197174": {
     "id": 197174,
     "name": "Tripoint Smash 96",
     "url": "https://start.gg/tournament/tripoint-smash-96",
     "start_at": 1581120036,
-    "end_at": 1581141576,
-    "events": [
-      446612
-    ]
+    "end_at": 1581141576
   },
   "198753": {
     "id": 198753,
     "name": "Tripoint Smash 97",
     "url": "https://start.gg/tournament/tripoint-smash-97",
     "start_at": 1581724825,
-    "end_at": 1581746365,
-    "events": [
-      450033
-    ]
+    "end_at": 1581746365
   },
   "199058": {
     "id": 199058,
     "name": "Tripoint Smash 98",
     "url": "https://start.gg/tournament/tripoint-smash-98",
     "start_at": 1582329600,
-    "end_at": 1582351140,
-    "events": [
-      450650
-    ]
+    "end_at": 1582351140
   },
   "201756": {
     "id": 201756,
     "name": "Tripoint Smash 99",
     "url": "https://start.gg/tournament/tripoint-smash-99",
     "start_at": 1582891200,
-    "end_at": 1582955940,
-    "events": [
-      456749
-    ]
+    "end_at": 1582955940
   },
   "202517": {
     "id": 202517,
     "name": "Tripoint Smash 100",
     "url": "https://start.gg/tournament/tripoint-smash-100",
     "start_at": 1583539200,
-    "end_at": 1583560740,
-    "events": [
-      458201
-    ]
+    "end_at": 1583560740
   },
   "204305": {
     "id": 204305,
     "name": "Tripoint Smash 101",
     "url": "https://start.gg/tournament/tripoint-smash-101",
     "start_at": 1624057200,
-    "end_at": 1624078740,
-    "events": [
-      462103
-    ]
+    "end_at": 1624078740
   },
   "296766": {
     "id": 296766,
     "name": "Tripoint Smash 102",
     "url": "https://start.gg/tournament/tripoint-smash-102",
     "start_at": 1624662000,
-    "end_at": 1624683540,
-    "events": [
-      588078
-    ]
+    "end_at": 1624683540
   },
   "298256": {
     "id": 298256,
     "name": "Tripoint Smash 103",
     "url": "https://start.gg/tournament/tripoint-smash-103",
     "start_at": 1625266800,
-    "end_at": 1625292000,
-    "events": [
-      590374
-    ]
+    "end_at": 1625292000
   },
   "299898": {
     "id": 299898,
     "name": "Tripoint Smash 104",
     "url": "https://start.gg/tournament/tripoint-smash-104",
     "start_at": 1625871600,
-    "end_at": 1625896800,
-    "events": [
-      593093
-    ]
+    "end_at": 1625896800
   },
   "301460": {
     "id": 301460,
     "name": "Tripoint Smash 105",
     "url": "https://start.gg/tournament/tripoint-smash-105",
     "start_at": 1626476400,
-    "end_at": 1626497940,
-    "events": [
-      595712
-    ]
+    "end_at": 1626497940
   },
   "302683": {
     "id": 302683,
     "name": "Tripoint Smash 106",
     "url": "https://start.gg/tournament/tripoint-smash-106",
     "start_at": 1627081200,
-    "end_at": 1627102740,
-    "events": [
-      599076
-    ]
+    "end_at": 1627102740
   },
   "304434": {
     "id": 304434,
     "name": "Tripoint Smash 107",
     "url": "https://start.gg/tournament/tripoint-smash-107",
     "start_at": 1627686000,
-    "end_at": 1627707540,
-    "events": [
-      601825
-    ]
+    "end_at": 1627707540
   },
   "305935": {
     "id": 305935,
     "name": "Tripoint Smash 108 Ft. PPA vs Yacht Club Crew Battle!",
     "url": "https://start.gg/tournament/tripoint-smash-108-ft-ppa-vs-yacht-club-crew-battle",
     "start_at": 1628290800,
-    "end_at": 1628312340,
-    "events": [
-      604189
-    ]
+    "end_at": 1628312340
   },
   "307528": {
     "id": 307528,
     "name": "Tripoint Smash 109",
     "url": "https://start.gg/tournament/tripoint-smash-109",
     "start_at": 1628895600,
-    "end_at": 1628920800,
-    "events": [
-      606698
-    ]
+    "end_at": 1628920800
   },
   "308952": {
     "id": 308952,
     "name": "Tripoint Smash 110",
     "url": "https://start.gg/tournament/tripoint-smash-110",
     "start_at": 1629500400,
-    "end_at": 1629521940,
-    "events": [
-      608812
-    ]
+    "end_at": 1629521940
   },
   "310418": {
     "id": 310418,
     "name": "Tripoint Smash 111",
     "url": "https://start.gg/tournament/tripoint-smash-111",
     "start_at": 1630105200,
-    "end_at": 1630126740,
-    "events": [
-      611061
-    ]
+    "end_at": 1630126740
   },
   "312170": {
     "id": 312170,
     "name": "Tripoint Smash 112",
     "url": "https://start.gg/tournament/tripoint-smash-112",
     "start_at": 1630710000,
-    "end_at": 1630731540,
-    "events": [
-      614036
-    ]
+    "end_at": 1630731540
   },
   "316439": {
     "id": 316439,
     "name": "Tripoint Smash 113",
     "url": "https://start.gg/tournament/tripoint-smash-113",
     "start_at": 1632524400,
-    "end_at": 1632545940,
-    "events": [
-      620470
-    ]
+    "end_at": 1632545940
   },
   "319904": {
     "id": 319904,
     "name": "Tripoint Smash 114",
     "url": "https://start.gg/tournament/tripoint-smash-114",
     "start_at": 1633129200,
-    "end_at": 1633150740,
-    "events": [
-      628545,
-      626081
-    ]
+    "end_at": 1633150740
   },
   "322223": {
     "id": 322223,
     "name": "Tripoint Smash 115",
     "url": "https://start.gg/tournament/tripoint-smash-115",
     "start_at": 1633734000,
-    "end_at": 1633755540,
-    "events": [
-      629964
-    ]
+    "end_at": 1633755540
   },
   "322687": {
     "id": 322687,
     "name": "Tripoint Smash 117",
     "url": "https://start.gg/tournament/tripoint-smash-117",
     "start_at": 1634943600,
-    "end_at": 1634965140,
-    "events": [
-      630743
-    ]
+    "end_at": 1634965140
   },
   "324005": {
     "id": 324005,
     "name": "Tripoint Smash 116",
     "url": "https://start.gg/tournament/tripoint-smash-116",
     "start_at": 1634338800,
-    "end_at": 1634360340,
-    "events": [
-      632853
-    ]
+    "end_at": 1634360340
   },
   "327055": {
     "id": 327055,
     "name": "Tripoint Smash 118",
     "url": "https://start.gg/tournament/tripoint-smash-118",
     "start_at": 1635548400,
-    "end_at": 1635569940,
-    "events": [
-      638042
-    ]
+    "end_at": 1635569940
   },
   "329400": {
     "id": 329400,
     "name": "Tripoint Smash 119",
     "url": "https://start.gg/tournament/tripoint-smash-119",
     "start_at": 1636153200,
-    "end_at": 1636174740,
-    "events": [
-      642126
-    ]
+    "end_at": 1636174740
   },
   "331168": {
     "id": 331168,
     "name": "Tripoint Smash 120",
     "url": "https://start.gg/tournament/tripoint-smash-120",
     "start_at": 1636761600,
-    "end_at": 1636783140,
-    "events": [
-      645092
-    ]
+    "end_at": 1636783140
   },
   "333269": {
     "id": 333269,
     "name": "Tripoint Smash 121",
     "url": "https://start.gg/tournament/tripoint-smash-121",
     "start_at": 1637366400,
-    "end_at": 1637387940,
-    "events": [
-      648711
-    ]
+    "end_at": 1637387940
   },
   "334556": {
     "id": 334556,
     "name": "Tripoint Smash 122",
     "url": "https://start.gg/tournament/tripoint-smash-122",
     "start_at": 1637971200,
-    "end_at": 1637992740,
-    "events": [
-      650726
-    ]
+    "end_at": 1637992740
   },
   "336128": {
     "id": 336128,
     "name": "Tripoint Smash 123",
     "url": "https://start.gg/tournament/tripoint-smash-123",
     "start_at": 1638576000,
-    "end_at": 1638597540,
-    "events": [
-      653484
-    ]
+    "end_at": 1638597540
   },
   "338282": {
     "id": 338282,
     "name": "Tripoint Smash 124 feat. Motobug for P+!",
     "url": "https://start.gg/tournament/tripoint-smash-124-feat-motobug-for-p",
     "start_at": 1639180800,
-    "end_at": 1639202340,
-    "events": [
-      656944
-    ]
+    "end_at": 1639202340
   },
   "342282": {
     "id": 342282,
     "name": "Tripoint Smash 125: The Last One for the Year!",
     "url": "https://start.gg/tournament/tripoint-smash-125-the-last-one-for-the-year",
     "start_at": 1639785600,
-    "end_at": 1639807140,
-    "events": [
-      659245
-    ]
+    "end_at": 1639807140
   },
   "342541": {
     "id": 342541,
     "name": "Tripoint Smash 128 ft. Joey's Birthday Bash",
     "url": "https://start.gg/tournament/tripoint-smash-128-ft-joey-s-birthday-bash",
     "start_at": 1643414400,
-    "end_at": 1643435940,
-    "events": [
-      659413
-    ]
+    "end_at": 1643435940
   },
   "354254": {
     "id": 354254,
     "name": "Tripoint Smash 126",
     "url": "https://start.gg/tournament/tripoint-smash-126",
     "start_at": 1642204800,
-    "end_at": 1642226340,
-    "events": [
-      661363
-    ]
+    "end_at": 1642226340
   },
   "413855": {
     "id": 413855,
     "name": "Tripoint Smash 127",
     "url": "https://start.gg/tournament/tripoint-smash-127",
     "start_at": 1642809600,
-    "end_at": 1642831140,
-    "events": [
-      670941
-    ]
+    "end_at": 1642831140
   },
   "417820": {
     "id": 417820,
     "name": "Tripoint Smash 129",
     "url": "https://start.gg/tournament/tripoint-smash-129",
     "start_at": 1644019200,
-    "end_at": 1644040740,
-    "events": [
-      676123
-    ]
+    "end_at": 1644040740
   },
   "420033": {
     "id": 420033,
     "name": "Tripoint Smash 130",
     "url": "https://start.gg/tournament/tripoint-smash-130",
     "start_at": 1644624000,
-    "end_at": 1644645540,
-    "events": [
-      679608
-    ]
+    "end_at": 1644645540
   },
   "421605": {
     "id": 421605,
     "name": "Tripoint Smash 131",
     "url": "https://start.gg/tournament/tripoint-smash-131",
     "start_at": 1645185600,
-    "end_at": 1645250340,
-    "events": [
-      682146
-    ]
+    "end_at": 1645250340
   },
   "423038": {
     "id": 423038,
     "name": "Tripoint Smash 132",
     "url": "https://start.gg/tournament/tripoint-smash-132",
     "start_at": 1645833600,
-    "end_at": 1645855140,
-    "events": [
-      684375
-    ]
+    "end_at": 1645855140
   },
   "425300": {
     "id": 425300,
     "name": "Tripoint Smash 133",
     "url": "https://start.gg/tournament/tripoint-smash-133",
     "start_at": 1646438400,
-    "end_at": 1646459940,
-    "events": [
-      688287
-    ]
+    "end_at": 1646459940
   },
   "427369": {
     "id": 427369,
     "name": "Tripoint Smash 134",
     "url": "https://start.gg/tournament/tripoint-smash-134",
     "start_at": 1647000000,
-    "end_at": 1647021540,
-    "events": [
-      691885
-    ]
+    "end_at": 1647021540
   },
   "429159": {
     "id": 429159,
     "name": "Tripoint Smash 135",
     "url": "https://start.gg/tournament/tripoint-smash-135",
     "start_at": 1647644400,
-    "end_at": 1647665940,
-    "events": [
-      695120
-    ]
+    "end_at": 1647665940
   },
   "430541": {
     "id": 430541,
     "name": "Tripoint Smash 136",
     "url": "https://start.gg/tournament/tripoint-smash-136",
     "start_at": 1648249200,
-    "end_at": 1648251000,
-    "events": [
-      697328
-    ]
+    "end_at": 1648251000
   },
   "432115": {
     "id": 432115,
     "name": "Tripoint Smash 137",
     "url": "https://start.gg/tournament/tripoint-smash-137",
     "start_at": 1648854000,
-    "end_at": 1648875540,
-    "events": [
-      700131
-    ]
+    "end_at": 1648875540
   },
   "434873": {
     "id": 434873,
     "name": "Tripoint Smash 138",
     "url": "https://start.gg/tournament/tripoint-smash-138",
     "start_at": 1649458800,
-    "end_at": 1649480340,
-    "events": [
-      704908
-    ]
+    "end_at": 1649480340
   },
   "435969": {
     "id": 435969,
     "name": "Tripoint Smash Presents: Super TPS II Combo Breaker Edition",
     "url": "https://start.gg/tournament/tripoint-smash-presents-super-tps-ii-combo-breaker-edition",
     "start_at": 1653692400,
-    "end_at": 1653800340,
-    "events": [
-      706776,
-      707033
-    ]
+    "end_at": 1653800340
   },
   "436764": {
     "id": 436764,
     "name": "Tripoint Smash 139",
     "url": "https://start.gg/tournament/tripoint-smash-139",
     "start_at": 1650063600,
-    "end_at": 1650085140,
-    "events": [
-      708132
-    ]
+    "end_at": 1650085140
   },
   "438750": {
     "id": 438750,
     "name": "Tripoint Smash 140",
     "url": "https://start.gg/tournament/tripoint-smash-140",
     "start_at": 1650668400,
-    "end_at": 1650689940,
-    "events": [
-      711574
-    ]
+    "end_at": 1650689940
   },
   "440299": {
     "id": 440299,
     "name": "Tripoint Smash 141",
     "url": "https://start.gg/tournament/tripoint-smash-141",
     "start_at": 1651273200,
-    "end_at": 1651294740,
-    "events": [
-      714018
-    ]
+    "end_at": 1651294740
   },
   "442219": {
     "id": 442219,
     "name": "Tripoint Smash 142",
     "url": "https://start.gg/tournament/tripoint-smash-142",
     "start_at": 1651878000,
-    "end_at": 1651899540,
-    "events": [
-      717267,
-      718356
-    ]
+    "end_at": 1651899540
   },
   "443772": {
     "id": 443772,
     "name": "Tripoint Smash 143",
     "url": "https://start.gg/tournament/tripoint-smash-143",
     "start_at": 1652482800,
-    "end_at": 1652504340,
-    "events": [
-      719914,
-      719907
-    ]
+    "end_at": 1652504340
   },
   "445536": {
     "id": 445536,
     "name": "Tripoint Smash 144",
     "url": "https://start.gg/tournament/tripoint-smash-144",
     "start_at": 1653087600,
-    "end_at": 1653109140,
-    "events": [
-      722975,
-      722972
-    ]
+    "end_at": 1653109140
   },
   "449798": {
     "id": 449798,
     "name": "Tripoint Smash 145",
     "url": "https://start.gg/tournament/tripoint-smash-145",
     "start_at": 1654297200,
-    "end_at": 1654318740,
-    "events": [
-      730279,
-      730276
-    ]
+    "end_at": 1654318740
   },
   "451634": {
     "id": 451634,
     "name": "Tripoint Smash 146",
     "url": "https://start.gg/tournament/tripoint-smash-146",
     "start_at": 1654902000,
-    "end_at": 1654923540,
-    "events": [
-      733455,
-      733452
-    ]
+    "end_at": 1654923540
   },
   "451636": {
     "id": 451636,
     "name": "Tripoint 148: The Warp Zone Pre-local!",
     "url": "https://start.gg/tournament/tripoint-148-the-warp-zone-pre-local",
     "start_at": 1656111600,
-    "end_at": 1656133140,
-    "events": [
-      733462,
-      733465
-    ]
+    "end_at": 1656133140
   },
   "453248": {
     "id": 453248,
     "name": "Tripoint Smash 147",
     "url": "https://start.gg/tournament/tripoint-smash-147",
     "start_at": 1655506800,
-    "end_at": 1655528340,
-    "events": [
-      736325,
-      736328
-    ]
+    "end_at": 1655528340
   },
   "457971": {
     "id": 457971,
     "name": "Tripoint Smash 149",
     "url": "https://start.gg/tournament/tripoint-smash-149",
     "start_at": 1656716400,
-    "end_at": 1656737940,
-    "events": [
-      744635,
-      744632
-    ]
+    "end_at": 1656737940
   },
   "459623": {
     "id": 459623,
     "name": "Tripoint Smash 150",
     "url": "https://start.gg/tournament/tripoint-smash-150",
     "start_at": 1657321200,
-    "end_at": 1657342740,
-    "events": [
-      747520,
-      747517
-    ]
+    "end_at": 1657342740
   },
   "461052": {
     "id": 461052,
     "name": "Tripoint Smash 151 - Pre-Invincible TPS: Feat. Kumatora, Pikmon, and more!",
     "url": "https://start.gg/tournament/tripoint-smash-151-pre-invincible-tps-feat-kumatora-pikmon-and",
     "start_at": 1657926000,
-    "end_at": 1657947540,
-    "events": [
-      749876
-    ]
+    "end_at": 1657947540
   },
   "463317": {
     "id": 463317,
     "name": "Tripoint Smash 152",
     "url": "https://start.gg/tournament/tripoint-smash-152",
     "start_at": 1658530800,
-    "end_at": 1658552340,
-    "events": [
-      754107
-    ]
+    "end_at": 1658552340
   },
   "464375": {
     "id": 464375,
     "name": "Tripoint Smash 153",
     "url": "https://start.gg/tournament/tripoint-smash-153",
     "start_at": 1659135600,
-    "end_at": 1659157140,
-    "events": [
-      759297,
-      756091
-    ]
+    "end_at": 1659157140
   },
   "466209": {
     "id": 466209,
     "name": "Tripoint Smash 154",
     "url": "https://start.gg/tournament/tripoint-smash-154",
     "start_at": 1659740400,
-    "end_at": 1659761940,
-    "events": [
-      759298,
-      759287
-    ]
+    "end_at": 1659761940
   },
   "468440": {
     "id": 468440,
     "name": "Tripoint Smash 155",
     "url": "https://start.gg/tournament/tripoint-smash-155",
     "start_at": 1660345200,
-    "end_at": 1660366740,
-    "events": [
-      763177,
-      763174
-    ]
+    "end_at": 1660366740
   },
   "470328": {
     "id": 470328,
     "name": "Tripoint Smash 156",
     "url": "https://start.gg/tournament/tripoint-smash-156",
     "start_at": 1660950000,
-    "end_at": 1660971540,
-    "events": [
-      766417,
-      766414
-    ]
+    "end_at": 1660971540
   },
   "472249": {
     "id": 472249,
     "name": "Tripoint Smash 157",
     "url": "https://start.gg/tournament/tripoint-smash-157",
     "start_at": 1661554800,
-    "end_at": 1661576340,
-    "events": [
-      769852,
-      769855
-    ]
+    "end_at": 1661576340
   },
   "474198": {
     "id": 474198,
     "name": "Tripoint Smash 158",
     "url": "https://start.gg/tournament/tripoint-smash-158",
     "start_at": 1662159600,
-    "end_at": 1662181140,
-    "events": [
-      773374,
-      773371
-    ]
+    "end_at": 1662181140
   },
   "478816": {
     "id": 478816,
     "name": "Tripoint Smash 159",
     "url": "https://start.gg/tournament/tripoint-smash-159",
     "start_at": 1663369200,
-    "end_at": 1663390740,
-    "events": []
+    "end_at": 1663390740
   },
   "480303": {
     "id": 480303,
     "name": "Tripoint Smash 160",
     "url": "https://start.gg/tournament/tripoint-smash-160",
     "start_at": 1663974000,
-    "end_at": 1663995540,
-    "events": [
-      784709,
-      784706
-    ]
+    "end_at": 1663995540
   },
   "483144": {
     "id": 483144,
     "name": "Tripoint Smash 161",
     "url": "https://start.gg/tournament/tripoint-smash-161",
     "start_at": 1664578800,
-    "end_at": 1664600340,
-    "events": [
-      790072
-    ]
+    "end_at": 1664600340
   },
   "483318": {
     "id": 483318,
     "name": "Tripoint Stadium",
     "url": "https://start.gg/tournament/tripoint-stadium",
     "start_at": 1669478400,
-    "end_at": 1669528740,
-    "events": []
+    "end_at": 1669528740
   },
   "484870": {
     "id": 484870,
     "name": "Tripoint Smash 162",
     "url": "https://start.gg/tournament/tripoint-smash-162",
     "start_at": 1665183600,
-    "end_at": 1665205140,
-    "events": [
-      793283,
-      793398
-    ]
+    "end_at": 1665205140
   },
   "486703": {
     "id": 486703,
     "name": "Tripoint Smash 163",
     "url": "https://start.gg/tournament/tripoint-smash-163",
     "start_at": 1665784800,
-    "end_at": 1665806340,
-    "events": [
-      796703
-    ]
+    "end_at": 1665806340
   },
   "489155": {
     "id": 489155,
     "name": "Tripoint Smash 164",
     "url": "https://start.gg/tournament/tripoint-smash-164",
     "start_at": 1666393200,
-    "end_at": 1666414740,
-    "events": [
-      801359
-    ]
+    "end_at": 1666414740
   },
   "491339": {
     "id": 491339,
     "name": "Tripoint Smash 165",
     "url": "https://start.gg/tournament/tripoint-smash-165",
     "start_at": 1666998000,
-    "end_at": 1667019540,
-    "events": [
-      805289
-    ]
+    "end_at": 1667019540
   },
   "493393": {
     "id": 493393,
     "name": "Tripoint Smash 166",
     "url": "https://start.gg/tournament/tripoint-smash-166",
     "start_at": 1667602800,
-    "end_at": 1667624340,
-    "events": [
-      809053
-    ]
+    "end_at": 1667624340
   },
   "495485": {
     "id": 495485,
     "name": "Tripoint Smash 167",
     "url": "https://start.gg/tournament/tripoint-smash-167",
     "start_at": 1668211200,
-    "end_at": 1668232740,
-    "events": [
-      812875,
-      812897
-    ]
+    "end_at": 1668232740
   },
   "497679": {
     "id": 497679,
     "name": "Tripoint Smash 168",
     "url": "https://start.gg/tournament/tripoint-smash-168",
     "start_at": 1668816000,
-    "end_at": 1668837540,
-    "events": [
-      816826
-    ]
+    "end_at": 1668837540
   },
   "499647": {
     "id": 499647,
     "name": "Tripoint Smash 169",
     "url": "https://start.gg/tournament/tripoint-smash-169",
     "start_at": 1669420800,
-    "end_at": 1669442340,
-    "events": [
-      820418,
-      820421
-    ]
+    "end_at": 1669442340
   },
   "501805": {
     "id": 501805,
     "name": "Tripoint Smash 170",
     "url": "https://start.gg/tournament/tripoint-smash-170",
     "start_at": 1670025600,
-    "end_at": 1670047140,
-    "events": [
-      824327,
-      824324
-    ]
+    "end_at": 1670047140
   },
   "503338": {
     "id": 503338,
     "name": "Tripoint Smash 171",
     "url": "https://start.gg/tournament/tripoint-smash-171",
     "start_at": 1670630400,
-    "end_at": 1670651940,
-    "events": [
-      827010,
-      827007
-    ]
+    "end_at": 1670651940
   },
   "505168": {
     "id": 505168,
     "name": "A Holly Jolly Tripoint Smash 172",
     "url": "https://start.gg/tournament/a-holly-jolly-tripoint-smash-172",
     "start_at": 1671235200,
-    "end_at": 1671256740,
-    "events": [
-      830229
-    ]
+    "end_at": 1671256740
   },
   "506848": {
     "id": 506848,
     "name": "Tripoint Smash 173",
     "url": "https://start.gg/tournament/tripoint-smash-173",
     "start_at": 1672444800,
-    "end_at": 1672466340,
-    "events": [
-      833165
-    ]
+    "end_at": 1672466340
   },
   "509132": {
     "id": 509132,
     "name": "Tripoint Smash 174",
     "url": "https://start.gg/tournament/tripoint-smash-174",
     "start_at": 1673049600,
-    "end_at": 1673071140,
-    "events": [
-      837166,
-      837169
-    ]
+    "end_at": 1673071140
   },
   "510901": {
     "id": 510901,
     "name": "Tripoint Smash 175",
     "url": "https://start.gg/tournament/tripoint-smash-175",
     "start_at": 1673654400,
-    "end_at": 1673675940,
-    "events": [
-      840434,
-      840437
-    ]
+    "end_at": 1673675940
   },
   "512866": {
     "id": 512866,
     "name": "Tripoint Smash 176",
     "url": "https://start.gg/tournament/tripoint-smash-176",
     "start_at": 1674259200,
-    "end_at": 1674280740,
-    "events": [
-      843967,
-      843964
-    ]
+    "end_at": 1674280740
   },
   "514823": {
     "id": 514823,
     "name": "Tripoint Smash 177",
     "url": "https://start.gg/tournament/tripoint-smash-177",
     "start_at": 1674864000,
-    "end_at": 1674885540,
-    "events": []
+    "end_at": 1674885540
   },
   "517776": {
     "id": 517776,
     "name": "Tripoint Smash 178",
     "url": "https://start.gg/tournament/tripoint-smash-178",
     "start_at": 1675468800,
-    "end_at": 1675576740,
-    "events": [
-      853051
-    ]
+    "end_at": 1675576740
   },
   "519371": {
     "id": 519371,
     "name": "Tripoint Smash 179",
     "url": "https://start.gg/tournament/tripoint-smash-179",
     "start_at": 1676073600,
-    "end_at": 1676095140,
-    "events": [
-      855920
-    ]
+    "end_at": 1676095140
   },
   "522575": {
     "id": 522575,
     "name": "Tripoint Smash 180",
     "url": "https://start.gg/tournament/tripoint-smash-180",
     "start_at": 1676678400,
-    "end_at": 1676699940,
-    "events": [
-      862062,
-      862059
-    ]
+    "end_at": 1676699940
   },
   "523617": {
     "id": 523617,
     "name": "Tripoint Smash 181",
     "url": "https://start.gg/tournament/tripoint-smash-181",
     "start_at": 1677283200,
-    "end_at": 1677304740,
-    "events": [
-      864044,
-      864047
-    ]
+    "end_at": 1677304740
   },
   "525889": {
     "id": 525889,
     "name": "Tripoint Smash - 5th Anniversary!",
     "url": "https://start.gg/tournament/tripoint-smash-5th-anniversary",
     "start_at": 1677888000,
-    "end_at": 1677909540,
-    "events": [
-      868202
-    ]
+    "end_at": 1677909540
   },
   "529205": {
     "id": 529205,
     "name": "Tripoint Smash 182",
     "url": "https://start.gg/tournament/tripoint-smash-182",
     "start_at": 1678492800,
-    "end_at": 1678514340,
-    "events": [
-      874185,
-      874187
-    ]
+    "end_at": 1678514340
   },
   "530465": {
     "id": 530465,
     "name": "Tripoint Smash 183",
     "url": "https://start.gg/tournament/tripoint-smash-183",
     "start_at": 1679094000,
-    "end_at": 1679115540,
-    "events": [
-      876453,
-      876451
-    ]
+    "end_at": 1679115540
   },
   "532250": {
     "id": 532250,
     "name": "Tripoint Smash 184",
     "url": "https://start.gg/tournament/tripoint-smash-184",
     "start_at": 1680908400,
-    "end_at": 1680929940,
-    "events": [
-      879787
-    ]
+    "end_at": 1680929940
   },
   "539111": {
     "id": 539111,
     "name": "Tripoint Smash 185",
     "url": "https://start.gg/tournament/tripoint-smash-185",
     "start_at": 1681513200,
-    "end_at": 1681534740,
-    "events": [
-      892207,
-      892205
-    ]
+    "end_at": 1681534740
   },
   "541664": {
     "id": 541664,
     "name": "Tripoint Smash 186: The Saturday Stadium 2 Prelocal",
     "url": "https://start.gg/tournament/tripoint-smash-186-the-saturday-stadium-2-prelocal",
     "start_at": 1682118000,
-    "end_at": 1682139540,
-    "events": [
-      896969
-    ]
+    "end_at": 1682139540
   },
   "544333": {
     "id": 544333,
     "name": "Tripoint Smash 187",
     "url": "https://start.gg/tournament/tripoint-smash-187",
     "start_at": 1682722800,
-    "end_at": 1682744340,
-    "events": [
-      901908
-    ]
+    "end_at": 1682744340
   },
   "546651": {
     "id": 546651,
     "name": "Tripoint Smash 188",
     "url": "https://start.gg/tournament/tripoint-smash-188",
     "start_at": 1683327600,
-    "end_at": 1683349140,
-    "events": [
-      906156,
-      906154
-    ]
+    "end_at": 1683349140
   },
   "548488": {
     "id": 548488,
     "name": "Tripoint Smash 189",
     "url": "https://start.gg/tournament/tripoint-smash-189",
     "start_at": 1683932400,
-    "end_at": 1683953940,
-    "events": [
-      909585
-    ]
+    "end_at": 1683953940
   },
   "550762": {
     "id": 550762,
     "name": "Tripoint Smash 190",
     "url": "https://start.gg/tournament/tripoint-smash-190",
     "start_at": 1684537200,
-    "end_at": 1684558740,
-    "events": [
-      913740,
-      913742
-    ]
+    "end_at": 1684558740
   },
   "551280": {
     "id": 551280,
     "name": "Tripoint Smash 192 - A PM Concert Qualifier",
     "url": "https://start.gg/tournament/tripoint-smash-192-a-pm-concert-qualifier",
     "start_at": 1685746800,
-    "end_at": 1685768340,
-    "events": [
-      914662,
-      914664
-    ]
+    "end_at": 1685768340
   },
   "553023": {
     "id": 553023,
     "name": "Tripoint Smash 191",
     "url": "https://start.gg/tournament/tripoint-smash-191",
     "start_at": 1685142000,
-    "end_at": 1685163540,
-    "events": [
-      917466
-    ]
+    "end_at": 1685163540
   },
   "556819": {
     "id": 556819,
     "name": "Tripoint Smash 193",
     "url": "https://start.gg/tournament/tripoint-smash-193",
     "start_at": 1686351600,
-    "end_at": 1686373140,
-    "events": [
-      924211
-    ]
+    "end_at": 1686373140
   },
   "559088": {
     "id": 559088,
     "name": "Tripoint Smash 200",
     "url": "https://start.gg/tournament/tripoint-smash-200",
     "start_at": 1692399600,
-    "end_at": 1692421140,
-    "events": [
-      927869
-    ]
+    "end_at": 1692421140
   },
   "559135": {
     "id": 559135,
     "name": "Tripoint Smash: FGC Returns!",
     "url": "https://start.gg/tournament/tripoint-smash-fgc-returns",
     "start_at": 1686956400,
-    "end_at": 1686977940,
-    "events": [
-      927959
-    ]
+    "end_at": 1686977940
   },
   "561747": {
     "id": 561747,
     "name": "Tripoint Smash 194",
     "url": "https://start.gg/tournament/tripoint-smash-194",
     "start_at": 1687561200,
-    "end_at": 1687582740,
-    "events": [
-      932773
-    ]
+    "end_at": 1687582740
   },
   "562814": {
     "id": 562814,
     "name": "Tripoint Smash 195 - Pridepoint",
     "url": "https://start.gg/tournament/tripoint-smash-195-pridepoint",
     "start_at": 1688166000,
-    "end_at": 1688187540,
-    "events": [
-      934649
-    ]
+    "end_at": 1688187540
   },
   "564993": {
     "id": 564993,
     "name": "Tripoint Smash 196",
     "url": "https://start.gg/tournament/tripoint-smash-196",
     "start_at": 1688770800,
-    "end_at": 1688792340,
-    "events": [
-      938582
-    ]
+    "end_at": 1688792340
   },
   "567267": {
     "id": 567267,
     "name": "Tripoint: Romeoville Rumble: The Warp Zone 2 Prelocal!",
     "url": "https://start.gg/tournament/tripoint-romeoville-rumble-the-warp-zone-2-prelocal",
     "start_at": 1690585200,
-    "end_at": 1690606740,
-    "events": [
-      942817
-    ]
+    "end_at": 1690606740
   },
   "569942": {
     "id": 569942,
     "name": "Tripoint Smash 197",
     "url": "https://start.gg/tournament/tripoint-smash-197",
     "start_at": 1689980400,
-    "end_at": 1690001940,
-    "events": [
-      947716
-    ]
+    "end_at": 1690001940
   },
   "574118": {
     "id": 574118,
     "name": "Tripoint Smash 198",
     "url": "https://start.gg/tournament/tripoint-smash-198",
     "start_at": 1691190000,
-    "end_at": 1691211540,
-    "events": [
-      955275
-    ]
+    "end_at": 1691211540
   },
   "575673": {
     "id": 575673,
     "name": "Tripoint Smash 199: The PM Concert Symphony Prelocal!",
     "url": "https://start.gg/tournament/tripoint-smash-199-the-pm-concert-symphony-prelocal",
     "start_at": 1691794800,
-    "end_at": 1691816340,
-    "events": [
-      958069
-    ]
+    "end_at": 1691816340
   },
   "581204": {
     "id": 581204,
     "name": "Tripoint Smash 201",
     "url": "https://start.gg/tournament/tripoint-smash-201-2",
     "start_at": 1693004400,
-    "end_at": 1693025940,
-    "events": [
-      967891
-    ]
+    "end_at": 1693025940
   },
   "583682": {
     "id": 583682,
     "name": "Tripoint Smash 202",
     "url": "https://start.gg/tournament/tripoint-smash-202",
     "start_at": 1693609200,
-    "end_at": 1693630740,
-    "events": [
-      972664
-    ]
+    "end_at": 1693630740
   },
   "586004": {
     "id": 586004,
     "name": "Tripoint Smash 203",
     "url": "https://start.gg/tournament/tripoint-smash-203",
     "start_at": 1694214000,
-    "end_at": 1694235540,
-    "events": []
+    "end_at": 1694235540
   },
   "589125": {
     "id": 589125,
     "name": "Tripoint Smash 204",
     "url": "https://start.gg/tournament/tripoint-smash-204",
     "start_at": 1694818800,
-    "end_at": 1694840340,
-    "events": [
-      983165
-    ]
+    "end_at": 1694840340
   },
   "590860": {
     "id": 590860,
     "name": "Tripoint Smash 205",
     "url": "https://start.gg/tournament/tripoint-smash-205",
     "start_at": 1695423600,
-    "end_at": 1695445140,
-    "events": [
-      986221
-    ]
+    "end_at": 1695445140
   },
   "593572": {
     "id": 593572,
     "name": "Tripoint Smash 206",
     "url": "https://start.gg/tournament/tripoint-smash-206",
     "start_at": 1696028400,
-    "end_at": 1696049940,
-    "events": [
-      991582
-    ]
+    "end_at": 1696049940
   },
   "597019": {
     "id": 597019,
     "name": "Tripoint Smash 207",
     "url": "https://start.gg/tournament/tripoint-smash-207",
     "start_at": 1696633200,
-    "end_at": 1696654740,
-    "events": [
-      998207
-    ]
+    "end_at": 1696654740
   },
   "599389": {
     "id": 599389,
     "name": "Tripoint Smash 208",
     "url": "https://start.gg/tournament/tripoint-smash-208",
     "start_at": 1697238000,
-    "end_at": 1697259540,
-    "events": [
-      1002619
-    ]
+    "end_at": 1697259540
   },
   "601073": {
     "id": 601073,
     "name": "Tripoint Smash 209",
     "url": "https://start.gg/tournament/tripoint-smash-209",
     "start_at": 1697842800,
-    "end_at": 1697864340,
-    "events": [
-      1005644,
-      1006307
-    ]
+    "end_at": 1697864340
   },
   "606301": {
     "id": 606301,
     "name": "Tripoint Smash 210",
     "url": "https://start.gg/tournament/tripoint-smash-210",
     "start_at": 1699052400,
-    "end_at": 1699073940,
-    "events": [
-      1015504
-    ]
+    "end_at": 1699073940
   },
   "608583": {
     "id": 608583,
     "name": "Tripoint Smash 211",
     "url": "https://start.gg/tournament/tripoint-smash-211",
     "start_at": 1699660800,
-    "end_at": 1699682340,
-    "events": [
-      1020053
-    ]
+    "end_at": 1699682340
   },
   "610851": {
     "id": 610851,
     "name": "Tripoint Smash 212",
     "url": "https://start.gg/tournament/tripoint-smash-212",
     "start_at": 1700265600,
-    "end_at": 1700287140,
-    "events": [
-      1024319
-    ]
+    "end_at": 1700287140
   },
   "612617": {
     "id": 612617,
     "name": "Tripoint Smash 213",
     "url": "https://start.gg/tournament/tripoint-smash-213",
     "start_at": 1700870400,
-    "end_at": 1700891940,
-    "events": [
-      1027647
-    ]
+    "end_at": 1700891940
   },
   "614435": {
     "id": 614435,
     "name": "Tripoint Smash 214",
     "url": "https://start.gg/tournament/tripoint-smash-214",
     "start_at": 1701475200,
-    "end_at": 1701496740,
-    "events": [
-      1030892
-    ]
+    "end_at": 1701496740
   },
   "617457": {
     "id": 617457,
     "name": "Tripoint Smash 215",
     "url": "https://start.gg/tournament/tripoint-smash-215",
     "start_at": 1702080000,
-    "end_at": 1702101540,
-    "events": [
-      1036762
-    ]
+    "end_at": 1702101540
   },
   "618676": {
     "id": 618676,
     "name": "Tripoint Smash 216",
     "url": "https://start.gg/tournament/tripoint-smash-216",
     "start_at": 1702684800,
-    "end_at": 1702706340,
-    "events": [
-      1039100
-    ]
+    "end_at": 1702706340
   },
   "620712": {
     "id": 620712,
     "name": "A Holly Jolly Tripoint Smash 217",
     "url": "https://start.gg/tournament/a-holly-jolly-tripoint-smash-217",
     "start_at": 1703289600,
-    "end_at": 1703311140,
-    "events": [
-      1043016
-    ]
+    "end_at": 1703311140
   },
   "621931": {
     "id": 621931,
     "name": "Tripoint Smash 218",
     "url": "https://start.gg/tournament/tripoint-smash-218",
     "start_at": 1703894400,
-    "end_at": 1703915940,
-    "events": [
-      1045345
-    ]
+    "end_at": 1703915940
   },
   "623239": {
     "id": 623239,
     "name": "Tripoint Smash 219",
     "url": "https://start.gg/tournament/tripoint-smash-219",
     "start_at": 1704499200,
-    "end_at": 1704520740,
-    "events": [
-      1048010
-    ]
+    "end_at": 1704520740
   },
   "625035": {
     "id": 625035,
     "name": "Tripoint Smash 220",
     "url": "https://start.gg/tournament/tripoint-smash-220",
     "start_at": 1705708800,
-    "end_at": 1705730340,
-    "events": [
-      1051546
-    ]
+    "end_at": 1705730340
   },
   "630423": {
     "id": 630423,
     "name": "Tripoint Smash 221",
     "url": "https://start.gg/tournament/tripoint-smash-221",
     "start_at": 1706313600,
-    "end_at": 1706335140,
-    "events": [
-      1062299
-    ]
+    "end_at": 1706335140
   },
   "631835": {
     "id": 631835,
     "name": "Tripoint Smash 222",
     "url": "https://start.gg/tournament/tripoint-smash-222",
     "start_at": 1706918400,
-    "end_at": 1706939940,
-    "events": [
-      1065119
-    ]
+    "end_at": 1706939940
   },
   "634510": {
     "id": 634510,
     "name": "Tripoint Smash 223",
     "url": "https://start.gg/tournament/tripoint-smash-223",
     "start_at": 1707523200,
-    "end_at": 1707544740,
-    "events": [
-      1070518
-    ]
+    "end_at": 1707544740
   },
   "637272": {
     "id": 637272,
     "name": "Tripoint Smash 224: Lemesis Edition",
     "url": "https://start.gg/tournament/tripoint-smash-224-lemesis-edition",
     "start_at": 1708128000,
-    "end_at": 1708149540,
-    "events": [
-      1075863
-    ]
+    "end_at": 1708149540
   },
   "642556": {
     "id": 642556,
     "name": "Tripoint Smash 225",
     "url": "https://start.gg/tournament/tripoint-smash-225",
     "start_at": 1709337600,
-    "end_at": 1709359140,
-    "events": [
-      1086446
-    ]
+    "end_at": 1709359140
   },
   "644621": {
     "id": 644621,
     "name": "Tripoint Smash 226",
     "url": "https://start.gg/tournament/tripoint-smash-226",
     "start_at": 1709942400,
-    "end_at": 1709963940,
-    "events": [
-      1090480
-    ]
+    "end_at": 1709963940
   },
   "645334": {
     "id": 645334,
     "name": "Tripoint Smash Presents: Super TPS III",
     "url": "https://start.gg/tournament/tripoint-smash-presents-super-tps-iii",
     "start_at": 1716588000,
-    "end_at": 1716613140,
-    "events": [
-      1092058,
-      1092057,
-      1092056
-    ]
+    "end_at": 1716613140
   },
   "646955": {
     "id": 646955,
     "name": "Tripoint Smash 227",
     "url": "https://start.gg/tournament/tripoint-smash-227",
     "start_at": 1710543600,
-    "end_at": 1710565140,
-    "events": [
-      1095150
-    ]
+    "end_at": 1710565140
   },
   "649310": {
     "id": 649310,
     "name": "Tripoint Smash 228",
     "url": "https://start.gg/tournament/tripoint-smash-228",
     "start_at": 1711148400,
-    "end_at": 1711169940,
-    "events": [
-      1099706
-    ]
+    "end_at": 1711169940
   },
   "651904": {
     "id": 651904,
     "name": "Tripoint Smash 229",
     "url": "https://start.gg/tournament/tripoint-smash-229",
     "start_at": 1711753200,
-    "end_at": 1711774740,
-    "events": [
-      1104847
-    ]
+    "end_at": 1711774740
   },
   "654253": {
     "id": 654253,
     "name": "Tripoint Smash 230: The Saturday Stadium 3 Prelocal!",
     "url": "https://start.gg/tournament/tripoint-smash-230-the-saturday-stadium-3-prelocal",
     "start_at": 1712358000,
-    "end_at": 1712379540,
-    "events": [
-      1109377
-    ]
+    "end_at": 1712379540
   },
   "656948": {
     "id": 656948,
     "name": "Tripoint Smash 231",
     "url": "https://start.gg/tournament/tripoint-smash-231",
     "start_at": 1712962800,
-    "end_at": 1712984340,
-    "events": [
-      1114839
-    ]
+    "end_at": 1712984340
   },
   "659255": {
     "id": 659255,
     "name": "Tripoint Smash 232",
     "url": "https://start.gg/tournament/tripoint-smash-232",
     "start_at": 1713567600,
-    "end_at": 1713589140,
-    "events": [
-      1119362
-    ]
+    "end_at": 1713589140
   },
   "661876": {
     "id": 661876,
     "name": "Tripoint Smash 233",
     "url": "https://start.gg/tournament/tripoint-smash-233",
     "start_at": 1714172400,
-    "end_at": 1714193940,
-    "events": [
-      1124395
-    ]
+    "end_at": 1714193940
   },
   "664985": {
     "id": 664985,
     "name": "Tripoint Smash 234",
     "url": "https://start.gg/tournament/tripoint-smash-234",
     "start_at": 1714777200,
-    "end_at": 1714798740,
-    "events": [
-      1130349
-    ]
+    "end_at": 1714798740
   },
   "667342": {
     "id": 667342,
     "name": "Tripoint Smash 235",
     "url": "https://start.gg/tournament/tripoint-smash-235",
     "start_at": 1715382000,
-    "end_at": 1715403540,
-    "events": [
-      1135038
-    ]
+    "end_at": 1715403540
   },
   "669161": {
     "id": 669161,
     "name": "Tripoint Smash 236",
     "url": "https://start.gg/tournament/tripoint-smash-236",
     "start_at": 1715986800,
-    "end_at": 1716008340,
-    "events": [
-      1138313
-    ]
+    "end_at": 1716008340
   },
   "676594": {
     "id": 676594,
     "name": "Tripoint Smash 237",
     "url": "https://start.gg/tournament/tripoint-smash-237",
     "start_at": 1717801200,
-    "end_at": 1717822740,
-    "events": [
-      1152327
-    ]
+    "end_at": 1717822740
   },
   "678395": {
     "id": 678395,
     "name": "Tripoint Smash 238",
     "url": "https://start.gg/tournament/tripoint-smash-238",
     "start_at": 1718406000,
-    "end_at": 1718427540,
-    "events": [
-      1155470
-    ]
+    "end_at": 1718427540
   },
   "680719": {
     "id": 680719,
     "name": "Tripoint Smash 239",
     "url": "https://start.gg/tournament/tripoint-smash-239",
     "start_at": 1719010800,
-    "end_at": 1719032340,
-    "events": [
-      1159933
-    ]
+    "end_at": 1719032340
   },
   "683512": {
     "id": 683512,
     "name": "Tripoint Smash 240: Pridepoint!",
     "url": "https://start.gg/tournament/tripoint-smash-240-pridepoint",
     "start_at": 1719615600,
-    "end_at": 1719637140,
-    "events": [
-      1165429
-    ]
+    "end_at": 1719637140
   },
   "685253": {
     "id": 685253,
     "name": "Tripoint Smash 241",
     "url": "https://start.gg/tournament/tripoint-smash-241",
     "start_at": 1720220400,
-    "end_at": 1720241940,
-    "events": [
-      1168675
-    ]
+    "end_at": 1720241940
   },
   "686816": {
     "id": 686816,
     "name": "Tripoint Smash 242",
     "url": "https://start.gg/tournament/tripoint-smash-242",
     "start_at": 1720825200,
-    "end_at": 1720846740,
-    "events": [
-      1171770
-    ]
+    "end_at": 1720846740
   },
   "689176": {
     "id": 689176,
     "name": "Tripoint Smash 243: The Saturday Stadium 4 Prelocal!",
     "url": "https://start.gg/tournament/tripoint-smash-243-the-saturday-stadium-4-prelocal",
     "start_at": 1721430000,
-    "end_at": 1721451540,
-    "events": [
-      1176187
-    ]
+    "end_at": 1721451540
   },
   "691635": {
     "id": 691635,
     "name": "Tripoint Smash 244",
     "url": "https://start.gg/tournament/tripoint-smash-244",
     "start_at": 1722034800,
-    "end_at": 1722056340,
-    "events": [
-      1180835
-    ]
+    "end_at": 1722056340
   },
   "693488": {
     "id": 693488,
     "name": "Tripoint Smash 245",
     "url": "https://start.gg/tournament/tripoint-smash-245",
     "start_at": 1722639600,
-    "end_at": 1722661140,
-    "events": [
-      1184602
-    ]
+    "end_at": 1722661140
   },
   "695672": {
     "id": 695672,
     "name": "Tripoint Smash 246",
     "url": "https://start.gg/tournament/tripoint-smash-246",
     "start_at": 1723244400,
-    "end_at": 1723265940,
-    "events": [
-      1189057
-    ]
+    "end_at": 1723265940
   },
   "698052": {
     "id": 698052,
     "name": "Tripoint Smash 247",
     "url": "https://start.gg/tournament/tripoint-smash-247",
     "start_at": 1723849200,
-    "end_at": 1723870740,
-    "events": [
-      1193650
-    ]
+    "end_at": 1723870740
   },
   "700316": {
     "id": 700316,
     "name": "Tripoint Smash 248",
     "url": "https://start.gg/tournament/tripoint-smash-248",
     "start_at": 1724454000,
-    "end_at": 1724475540,
-    "events": [
-      1198048
-    ]
+    "end_at": 1724475540
   },
   "702671": {
     "id": 702671,
     "name": "Tripoint Smash 249",
     "url": "https://start.gg/tournament/tripoint-smash-249",
     "start_at": 1725058800,
-    "end_at": 1725080340,
-    "events": [
-      1202667
-    ]
+    "end_at": 1725080340
   },
   "707518": {
     "id": 707518,
     "name": "Tripoint Smash 250",
     "url": "https://start.gg/tournament/tripoint-smash-250",
     "start_at": 1726268400,
-    "end_at": 1726289940,
-    "events": [
-      1212233
-    ]
+    "end_at": 1726289940
   },
   "709639": {
     "id": 709639,
     "name": "Tripoint Smash 251",
     "url": "https://start.gg/tournament/tripoint-smash-251",
     "start_at": 1726873200,
-    "end_at": 1726894740,
-    "events": [
-      1216394
-    ]
+    "end_at": 1726894740
   },
   "712846": {
     "id": 712846,
     "name": "Tripoint Smash 252",
     "url": "https://start.gg/tournament/tripoint-smash-252",
     "start_at": 1727478000,
-    "end_at": 1727499540,
-    "events": [
-      1222700
-    ]
+    "end_at": 1727499540
   },
   "715345": {
     "id": 715345,
     "name": "Tripoint Smash 253",
     "url": "https://start.gg/tournament/tripoint-smash-253",
     "start_at": 1728082800,
-    "end_at": 1728104340,
-    "events": [
-      1227624
-    ]
+    "end_at": 1728104340
   },
   "717411": {
     "id": 717411,
     "name": "Tripoint Smash 254",
     "url": "https://start.gg/tournament/tripoint-smash-254",
     "start_at": 1728687600,
-    "end_at": 1728709140,
-    "events": [
-      1231882
-    ]
+    "end_at": 1728709140
   },
   "720394": {
     "id": 720394,
     "name": "Tripoint Community Day!",
     "url": "https://start.gg/tournament/tripoint-community-day",
     "start_at": 1729292400,
-    "end_at": 1729313940,
-    "events": [
-      1238506,
-      1238507
-    ]
+    "end_at": 1729313940
   },
   "722404": {
     "id": 722404,
     "name": "Tripoint Smash 255: Rivals of Aether II Launch!",
     "url": "https://start.gg/tournament/tripoint-smash-255-rivals-of-aether-ii-launch",
     "start_at": 1729897200,
-    "end_at": 1729918740,
-    "events": [
-      1241775
-    ]
+    "end_at": 1729918740
   },
   "725999": {
     "id": 725999,
     "name": "Tripoint Smash 256",
     "url": "https://start.gg/tournament/tripoint-smash-256",
     "start_at": 1730502000,
-    "end_at": 1730523540,
-    "events": [
-      1249219
-    ]
+    "end_at": 1730523540
   },
   "728393": {
     "id": 728393,
     "name": "Tripoint Smash 257",
     "url": "https://start.gg/tournament/tripoint-smash-257",
     "start_at": 1731715200,
-    "end_at": 1731736740,
-    "events": [
-      1254133
-    ]
+    "end_at": 1731736740
   },
   "733346": {
     "id": 733346,
     "name": "Tripoint 258",
     "url": "https://start.gg/tournament/tripoint-258",
     "start_at": 1732320000,
-    "end_at": 1732341540,
-    "events": [
-      1264068
-    ]
+    "end_at": 1732341540
   },
   "734720": {
     "id": 734720,
     "name": "Tripoint 259",
     "url": "https://start.gg/tournament/tripoint-259",
     "start_at": 1732924800,
-    "end_at": 1732946340,
-    "events": [
-      1266820
-    ]
+    "end_at": 1732946340
   },
   "737603": {
     "id": 737603,
     "name": "Tripoint Smash 260",
     "url": "https://start.gg/tournament/tripoint-smash-260",
     "start_at": 1733529600,
-    "end_at": 1733551140,
-    "events": [
-      1272525
-    ]
+    "end_at": 1733551140
   },
   "739044": {
     "id": 739044,
     "name": "Tripoint 261",
     "url": "https://start.gg/tournament/tripoint-261",
     "start_at": 1734134400,
-    "end_at": 1734155940,
-    "events": [
-      1275407
-    ]
+    "end_at": 1734155940
   },
   "741477": {
     "id": 741477,
     "name": "Tripoint Community Day, Winter 2024!",
     "url": "https://start.gg/tournament/tripoint-community-day-winter-2024",
     "start_at": 1734739200,
-    "end_at": 1734760740,
-    "events": [
-      1281359
-    ]
+    "end_at": 1734760740
   },
   "742575": {
     "id": 742575,
     "name": "Tripoint 262 - Chicago Summit Ultimate Qualifier!",
     "url": "https://start.gg/tournament/tripoint-262-chicago-summit-ultimate-qualifier",
     "start_at": 1735344000,
-    "end_at": 1735365540,
-    "events": [
-      1282438
-    ]
+    "end_at": 1735365540
   },
   "743994": {
     "id": 743994,
     "name": "Tripoint Smash 263",
     "url": "https://start.gg/tournament/tripoint-smash-263",
     "start_at": 1735948800,
-    "end_at": 1735970340,
-    "events": [
-      1285269
-    ]
+    "end_at": 1735970340
   },
   "746088": {
     "id": 746088,
     "name": "Tripoint 264",
     "url": "https://start.gg/tournament/tripoint-264",
     "start_at": 1736553600,
-    "end_at": 1736575140,
-    "events": [
-      1289652
-    ]
+    "end_at": 1736575140
   },
   "748464": {
     "id": 748464,
     "name": "Tripoint Smash 265",
     "url": "https://start.gg/tournament/tripoint-smash-265",
     "start_at": 1737158400,
-    "end_at": 1737179940,
-    "events": [
-      1294655
-    ]
+    "end_at": 1737179940
   },
   "752187": {
     "id": 752187,
     "name": "Tripoint 266",
     "url": "https://start.gg/tournament/tripoint-266",
     "start_at": 1738368000,
-    "end_at": 1738389540,
-    "events": [
-      1302029
-    ]
+    "end_at": 1738389540
   },
   "755812": {
     "id": 755812,
     "name": "Tripoint 267",
     "url": "https://start.gg/tournament/tripoint-267",
     "start_at": 1738972800,
-    "end_at": 1738994340,
-    "events": [
-      1309534
-    ]
+    "end_at": 1738994340
   },
   "757291": {
     "id": 757291,
     "name": "Tripoint 268",
     "url": "https://start.gg/tournament/tripoint-268",
     "start_at": 1739577600,
-    "end_at": 1739599140,
-    "events": [
-      1312527
-    ]
+    "end_at": 1739599140
   },
   "759962": {
     "id": 759962,
     "name": "Tripoint 269",
     "url": "https://start.gg/tournament/tripoint-269",
     "start_at": 1740182400,
-    "end_at": 1740203940,
-    "events": [
-      1317823
-    ]
+    "end_at": 1740203940
   },
   "762670": {
     "id": 762670,
     "name": "Tripoint 270",
     "url": "https://start.gg/tournament/tripoint-270",
     "start_at": 1740787200,
-    "end_at": 1740808740,
-    "events": [
-      1323554
-    ]
+    "end_at": 1740808740
   },
   "764630": {
     "id": 764630,
     "name": "Tripoint 271",
     "url": "https://start.gg/tournament/tripoint-271",
     "start_at": 1741392000,
-    "end_at": 1741413540,
-    "events": [
-      1327719
-    ]
+    "end_at": 1741413540
   },
   "769835": {
     "id": 769835,
     "name": "Tripoint 272",
     "url": "https://start.gg/tournament/tripoint-272",
     "start_at": 1742598000,
-    "end_at": 1742619540,
-    "events": [
-      1338536
-    ]
+    "end_at": 1742619540
   },
   "772214": {
     "id": 772214,
     "name": "Tripoint 273",
     "url": "https://start.gg/tournament/tripoint-273",
     "start_at": 1743202800,
-    "end_at": 1743224340,
-    "events": [
-      1343381
-    ]
+    "end_at": 1743224340
   },
   "774540": {
     "id": 774540,
     "name": "Tripoint 274",
     "url": "https://start.gg/tournament/tripoint-274",
     "start_at": 1743807600,
-    "end_at": 1743829140,
-    "events": []
+    "end_at": 1743829140
   },
   "776788": {
     "id": 776788,
     "name": "Tripoint 275",
     "url": "https://start.gg/tournament/tripoint-275",
     "start_at": 1744412400,
-    "end_at": 1744433940,
-    "events": [
-      1352786
-    ]
+    "end_at": 1744433940
   },
   "779279": {
     "id": 779279,
     "name": "Tripoint 276",
     "url": "https://start.gg/tournament/tripoint-276",
     "start_at": 1745017200,
-    "end_at": 1745038740,
-    "events": [
-      1357733
-    ]
+    "end_at": 1745038740
   },
   "782011": {
     "id": 782011,
     "name": "Tripoint 277",
     "url": "https://start.gg/tournament/tripoint-277",
     "start_at": 1745622000,
-    "end_at": 1745643540,
-    "events": [
-      1363307
-    ]
+    "end_at": 1745643540
   },
   "784645": {
     "id": 784645,
     "name": "Tripoint 278",
     "url": "https://start.gg/tournament/tripoint-278",
     "start_at": 1746226800,
-    "end_at": 1746248340,
-    "events": [
-      1368727
-    ]
+    "end_at": 1746248340
   },
   "787550": {
     "id": 787550,
     "name": "Tripoint 279",
     "url": "https://start.gg/tournament/tripoint-279",
     "start_at": 1746831600,
-    "end_at": 1746853140,
-    "events": [
-      1374986
-    ]
+    "end_at": 1746853140
   },
   "789862": {
     "id": 789862,
     "name": "Tripoint 280",
     "url": "https://start.gg/tournament/tripoint-280",
     "start_at": 1747436400,
-    "end_at": 1747457940,
-    "events": [
-      1379565
-    ]
+    "end_at": 1747457940
   },
   "793795": {
     "id": 793795,
     "name": "Tripoint 281",
     "url": "https://start.gg/tournament/tripoint-281",
     "start_at": 1748646000,
-    "end_at": 1748667540,
-    "events": [
-      1387666
-    ]
+    "end_at": 1748667540
   },
   "796115": {
     "id": 796115,
     "name": "Tripoint 282",
     "url": "https://start.gg/tournament/tripoint-282",
     "start_at": 1749250800,
-    "end_at": 1749272340,
-    "events": [
-      1392583
-    ]
+    "end_at": 1749272340
   },
   "797764": {
     "id": 797764,
     "name": "Tripoint 283",
     "url": "https://start.gg/tournament/tripoint-283",
     "start_at": 1749855600,
-    "end_at": 1749877140,
-    "events": [
-      1395904
-    ]
+    "end_at": 1749877140
   },
   "800626": {
     "id": 800626,
     "name": "Tripoint 284",
     "url": "https://start.gg/tournament/tripoint-284",
     "start_at": 1750460400,
-    "end_at": 1750481940,
-    "events": [
-      1401740
-    ]
+    "end_at": 1750481940
   },
   "801865": {
     "id": 801865,
     "name": "Tripoint 286 - Featuring Unranked Doubles",
     "url": "https://start.gg/tournament/tripoint-286-featuring-unranked-doubles",
     "start_at": 1752876060,
-    "end_at": 1752901140,
-    "events": [
-      1404456
-    ]
+    "end_at": 1752901140
   },
   "804505": {
     "id": 804505,
     "name": "Tripoint 285",
     "url": "https://start.gg/tournament/tripoint-285",
     "start_at": 1751670000,
-    "end_at": 1751691540,
-    "events": [
-      1409647
-    ]
+    "end_at": 1751691540
   },
   "810937": {
     "id": 810937,
     "name": "Tripoint 287",
     "url": "https://start.gg/tournament/tripoint-287",
     "start_at": 1753484400,
-    "end_at": 1753505940,
-    "events": [
-      1422811,
-      1422808
-    ]
+    "end_at": 1753505940
   },
   "813410": {
     "id": 813410,
     "name": "Tripoint 288",
     "url": "https://start.gg/tournament/tripoint-288",
     "start_at": 1754089200,
-    "end_at": 1754110740,
-    "events": [
-      1427988
-    ]
+    "end_at": 1754110740
   },
   "815869": {
     "id": 815869,
     "name": "Tripoint 289",
     "url": "https://start.gg/tournament/tripoint-289",
     "start_at": 1754694000,
-    "end_at": 1754715540,
-    "events": [
-      1432911
-    ]
+    "end_at": 1754715540
   },
   "817371": {
     "id": 817371,
     "name": "Tripoint 290",
     "url": "https://start.gg/tournament/tripoint-290",
     "start_at": 1755298800,
-    "end_at": 1755320340,
-    "events": [
-      1435775
-    ]
+    "end_at": 1755320340
   },
   "819835": {
     "id": 819835,
     "name": "Tripoint 291",
     "url": "https://start.gg/tournament/tripoint-291",
     "start_at": 1755903600,
-    "end_at": 1755925140,
-    "events": [
-      1440788
-    ]
+    "end_at": 1755925140
   },
   "822143": {
     "id": 822143,
     "name": "Tripoint 292 - It's Chris's Bday? ORLY?",
     "url": "https://start.gg/tournament/tripoint-292-it-s-chris-s-bday-orly",
     "start_at": 1756508400,
-    "end_at": 1756529940,
-    "events": [
-      1445359
-    ]
+    "end_at": 1756529940
   },
   "827533": {
     "id": 827533,
     "name": "Tripoint 295",
     "url": "https://start.gg/tournament/tripoint-295",
     "start_at": 1757718000,
-    "end_at": 1757739540,
-    "events": [
-      1456043
-    ]
+    "end_at": 1757739540
   },
   "829701": {
     "id": 829701,
     "name": "Tripoint 296",
     "url": "https://start.gg/tournament/tripoint-296",
     "start_at": 1758322800,
-    "end_at": 1758344340,
-    "events": [
-      1460424
-    ]
+    "end_at": 1758344340
   },
   "829719": {
     "id": 829719,
     "name": "Tripoint 300",
     "url": "https://start.gg/tournament/tripoint-300",
     "start_at": 1760742000,
-    "end_at": 1760763540,
-    "events": [
-      1460462
-    ]
+    "end_at": 1760763540
   },
   "832322": {
     "id": 832322,
     "name": "Tripoint 297",
     "url": "https://start.gg/tournament/tripoint-297",
     "start_at": 1758927600,
-    "end_at": 1758949140,
-    "events": [
-      1465866
-    ]
+    "end_at": 1758949140
   },
   "835436": {
     "id": 835436,
     "name": "Tripoint 298",
     "url": "https://start.gg/tournament/tripoint-298",
     "start_at": 1759532400,
-    "end_at": 1759553940,
-    "events": [
-      1471921,
-      1474627
-    ]
+    "end_at": 1759553940
   },
   "838276": {
     "id": 838276,
     "name": "Tripoint 299",
     "url": "https://start.gg/tournament/tripoint-299",
     "start_at": 1760137200,
-    "end_at": 1760158680,
-    "events": [
-      1477509
-    ]
+    "end_at": 1760158680
   },
   "842613": {
     "id": 842613,
     "name": "Tripoint 301",
     "url": "https://start.gg/tournament/tripoint-301",
     "start_at": 1761346800,
-    "end_at": 1761368340,
-    "events": [
-      1486090
-    ]
+    "end_at": 1761368340
   },
   "845690": {
     "id": 845690,
     "name": "Tripoint 302",
     "url": "https://start.gg/tournament/tripoint-302",
     "start_at": 1761951600,
-    "end_at": 1761973140,
-    "events": [
-      1492135
-    ]
+    "end_at": 1761973140
   },
   "847512": {
     "id": 847512,
     "name": "Tripoint 303",
     "url": "https://start.gg/tournament/tripoint-303",
     "start_at": 1762560000,
-    "end_at": 1762581540,
-    "events": [
-      1495790
-    ]
+    "end_at": 1762581540
   },
   "850277": {
     "id": 850277,
     "name": "Tripoint 304",
     "url": "https://start.gg/tournament/tripoint-304",
     "start_at": 1763164800,
-    "end_at": 1763186340,
-    "events": [
-      1501203
-    ]
+    "end_at": 1763186340
+  },
+  "850279": {
+    "id": 850279,
+    "name": "Tripoint Smash: The Finale",
+    "url": "https://start.gg/tournament/tripoint-smash-the-finale",
+    "start_at": 1766188800,
+    "end_at": 1766210340
   }
 }

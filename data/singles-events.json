@@ -79,14 +79,6 @@
     "num_entrants": 26,
     "tournament_id": 52897
   },
-  "114744": {
-    "id": 114744,
-    "name": "PM Random All-Stars",
-    "url": "https://start.gg/tournament/tripoint-smash-10/event/pm-random-all-stars",
-    "start_at": 1525474800,
-    "num_entrants": 13,
-    "tournament_id": 52897
-  },
   "114968": {
     "id": 114968,
     "name": "Project M Singles",
@@ -159,28 +151,12 @@
     "num_entrants": 29,
     "tournament_id": 63740
   },
-  "144694": {
-    "id": 144694,
-    "name": "Project M Amateur",
-    "url": "https://start.gg/tournament/tripoint-smash-19/event/project-m-amateur",
-    "start_at": 1531530000,
-    "num_entrants": 16,
-    "tournament_id": 63740
-  },
   "144776": {
     "id": 144776,
     "name": "Project M Singles",
     "url": "https://start.gg/tournament/tripoint-smash-20/event/project-m-singles",
     "start_at": 1532127600,
     "num_entrants": 36,
-    "tournament_id": 68305
-  },
-  "152715": {
-    "id": 152715,
-    "name": "Tri Again for a Bonus Point! (PM)",
-    "url": "https://start.gg/tournament/tripoint-smash-20/event/try-again-for-a-bonus-point-pm",
-    "start_at": 1532127600,
-    "num_entrants": 28,
     "tournament_id": 68305
   },
   "153731": {
@@ -735,14 +711,6 @@
     "num_entrants": 0,
     "tournament_id": 187838
   },
-  "426838": {
-    "id": 426838,
-    "name": "Tri Again for a Bonus Point! (PM)",
-    "url": "https://start.gg/tournament/tripoint-smash-89/event/tri-again-for-a-bonus-point-pm",
-    "start_at": 1576281600,
-    "num_entrants": 0,
-    "tournament_id": 187838
-  },
   "426894": {
     "id": 426894,
     "name": "P+ Singles",
@@ -951,14 +919,6 @@
     "num_entrants": 13,
     "tournament_id": 319904
   },
-  "628545": {
-    "id": 628545,
-    "name": "P+ Amateurs",
-    "url": "https://start.gg/tournament/tripoint-smash-114/event/p-amateurs",
-    "start_at": 1633145400,
-    "num_entrants": 0,
-    "tournament_id": 319904
-  },
   "629964": {
     "id": 629964,
     "name": "P+ Singles",
@@ -1159,14 +1119,6 @@
     "num_entrants": 61,
     "tournament_id": 435969
   },
-  "707033": {
-    "id": 707033,
-    "name": "P+ @ Dorito Destroyer 2022: A Combo Breaker Side Event",
-    "url": "https://start.gg/tournament/tripoint-smash-presents-super-tps-ii-combo-breaker-edition/event/p-dorito-destroyer-2022-a-combo-breaker-side-event",
-    "start_at": 1653768000,
-    "num_entrants": 29,
-    "tournament_id": 435969
-  },
   "708132": {
     "id": 708132,
     "name": "P+ Singles",
@@ -1199,28 +1151,12 @@
     "num_entrants": 13,
     "tournament_id": 442219
   },
-  "718356": {
-    "id": 718356,
-    "name": "Project M Side Bracket",
-    "url": "https://start.gg/tournament/tripoint-smash-142/event/project-m-side-bracket",
-    "start_at": 1651878000,
-    "num_entrants": 6,
-    "tournament_id": 442219
-  },
   "719907": {
     "id": 719907,
     "name": "P+ Singles",
     "url": "https://start.gg/tournament/tripoint-smash-143/event/p-singles",
     "start_at": 1652482800,
     "num_entrants": 11,
-    "tournament_id": 443772
-  },
-  "719914": {
-    "id": 719914,
-    "name": "Project M Side Bracket",
-    "url": "https://start.gg/tournament/tripoint-smash-143/event/project-m-side-bracket",
-    "start_at": 1652482800,
-    "num_entrants": 2,
     "tournament_id": 443772
   },
   "722972": {
@@ -1231,28 +1167,12 @@
     "num_entrants": 18,
     "tournament_id": 445536
   },
-  "722975": {
-    "id": 722975,
-    "name": "Project M Side Bracket",
-    "url": "https://start.gg/tournament/tripoint-smash-144/event/project-m-side-bracket",
-    "start_at": 1653087600,
-    "num_entrants": 0,
-    "tournament_id": 445536
-  },
   "730276": {
     "id": 730276,
     "name": "P+ Singles",
     "url": "https://start.gg/tournament/tripoint-smash-145/event/p-singles",
     "start_at": 1654297200,
     "num_entrants": 16,
-    "tournament_id": 449798
-  },
-  "730279": {
-    "id": 730279,
-    "name": "Project Minus Side Bracket",
-    "url": "https://start.gg/tournament/tripoint-smash-145/event/project-minus-side-bracket",
-    "start_at": 1654297200,
-    "num_entrants": 3,
     "tournament_id": 449798
   },
   "733452": {
@@ -1263,28 +1183,12 @@
     "num_entrants": 19,
     "tournament_id": 451634
   },
-  "733455": {
-    "id": 733455,
-    "name": "Brawl Minus Side Bracket",
-    "url": "https://start.gg/tournament/tripoint-smash-146/event/brawl-minus-side-bracket",
-    "start_at": 1654902000,
-    "num_entrants": 1,
-    "tournament_id": 451634
-  },
   "733462": {
     "id": 733462,
     "name": "P+ Singles",
     "url": "https://start.gg/tournament/tripoint-148-the-warp-zone-pre-local/event/p-singles",
     "start_at": 1656111600,
     "num_entrants": 21,
-    "tournament_id": 451636
-  },
-  "733465": {
-    "id": 733465,
-    "name": "Brawl Minus Side Bracket",
-    "url": "https://start.gg/tournament/tripoint-148-the-warp-zone-pre-local/event/brawl-minus-side-bracket",
-    "start_at": 1656111600,
-    "num_entrants": 8,
     "tournament_id": 451636
   },
   "736325": {
@@ -1295,14 +1199,6 @@
     "num_entrants": 20,
     "tournament_id": 453248
   },
-  "736328": {
-    "id": 736328,
-    "name": "Brawl Minus Side Bracket",
-    "url": "https://start.gg/tournament/tripoint-smash-147/event/brawl-minus-side-bracket",
-    "start_at": 1655506800,
-    "num_entrants": 9,
-    "tournament_id": 453248
-  },
   "744632": {
     "id": 744632,
     "name": "P+ Singles",
@@ -1311,28 +1207,12 @@
     "num_entrants": 18,
     "tournament_id": 457971
   },
-  "744635": {
-    "id": 744635,
-    "name": "Project M Legacy XP Side Bracket",
-    "url": "https://start.gg/tournament/tripoint-smash-149/event/project-m-legacy-xp-side-bracket",
-    "start_at": 1656716400,
-    "num_entrants": 10,
-    "tournament_id": 457971
-  },
   "747517": {
     "id": 747517,
     "name": "P+ Singles",
     "url": "https://start.gg/tournament/tripoint-smash-150/event/p-singles",
     "start_at": 1657321200,
     "num_entrants": 18,
-    "tournament_id": 459623
-  },
-  "747520": {
-    "id": 747520,
-    "name": "Project M Legacy XP Side Bracket",
-    "url": "https://start.gg/tournament/tripoint-smash-150/event/project-m-legacy-xp-side-bracket",
-    "start_at": 1657323000,
-    "num_entrants": 3,
     "tournament_id": 459623
   },
   "749876": {
@@ -1367,36 +1247,12 @@
     "num_entrants": 11,
     "tournament_id": 466209
   },
-  "759297": {
-    "id": 759297,
-    "name": "PM Side Event",
-    "url": "https://start.gg/tournament/tripoint-smash-153/event/pm-side-event",
-    "start_at": 1659136500,
-    "num_entrants": 0,
-    "tournament_id": 464375
-  },
-  "759298": {
-    "id": 759298,
-    "name": "PM Side Event",
-    "url": "https://start.gg/tournament/tripoint-smash-154/event/pm-side-event",
-    "start_at": 1659741300,
-    "num_entrants": 6,
-    "tournament_id": 466209
-  },
   "763174": {
     "id": 763174,
     "name": "P+ Singles",
     "url": "https://start.gg/tournament/tripoint-smash-155/event/p-singles",
     "start_at": 1660345200,
     "num_entrants": 13,
-    "tournament_id": 468440
-  },
-  "763177": {
-    "id": 763177,
-    "name": "PM Side Event",
-    "url": "https://start.gg/tournament/tripoint-smash-155/event/pm-side-event",
-    "start_at": 1660345200,
-    "num_entrants": 0,
     "tournament_id": 468440
   },
   "766414": {
@@ -1407,28 +1263,12 @@
     "num_entrants": 11,
     "tournament_id": 470328
   },
-  "766417": {
-    "id": 766417,
-    "name": "PM Side Event",
-    "url": "https://start.gg/tournament/tripoint-smash-156/event/pm-side-event",
-    "start_at": 1660950000,
-    "num_entrants": 0,
-    "tournament_id": 470328
-  },
   "769852": {
     "id": 769852,
     "name": "P+ Singles",
     "url": "https://start.gg/tournament/tripoint-smash-157/event/p-singles",
     "start_at": 1661554800,
     "num_entrants": 14,
-    "tournament_id": 472249
-  },
-  "769855": {
-    "id": 769855,
-    "name": "PM Side Event",
-    "url": "https://start.gg/tournament/tripoint-smash-157/event/pm-side-event",
-    "start_at": 1661554800,
-    "num_entrants": 5,
     "tournament_id": 472249
   },
   "773371": {
@@ -1439,28 +1279,12 @@
     "num_entrants": 12,
     "tournament_id": 474198
   },
-  "773374": {
-    "id": 773374,
-    "name": "PM Side Event",
-    "url": "https://start.gg/tournament/tripoint-smash-158/event/pm-side-event",
-    "start_at": 1662159600,
-    "num_entrants": 0,
-    "tournament_id": 474198
-  },
   "784706": {
     "id": 784706,
     "name": "P+ Singles",
     "url": "https://start.gg/tournament/tripoint-smash-160/event/p-singles",
     "start_at": 1663974000,
     "num_entrants": 26,
-    "tournament_id": 480303
-  },
-  "784709": {
-    "id": 784709,
-    "name": "PM Side Event",
-    "url": "https://start.gg/tournament/tripoint-smash-160/event/pm-side-event",
-    "start_at": 1663974000,
-    "num_entrants": 0,
     "tournament_id": 480303
   },
   "790072": {
@@ -1477,14 +1301,6 @@
     "url": "https://start.gg/tournament/tripoint-smash-162/event/p-singles",
     "start_at": 1665183600,
     "num_entrants": 18,
-    "tournament_id": 484870
-  },
-  "793398": {
-    "id": 793398,
-    "name": "Project M Side Bracket",
-    "url": "https://start.gg/tournament/tripoint-smash-162/event/project-m-side-bracket",
-    "start_at": 1665185400,
-    "num_entrants": 6,
     "tournament_id": 484870
   },
   "796703": {
@@ -1527,14 +1343,6 @@
     "num_entrants": 17,
     "tournament_id": 495485
   },
-  "812897": {
-    "id": 812897,
-    "name": "P+ Character Bans",
-    "url": "https://start.gg/tournament/tripoint-smash-167/event/p-character-bans",
-    "start_at": 1668211200,
-    "num_entrants": 5,
-    "tournament_id": 495485
-  },
   "816826": {
     "id": 816826,
     "name": "P+ Singles",
@@ -1551,14 +1359,6 @@
     "num_entrants": 21,
     "tournament_id": 499647
   },
-  "820421": {
-    "id": 820421,
-    "name": "PM Side Event",
-    "url": "https://start.gg/tournament/tripoint-smash-169/event/pm-side-event",
-    "start_at": 1669422600,
-    "num_entrants": 12,
-    "tournament_id": 499647
-  },
   "824324": {
     "id": 824324,
     "name": "P+ Singles",
@@ -1567,28 +1367,12 @@
     "num_entrants": 28,
     "tournament_id": 501805
   },
-  "824327": {
-    "id": 824327,
-    "name": "P+ Side Event - PM 3.02",
-    "url": "https://start.gg/tournament/tripoint-smash-170/event/p-side-event-pm-3-02",
-    "start_at": 1670025600,
-    "num_entrants": 14,
-    "tournament_id": 501805
-  },
   "827007": {
     "id": 827007,
     "name": "P+ Singles",
     "url": "https://start.gg/tournament/tripoint-smash-171/event/p-singles",
     "start_at": 1670630400,
     "num_entrants": 16,
-    "tournament_id": 503338
-  },
-  "827010": {
-    "id": 827010,
-    "name": "P+ Side Event - PM 3.02",
-    "url": "https://start.gg/tournament/tripoint-smash-171/event/p-side-event-pm-3-02",
-    "start_at": 1670630400,
-    "num_entrants": 0,
     "tournament_id": 503338
   },
   "830229": {
@@ -1615,14 +1399,6 @@
     "num_entrants": 19,
     "tournament_id": 509132
   },
-  "837169": {
-    "id": 837169,
-    "name": "P+ Side Event - PM 3.02",
-    "url": "https://start.gg/tournament/tripoint-smash-174/event/p-side-event-pm-3-02",
-    "start_at": 1673049600,
-    "num_entrants": 8,
-    "tournament_id": 509132
-  },
   "840434": {
     "id": 840434,
     "name": "P+ Singles",
@@ -1631,28 +1407,12 @@
     "num_entrants": 26,
     "tournament_id": 510901
   },
-  "840437": {
-    "id": 840437,
-    "name": "P+ Side Event - Brawl Minus v5.0",
-    "url": "https://start.gg/tournament/tripoint-smash-175/event/p-side-event-brawl-minus-v5-0",
-    "start_at": 1673654400,
-    "num_entrants": 10,
-    "tournament_id": 510901
-  },
   "843964": {
     "id": 843964,
     "name": "P+ Singles",
     "url": "https://start.gg/tournament/tripoint-smash-176/event/p-singles",
     "start_at": 1674259200,
     "num_entrants": 16,
-    "tournament_id": 512866
-  },
-  "843967": {
-    "id": 843967,
-    "name": "P+ Side Event - Brawl Minus v5.0",
-    "url": "https://start.gg/tournament/tripoint-smash-176/event/p-side-event-brawl-minus-v5-0",
-    "start_at": 1674259200,
-    "num_entrants": 0,
     "tournament_id": 512866
   },
   "853051": {
@@ -1679,28 +1439,12 @@
     "num_entrants": 18,
     "tournament_id": 522575
   },
-  "862062": {
-    "id": 862062,
-    "name": "P+ Side Event - Brawl Minus v5.0",
-    "url": "https://start.gg/tournament/tripoint-smash-180/event/p-side-event-brawl-minus-v5-0",
-    "start_at": 1676678400,
-    "num_entrants": 0,
-    "tournament_id": 522575
-  },
   "864044": {
     "id": 864044,
     "name": "P+ Singles",
     "url": "https://start.gg/tournament/tripoint-smash-181/event/p-singles",
     "start_at": 1677283200,
     "num_entrants": 10,
-    "tournament_id": 523617
-  },
-  "864047": {
-    "id": 864047,
-    "name": "P+ Side Event - PM3.02",
-    "url": "https://start.gg/tournament/tripoint-smash-181/event/p-side-event-pm3-02",
-    "start_at": 1677285000,
-    "num_entrants": 4,
     "tournament_id": 523617
   },
   "868202": {
@@ -1719,28 +1463,12 @@
     "num_entrants": 18,
     "tournament_id": 529205
   },
-  "874187": {
-    "id": 874187,
-    "name": "P+ Side Event - P+ Character Bans",
-    "url": "https://start.gg/tournament/tripoint-smash-182/event/p-side-event-p-character-bans",
-    "start_at": 1678492800,
-    "num_entrants": 5,
-    "tournament_id": 529205
-  },
   "876451": {
     "id": 876451,
     "name": "P+ Singles",
     "url": "https://start.gg/tournament/tripoint-smash-183/event/p-singles",
     "start_at": 1679094000,
     "num_entrants": 11,
-    "tournament_id": 530465
-  },
-  "876453": {
-    "id": 876453,
-    "name": "P+ Side Event - starts at 6:30",
-    "url": "https://start.gg/tournament/tripoint-smash-183/event/p-side-event-starts-at-6-30",
-    "start_at": 1679094000,
-    "num_entrants": 0,
     "tournament_id": 530465
   },
   "879787": {
@@ -1757,14 +1485,6 @@
     "url": "https://start.gg/tournament/tripoint-smash-185/event/p-singles",
     "start_at": 1681513200,
     "num_entrants": 21,
-    "tournament_id": 539111
-  },
-  "892207": {
-    "id": 892207,
-    "name": "P+ Side Event - starts at 6:30",
-    "url": "https://start.gg/tournament/tripoint-smash-185/event/p-side-event-starts-at-6-30",
-    "start_at": 1681513200,
-    "num_entrants": 0,
     "tournament_id": 539111
   },
   "896969": {
@@ -1791,14 +1511,6 @@
     "num_entrants": 12,
     "tournament_id": 546651
   },
-  "906156": {
-    "id": 906156,
-    "name": "P+ Side Event - starts at 6:30",
-    "url": "https://start.gg/tournament/tripoint-smash-188/event/p-side-event-starts-at-6-30",
-    "start_at": 1683327600,
-    "num_entrants": 0,
-    "tournament_id": 546651
-  },
   "909585": {
     "id": 909585,
     "name": "P+ Singles",
@@ -1815,28 +1527,12 @@
     "num_entrants": 18,
     "tournament_id": 550762
   },
-  "913742": {
-    "id": 913742,
-    "name": "P+ Lethal League - starts at 6:30",
-    "url": "https://start.gg/tournament/tripoint-smash-190/event/p-lethal-league-starts-at-6-30",
-    "start_at": 1684539000,
-    "num_entrants": 5,
-    "tournament_id": 550762
-  },
   "914662": {
     "id": 914662,
     "name": "P+ Singles - a PM Concert: Symphony Qualifier",
     "url": "https://start.gg/tournament/tripoint-smash-192-a-pm-concert-qualifier/event/p-singles-a-pm-concert-symphony-qualifier",
     "start_at": 1685754000,
     "num_entrants": 29,
-    "tournament_id": 551280
-  },
-  "914664": {
-    "id": 914664,
-    "name": "P+ Lethal League - starts at 6:30",
-    "url": "https://start.gg/tournament/tripoint-smash-192-a-pm-concert-qualifier/event/p-lethal-league-starts-at-6-30",
-    "start_at": 1685746800,
-    "num_entrants": 0,
     "tournament_id": 551280
   },
   "917466": {
@@ -1991,14 +1687,6 @@
     "num_entrants": 14,
     "tournament_id": 601073
   },
-  "1006307": {
-    "id": 1006307,
-    "name": "P+ Ban 5",
-    "url": "https://start.gg/tournament/tripoint-smash-209/event/p-ban-5",
-    "start_at": 1697844600,
-    "num_entrants": 6,
-    "tournament_id": 601073
-  },
   "1015504": {
     "id": 1015504,
     "name": "P+ Singles",
@@ -2141,22 +1829,6 @@
     "url": "https://start.gg/tournament/tripoint-smash-presents-super-tps-iii/event/project-singles",
     "start_at": 1716602400,
     "num_entrants": 41,
-    "tournament_id": 645334
-  },
-  "1092057": {
-    "id": 1092057,
-    "name": "Project M 3.6 Singles",
-    "url": "https://start.gg/tournament/tripoint-smash-presents-super-tps-iii/event/project-m-3-6-singles",
-    "start_at": 1716595200,
-    "num_entrants": 18,
-    "tournament_id": 645334
-  },
-  "1092058": {
-    "id": 1092058,
-    "name": "Project M 3.02 Singles",
-    "url": "https://start.gg/tournament/tripoint-smash-presents-super-tps-iii/event/project-m-3-02-singles",
-    "start_at": 1716588000,
-    "num_entrants": 12,
     "tournament_id": 645334
   },
   "1095150": {
@@ -2382,22 +2054,6 @@
     "start_at": 1728687600,
     "num_entrants": 13,
     "tournament_id": 717411
-  },
-  "1238506": {
-    "id": 1238506,
-    "name": "Project M 3.02",
-    "url": "https://start.gg/tournament/tripoint-community-day/event/project-m-3-02",
-    "start_at": 1729296000,
-    "num_entrants": 13,
-    "tournament_id": 720394
-  },
-  "1238507": {
-    "id": 1238507,
-    "name": "Project M 3.6",
-    "url": "https://start.gg/tournament/tripoint-community-day/event/project-m-3-6",
-    "start_at": 1729303200,
-    "num_entrants": 13,
-    "tournament_id": 720394
   },
   "1241775": {
     "id": 1241775,
@@ -2751,14 +2407,6 @@
     "num_entrants": 11,
     "tournament_id": 835436
   },
-  "1474627": {
-    "id": 1474627,
-    "name": "Project M All-Stars",
-    "url": "https://start.gg/tournament/tripoint-298/event/project-m-all-stars",
-    "start_at": 1759532400,
-    "num_entrants": 8,
-    "tournament_id": 835436
-  },
   "1477509": {
     "id": 1477509,
     "name": "Project+ Singles",
@@ -2796,7 +2444,15 @@
     "name": "Project+ Singles",
     "url": "https://start.gg/tournament/tripoint-304/event/project-singles",
     "start_at": 1763175600,
-    "num_entrants": 0,
+    "num_entrants": 14,
     "tournament_id": 850277
+  },
+  "1501216": {
+    "id": 1501216,
+    "name": "Project+ Singles",
+    "url": "https://start.gg/tournament/tripoint-smash-the-finale/event/project-singles",
+    "start_at": 1766199600,
+    "num_entrants": 3,
+    "tournament_id": 850279
   }
 }
