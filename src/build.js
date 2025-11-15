@@ -42,7 +42,10 @@ async function readJsonFile(filePath) {
 app.get('/', async (req, res) => {
   try {
     const tournaments = await readJsonFile(path.join(__dirname, '../data/tournaments.json'));
+
+    // Convert object to array and sort by start_at date (descending)
     const tournamentsArray = Object.values(tournaments || {}).sort((a, b) => b.start_at - a.start_at);
+
     res.render('tournaments', {
       basePath: res.locals.basePath,
       tournaments: tournamentsArray,
@@ -55,11 +58,11 @@ app.get('/', async (req, res) => {
 
 app.get('/tournament/:id', async (req, res) => {
   try {
-    const tournamentId = req.params.id;
+    const tournamentId = parseInt(req.params.id);
     const tournaments = await readJsonFile(path.join(__dirname, '../data/tournaments.json'));
     const events = await readJsonFile(path.join(__dirname, '../data/singles-events.json'));
     const tournament = tournaments[tournamentId];
-    const tournamentEvents = tournament.events.map(eventId => events[eventId]);
+    const tournamentEvents = Object.values(events).filter(event => event.tournament_id === tournamentId);
 
     if (!tournament) {
       return res.status(404).render('error', { error: 'Tournament not found', basePath: res.locals.basePath });
