@@ -22,7 +22,7 @@
     <main>
       <section class="rankings-container">
         <h2>Top 3 Placements Leaderboard</h2>
-        
+
         <% if (rankings && rankings.length > 0) { %>
           <table class="standings-table rankings-table">
             <thead>
@@ -45,7 +45,11 @@
               <% rankings.forEach((player, index) => { %>
                 <tr>
                   <td><%= index + 1 %></td>
-                  <td><%= player.name %></td>
+                  <td>
+                    <a href="<%= basePath %>/players/<%= player.id %>">
+                      <%= player.name %>
+                    </a>
+                  </td>
                   <td><strong><%= player.totalTop3 %></strong></td>
                   <td class="placement-count place-1"><%= player.first %></td>
                   <td class="placement-count place-2"><%= player.second %></td>

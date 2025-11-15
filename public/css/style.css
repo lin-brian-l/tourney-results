@@ -299,6 +299,19 @@ a:hover {
   color: #333;
 }
 
+/* Player Page */
+.standings-summary {
+  list-style-type: none;
+}
+
+.all-standings-table {
+  width: 100%;
+}
+
+.all-standings-table thead tr th {
+  text-align: start;
+}
+
 /* Error Page */
 .error-container {
   padding: 2rem;

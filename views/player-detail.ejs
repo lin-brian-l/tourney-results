@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    <%= player.name %> - Tripoint Results
+  </title>
+  <link rel="stylesheet" href="<%= basePath %>/css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="site-header">
+      <h1>Tripoint Tournament Results for <%= player.name %>
+      </h1>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="<%= basePath %>/">Tournaments</a></li>
+          <li><a href="<%= basePath %>/all-events">All Events</a></li>
+          <li><a href="<%= basePath %>/rankings">Player Rankings</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="breadcrumbs">
+        <a href="<%= basePath %>/rankings">Player Rankings</a> &gt;
+        <%= player.name %>
+      </div>
+
+      <div class="player-detail">
+        <h2>Results for <%= player.name %></h2>
+
+        <% if (eventStandings && eventStandings.length> 0) { %>
+          <h3>Standings Summary</h3>
+          <ul class="standings-summary">
+            <li>Events Attended: <%= eventStandings.length %></li>
+            <li>Total Top 3: <%= playerStandings.totalTop3 %></li>
+            <li><span class="place-icon gold">1st</span> <%= playerStandings.first %></li>
+            <li><span class="place-icon silver">2nd</span> <%= playerStandings.second %></li>
+            <li><span class="place-icon bronze">3rd</span> <%= playerStandings.third %></li>
+          </ul>
+
+          <br>
+
+          <h3>All Events</h3>
+          <table class="all-standings-table">
+            <thead>
+              <tr>
+                <th>Event Name</th>
+                <th>Date</th>
+                <th>Place</th>
+              </tr>
+            </thead>
+            <tbody>
+              <% eventStandings.forEach(standing=> { %>
+                <tr>
+                  <td>
+                    <a
+                      href="<%= basePath %>/tournament/<%= standing.event.tournament_id %>/event/<%= standing.event_id %>">
+                      <%= standing.event.tournament.name %>: <%= standing.event.name %>
+                    </a>
+                  </td>
+                  <td><%= formatDate(standing.event.start_at) %></td>
+                  <td>
+                    <%= standing.placementStr %>/<%= standing.event.num_entrants %>
+                  </td>
+                </tr>
+              <% }); %>
+            </tbody>
+          </table>
+        <% } else { %>
+          <p class="no-data">No results available for this player.</p>
+        <% } %>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; <%= new Date().getFullYear() %> Tripoint Tournament Results</p>
+    </footer>
+  </div>
+</body>
+
+</html>
